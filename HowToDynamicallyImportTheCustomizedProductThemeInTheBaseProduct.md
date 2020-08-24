@@ -12,10 +12,11 @@ One of the challenges is applying the styling of the customized product to the b
 `<server path>/AcmeTheme/AcmeTheme.css` named **CustomCssFileUrl**.
 5.	In the **CustomizationsServices_CS** module create a Server Action **CustomCssFileUrlGet** which sets the output `CustomCssFileUrl` to the value of the configuration item.
 ![Screenshot of CustomCssFileUrlGet](images/CustomCssFileUrlGet.png)
-6.	In the BaseProductTheme module create a Client variable CustomCssFileUrl
-7.	In the BaseProductTheme module create a Client action ClientCustomCssFileUrlSet that assigns the output of CustomCssFileUrlGet to the client variable   
-8.	In the BaseProductTheme create a public client action LoadCssFile with the following logic: :  
+6.	In the **BaseProductTheme** module create a Client variable **CustomCssFileUrl**
+7.	In the **BaseProductTheme** module create a Client action **ClientCustomCssFileUrlSet** that assigns the output of **CustomCssFileUrlGet** to the client variable   
+8.	In the **BaseProductTheme** create a public client action **LoadCssFile with** the following logic: :  
 Insert the following code in the JS block:
+``` javascript
 var fileRef=document.createElement("link");
     fileRef.setAttribute("rel", "stylesheet");
     fileRef.setAttribute("type", "text/css");
@@ -23,9 +24,10 @@ var fileRef=document.createElement("link");
     if (typeof fileRef!="undefined"){
         document.getElementsByTagName("head")[0].appendChild(fileref);
 }
-9.	In the Template_BaseProduct module add a reference to the client actions ClientCustomCssFileUrlSet and LoadCssFile
-10.	Right click the Template_BaseProduct Client Actions and add an OnApplicationReady event
-11.	Add the ClientCustomCssFileUrlSet to the logic of the OnApplicationReady. This will ensure that we limit the use of this action to one time per application session
-12.	Switch to the interface tab and locate the LayOuts UIFlow. For each layout open the OnReady client action and add the LoadCssFile to the action flow. E.g. LayoutTopMenu:  
-13.	Open the Customization Services Configuration items editor and set the value of the CustomCssFileUrl configuration item to the full url path of the customized product theme CSS file.
+```
+9.	In the **Template_BaseProduct** module add a reference to the client actions **ClientCustomCssFileUrlSet** and **LoadCssFile**
+10.	~~Right click the **Template_BaseProduct** Client Actions and add an OnApplicationReady event~~
+11.	Add the **ClientCustomCssFileUrlSet** to the logic of the OnApplicationReady. This will ensure that we limit the use of this action to one time per application session
+12.	Switch to the interface tab and locate the **LayOuts UIFlow**. For each layout open the **OnReady** client action and add the **LoadCssFile** to the action flow. E.g. **LayoutTopMenu**:  
+13.	Open the **Customization Services Configuration items editor** and set the value of the **CustomCssFileUrl** configuration item to the full url path of the customized product theme CSS file.
 Now every screen based on the layouts will load the CSS and apply the styling of the customized product instance.

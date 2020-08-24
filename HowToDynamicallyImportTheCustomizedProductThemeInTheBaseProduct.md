@@ -14,16 +14,34 @@ One of the challenges is applying the styling of the customized product to the b
 ![Screenshot of CustomCssFileUrlGet](images/CustomCssFileUrlGet.png)
 6.	In the **BaseProductTheme** module create a Client variable **CustomCssFileUrl**
 7.	In the **BaseProductTheme** module create a Client action **ClientCustomCssFileUrlSet** that assigns the output of **CustomCssFileUrlGet** to the client variable   
-8.	In the **BaseProductTheme** create a public client action **LoadCssFile with** the following logic: :  
+8.	In the **BaseProductTheme** create a public client action **LoadCustomCssFile with** the following logic: :
+![Screenshot of LoadCustomCssFile properties]()
+![Screenshot of LoadCustomCssFile action](images/LoadCustomCssFile.png)
+
 Insert the following code in the JS block:
 ```javascript
-var fileRef=document.createElement("link");
-    fileRef.setAttribute("rel", "stylesheet");
-    fileRef.setAttribute("type", "text/css");
-    fileRef.setAttribute("href", $parameters.filename);
-    if (typeof fileRef!="undefined"){
+var filesadded=""; //list of files already added
+
+function checkloadcssfile(filename){
+    if (filesadded.indexOf("["+filename+"]")==-1){
+        loadcssfile(filename);
+        filesadded+="["+filename+"]"; //List of files added in the form "[filename1],[filename2],etc"
+    }
+}
+// example 
+// checkloadcssfile("myscript.css") //success
+// checkloadcssfile("myscript.js") //redundant file, so file not added
+
+function loadcssfile(filename){
+        var fileref=document.createElement("link");
+        fileref.setAttribute("rel", "stylesheet");
+        fileref.setAttribute("type", "text/css");
+        fileref.setAttribute("href", filename);
+    if (typeof fileref!="undefined")
         document.getElementsByTagName("head")[0].appendChild(fileref);
 }
+
+checkloadcssfile($parameters.fileName); ////dynamically load and add this .css file
 ```
 9.	In the **Template_BaseProduct** module add a reference to the client actions **ClientCustomCssFileUrlSet** and **LoadCssFile**
 10.	~~Right click the **Template_BaseProduct** Client Actions and add an OnApplicationReady event~~

@@ -2,15 +2,16 @@
 layout: default
 ---
 # How to Dynamically Import the Customized Product Theme in the Base Product
-When developing a product application for a customer, it may be that different instances are going to use it. You can image that in some cases, specific customizations are necessary, adjusted to their specific use case. For example, the application requires a different look-and-feel per country. Or some tweaks are needed in a simple user interaction. This lesson How to Create Customized Versions of a Base Application describes the architecture of a product that is meant to be customized in different installations
+When developing a product application for a customer, it may be that different instances are going to use it. You can image that in some cases, specific customizations are necessary, adjusted to their specific use case. For example, the application requires a different look-and-feel per country. Or some tweaks are needed in a simple user interaction. This lesson [How to Create Customized Versions of a Base Application](https://success.outsystems.com/Documentation/Best_Practices/Architecture/How_to_Create_Customized_Versions_of_a_Base_Application) describes the architecture of a product that is meant to be customized in different installations
 One of the challenges is applying the styling of the customized product to the base product. In this how-to we give you step by step instructions how to achieve this.
 ## Implementation steps for Reactive Web Applications
 1.	Create the **Base Product Theme** and apply the base styling such as fonts and colors.
-2.	Create a Customized Product Instance Theme e.g. ACME Theme and apply the custom styling
-3.	Create a Customization Services module that will hold configuration items. See the Application Framework for an example how to create configuration items.
-4.	In the Customization Services module create a Configuration Item to hold the full URL path to the “CustomizedProductInstanceTheme” CSS e.g.
-<server path>/AcmeTheme/AcmeTheme.css named “CustomCssFileUrl”.
-5.	In the CustomizationsServices_CS module create a Server Action CustomCssFileUrlGet which sets the output CustomCssFileUrl to the value of the configuration item
+2.	Create a **Customized Product Instance Theme** e.g. **ACME Theme** and apply the custom styling
+3.	Create a **Customization Services** module that will hold configuration items. See the [Application Framework](https://www.outsystems.com/forge/component-overview/5944/application-framework) for an example how to create configuration items.
+4.	In the **Customization Services** module create a Configuration Item to hold the full URL path to the **“CustomizedProductInstanceTheme” CSS** e.g.
+`<server path>/AcmeTheme/AcmeTheme.css` named `CustomCssFileUrl`.
+5.	In the **CustomizationsServices_CS** module create a Server Action **`CustomCssFileUrlGet'** which sets the output `CustomCssFileUrl` to the value of the configuration item.
+![Screenshot of CustomCssFileUrl](images/CustomCssFileUrl.png)
 6.	In the BaseProductTheme module create a Client variable CustomCssFileUrl
 7.	In the BaseProductTheme module create a Client action ClientCustomCssFileUrlSet that assigns the output of CustomCssFileUrlGet to the client variable   
 8.	In the BaseProductTheme create a public client action LoadCssFile with the following logic: :  

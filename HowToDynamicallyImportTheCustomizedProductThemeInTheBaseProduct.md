@@ -5,19 +5,20 @@ layout: default
 When developing a product application for a customer, it may be that different instances are going to use it. You can image that in some cases, specific customizations are necessary, adjusted to their specific use case. For example, the application requires a different look-and-feel per country. Or some tweaks are needed in a simple user interaction. This lesson [How to Create Customized Versions of a Base Application](https://success.outsystems.com/Documentation/Best_Practices/Architecture/How_to_Create_Customized_Versions_of_a_Base_Application) describes the architecture of a product that is meant to be customized in different installations
 One of the challenges is applying the styling of the customized product to the base product. In this how-to we give you step by step instructions how to achieve this.
 ## Implementation steps for Reactive Web Applications
-1.	Create the **Base Product Theme** and apply the base styling such as fonts and colors.
-1.	Create a **Customized Product Instance Theme** e.g. `ACME Theme` and apply the custom styling
-1.	Create a **Customization Services** module that will hold configuration items. See the [Application Framework](https://www.outsystems.com/forge/component-overview/5944/application-framework) for an example how to create configuration items.
-1.	In the **Customization Services** module create a Configuration Item to hold the full URL path to the _“CustomizedProductInstanceTheme” CSS file_ e.g.
+*	Create the **Base Product Theme** and apply the base styling such as fonts and colors.
+*	Create a **Customized Product Instance Theme** e.g. `ACME Theme` and apply the custom styling
+*	Create a **Customization Services** module that will hold configuration items. See the [Application Framework](https://www.outsystems.com/forge/component-overview/5944/application-framework) for an example how to create configuration items.
+*	In the **Customization Services** module create a Configuration Item to hold the full URL path to the _“CustomizedProductInstanceTheme” CSS file_ e.g.
 `<server path>/AcmeTheme/AcmeTheme.css` named `CustomCssFileUrl`.
-1.	In the **CustomizationsServices_CS** module create a Server Action `CustomCssFileUrlGet` which sets the output variable `CustomCssFileUrl` to the value of the configuration item:
+*	In the **CustomizationsServices_CS** module create a Server Action `CustomCssFileUrlGet` which sets the output variable `CustomCssFileUrl` to the value of the configuration item:
 ![Screenshot of CustomCssFileUrlGet](images/CustomCssFileUrlGet.png)
-1.	In the **BaseProductTheme** module create a Client variable `CustomCssFileUrl`
-1.	In the **BaseProductTheme** module create a Client action `ClientCustomCssFileUrlSet` that assigns the output of `CustomCssFileUrlGet` to the client variable   
-1.	In the **BaseProductTheme** create a public Client action `LoadCustomCssFile with` the following logic: Screenshot of LoadCustomCssFile properties
+*	In the **BaseProductTheme** module create a Client variable `CustomCssFileUrl`
+*	In the **BaseProductTheme** module create a Client action `ClientCustomCssFileUrlSet` that assigns the output of `CustomCssFileUrlGet` to the client variable   
+*	In the **BaseProductTheme** create a public Client action `LoadCustomCssFile with` the following logic: Screenshot of LoadCustomCssFile properties
 ![Screenshot of LoadCustomCssFile action](images/LoadCustomCssFile.png)
 1.  Insert the following code in the JS block:
-```javascript
+
+``` javascript
 var filesadded=""; //list of files already added
 
 function checkloadcssfile(filename){
@@ -41,9 +42,9 @@ function loadcssfile(filename){
 
 checkloadcssfile($parameters.fileName); //dynamically load and add this .css file
 ```
-1.	In the **Template_BaseProduct** module add a reference to the client actions `ClientCustomCssFileUrlSet` and `LoadCssFile`
-1.	~~Right click the **Template_BaseProduct** Client Actions and add an OnApplicationReady event~~
-1.	Add the `ClientCustomCssFileUrlSet` to the logic of the `OnApplicationReady`. This will ensure that we limit the use of this action to one time per application session
-1.	Switch to the interface tab and locate the **LayOuts UIFlow**. For each layout open the **OnReady** client action and add the **LoadCssFile** to the action flow. E.g. **LayoutTopMenu**:  
-1.	Open the **Customization Services Configuration items editor** and set the value of the **CustomCssFileUrl** configuration item to the full url path of the customized product theme CSS file.
-Now every screen based on the layouts will load the CSS and apply the styling of the customized product instance.
+
+*	In the **Template_BaseProduct** module add a reference to the client actions `ClientCustomCssFileUrlSet` and `LoadCssFile`
+*	Right click the **Template_BaseProduct** Client Actions and add an OnApplicationReady event
+*	Add the `ClientCustomCssFileUrlSet` to the logic of the `OnApplicationReady`. This will ensure that we limit the use of this action to one time per application session
+*	Switch to the interface tab and locate the **LayOuts UIFlow**. For each layout open the **OnReady** client action and add the **LoadCssFile** to the action flow. E.g. **LayoutTopMenu**:  
+*	Open the **Customization Services Configuration items editor** and set the value of the `CustomCssFileUrl` configuration item to the *full url path* of the customized product theme CSS file. Now every screen based on the layouts will load the CSS and apply the styling of the customized product instance.

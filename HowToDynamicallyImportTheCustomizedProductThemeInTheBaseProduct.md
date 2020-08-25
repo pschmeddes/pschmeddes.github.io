@@ -16,7 +16,7 @@ One of the challenges is applying the styling of the customized product to the b
 *	In the **BaseProductTheme** module create a Client action `ClientCustomCssFileUrlSet` that assigns the output of `CustomCssFileUrlGet` to the client variable   
 *	In the **BaseProductTheme** create a public Client action `LoadCustomCssFile with` the following logic: Screenshot of LoadCustomCssFile properties
 ![Screenshot of LoadCustomCssFile action](images/LoadCustomCssFile.png)
-1.  Insert the following code in the JS block:
+* Insert the following code in the JS block:
 
 ``` javascript
 var filesadded=""; //list of files already added

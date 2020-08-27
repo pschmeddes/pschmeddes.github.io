@@ -52,5 +52,5 @@ This isolation is critical since **End-user modules** are at the top of the hier
 ## Points of attention
 Changing the name of the **Module**, the **Screen** or it’s **parameters** will result in a *broken Url*. This is the same situation as when you link to a page from an external web site and the page is changed or deleted.
 ## Enhancements
-* Instead of the `<screenentry>GetEntry()` action you can create a Service Action in a core services module reduce the impact of changes e.g. `CinemasGetEntryUrlOAPI`.
+* Instead of the `<screenentry>GetEntry()` action you can create a Service Action in a core services module to reduce the impact of changes e.g. `CinemasGetEntryUrlOAPI`.
 * You also can put the URL's in a (static) entity in a core service module combined with Service Actions. This will centralize the entry maintenance.

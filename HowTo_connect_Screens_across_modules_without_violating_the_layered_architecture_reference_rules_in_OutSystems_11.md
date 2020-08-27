@@ -1,6 +1,6 @@
 ---
 layout: default
-title : How-to connect Screens across modules without violating the layered architecture reference rules 
+title : How-to connect Screens across modules without violating the layered architecture reference rules
 ---
 # How-to connect Screens across modules without violating the layered architecture reference rules
 A quick guideline on referencing screens in accordance with the layered architecture.
@@ -46,7 +46,7 @@ This method can easily be applied to screens with parameters by providing the pa
 By applying the steps above we created an architecture where web screens are referenced by other modules without side references in the UI layer
 
 ## Conclusion
-Using `ReactiveGetEntryUrl` can help you to avoid creating references to **End-user** modules. Even though links to screens are now considered a weak dependency End-user modules should not provide reusable services. This ensures that they are correctly isolated, allowing them to have different lifecycles — different versioning paces due to different sponsors or project teams.
+Using `ReactiveGetEntryUrl` can help you to avoid creating references to **End-user** modules. This ensures that they are correctly isolated, allowing them to have different lifecycles — different versioning paces due to different sponsors or project teams.
 This isolation is critical since **End-user modules** are at the top of the hierarchy. A reference to such modules tends to bring along a huge set of indirect dependencies from lower layers.
 
 ## Points of attention

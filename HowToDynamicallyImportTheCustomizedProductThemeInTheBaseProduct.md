@@ -20,31 +20,7 @@ In this how-to we give you step by step instructions how to achieve this.
 *	In the **BaseProductTheme** create a public Client action `LoadCustomCssFile with` the following logic: Screenshot of LoadCustomCssFile properties
 ![Screenshot of LoadCustomCssFile action](images/LoadCustomCssFile.png)
 * Insert the following code in the JS block:
-
-```javascript
-var filesadded=""; //list of files already added
-
-function checkloadcssfile(filename){
-    if (filesadded.indexOf("["+filename+"]")==-1){
-        loadcssfile(filename);
-        filesadded+="["+filename+"]"; //List of files added in the form "[filename1],[filename2],etc"
-    }
-}
-// example
-// checkloadcssfile("myscript.css") //success
-// checkloadcssfile("myscript.js") //redundant file, so file not added
-
-function loadcssfile(filename){
-        var fileref=document.createElement("link");
-        fileref.setAttribute("rel", "stylesheet");
-        fileref.setAttribute("type", "text/css");
-        fileref.setAttribute("href", filename);
-    if (typeof fileref!="undefined")
-        document.getElementsByTagName("head")[0].appendChild(fileref);
-}
-
-checkloadcssfile($parameters.fileName); //dynamically load and add this .css file
-```
+{% gist 7aa77de60cc8c2646e5b2f5a79e8d69e %} 
 
 *	Switch to the interface tab and locate the `LayOuts` UIFlow. For each layout open the `OnReady` client action and add the `LoadCssFile` to the action flow. E.g. `LayoutTopMenu`:  
 *	Open the **Customization Services Configuration Backoffice** and set the value of the `CustomCssFileUrl` configuration item to the *full url path* of the customized product theme CSS file. Now every screen based on the layouts will load the CSS and apply the styling of the customized product instance.

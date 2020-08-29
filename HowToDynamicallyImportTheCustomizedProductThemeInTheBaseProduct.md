@@ -20,8 +20,9 @@ In this how-to we give you step by step instructions how to achieve this.
 *	In the **BaseProductTheme** create a public Client action `LoadCustomCssFile with` the following logic: Screenshot of LoadCustomCssFile properties
 ![Screenshot of LoadCustomCssFile action](images/LoadCustomCssFile.png)
 * Insert the following code in the JS block:
+{% gist 7aa77de60cc8c2646e5b2f5a79e8d69e %}
 
-``` javascript
+```javascript
 var filesadded=""; //list of files already added
 
 function checkloadcssfile(filename){

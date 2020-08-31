@@ -1,11 +1,7 @@
----
-layout: default
-title : How-to connect Screens across modules without violating the layered architecture reference rules
----
 # How-to connect Screens across modules without violating the layered architecture reference rules
 A quick guideline on referencing screens in accordance with the layered architecture.
 ## Introduction
-*This article is targeted at OutSystems version 11 Reactive Web applications for previous versions and tradional web applications see [How-to connect OutSystems Web Screens across eSpaces without violating the 4 layer canvas reference rules](https://itnext.io/how-to-connect-outsystems-web-screens-across-espaces-without-violating-the-no-side-reference-rule-b03f8aae16ac)*
+*This article is targeted at OutSystems version 11 Reactive Web applications for previous versions and traditional web applications see [How-to connect OutSystems Web Screens across eSpaces without violating the 4 layer canvas reference rules](https://itnext.io/how-to-connect-outsystems-web-screens-across-espaces-without-violating-the-no-side-reference-rule-b03f8aae16ac)*
 
 If you want to connect to a screen from another module you may not make the screen public and create a reference to it. Doing so would be a violation of the No side references among **End-user modules** rule as described in [Validating your application architecture](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/Validating_your_application_architecture).
 This article gives you a step by step guideline how to make a reference in accordance with the architecture rules.
@@ -15,7 +11,7 @@ The picture below illustrates that when A references B, A unnecessarily inherits
 ## Implementation steps
 To illustrate the steps we'll create a link to the OSMDb Cinemas screen from the HowToLinkToWebScreens module.
 ### Step 1 Create a Server Action to retrieve a reactive url
-* Open the `HowToLinkToWebScreens` eSpace and open the Manage dependencies window (Ctrl + Q). Add the `HTTPRequestHandler/GetEntryUrl` dependency.
+* Open the `HowToLinkToWebScreens` module and open the Manage dependencies window (Ctrl + Q). Add the `HTTPRequestHandler/GetEntryUrl` dependency.
 * Create a new server action (Ctrl +N) and name it `ReactiveGetEntryUrl`. Add a output parameter of type text and name it `Url`. Set function to Yes.
 * Navigate to the `GetEntryUrl` action and copy all the input parameters to the `ReactiveGetEntryUrl` action.
 * Add a `GetEntryUrl` to the actionflow
@@ -30,17 +26,16 @@ This action should now look like this: ![Screenshot of CinemasGetEntryUrl](image
 ### Step 3 Create the link to the web screen
 * Open the web screen from where you want to create the link.
 * Add a fetch data from other sources action and name it `GetCinemasUrl` and rename the output parameter to CinemasUrl
-* Add the `CinemasGetEntryUrl` to the actionflow
+* Add the `CinemasGetEntryUrl` to the action flow
 * Add an assign to set `CinemasUrl` to `CinemasGetEntryUrl.Url`
 * Switch to the screen canvas and add a **link** widget to the screen
 * Set the text inside the link to "Cinemas"
-* Set the On Clock event to `RedirectToUrl`
-* Set the URL parameter to
-and set the destination to **ExternalUrl**. Set the Url parameter to `GetCinemasUrl.CinemasUrl`.
+* Set the On Click event to `RedirectToUrl` and set the destination to **ExternalUrl**.
+* Set the Url parameter to `GetCinemasUrl.CinemasUrl`.
 
 ![Screenshot of the link to Cinemas](images/LinkToCinemas.png)
 
-This method can easily be applied to screens with parameters by providing the parameters to the `ReactiveGetEntryUrl` action.
+This method can easily be applied to screens with parameters by providing the parameters to the `ReactiveGetEntryUrl` server action.
 
 ## Solution Architecture
 By applying the steps above we created an architecture where web screens are referenced by other modules without side references in the UI layer

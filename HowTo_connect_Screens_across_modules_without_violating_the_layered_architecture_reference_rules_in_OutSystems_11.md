@@ -1,4 +1,4 @@
-# How-to connect OutSystems Reactive Web Screens across modules without violating the layered architecture reference rules
+# How-to connect Screens across modules without violating the layered architecture reference rules in OutSystems 11
 A quick guideline on referencing screens in accordance with the layered architecture.
 ## Introduction
 *This article is targeted at OutSystems version 11 Reactive Web applications for previous versions and traditional web applications see [How-to connect OutSystems Web Screens across eSpaces without violating the 4 layer canvas reference rules](https://itnext.io/how-to-connect-outsystems-web-screens-across-espaces-without-violating-the-no-side-reference-rule-b03f8aae16ac)*

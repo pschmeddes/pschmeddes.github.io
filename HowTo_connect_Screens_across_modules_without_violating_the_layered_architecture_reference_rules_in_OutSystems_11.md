@@ -15,7 +15,8 @@ To illustrate the steps we'll create a link to the OSMDb Cinemas screen from the
 * Navigate to the `GetEntryUrl` action and copy all the input parameters to the `ReactiveGetEntryUrl` action.
 * Add a `GetEntryUrl` to the actionflow
 * Add the following assign: `Url = Replace(GetEntryURL.URL, ".aspx", "")`
-The action should now look like this ![Screenshot of ReactiveGetEntryUrl](images/ReactiveGetEntryURL.png)
+The action should now look like this:
+![Screenshot of ReactiveGetEntryUrl](images/ReactiveGetEntryURL.png)
 ### Step 2 Create a ServerAction to retrieve the screen url
 * Create a new server action (Ctrl +N) and name it `CinemasGetEntryUrl`. Add a output parameter of type text and name it `Url`. Set function to Yes.
 * Add a ServerAction `ReactiveGetEntryUrl` to the actionflow, set the `EspaceName` to "OSMDb" and `ScreenName` = "Cinemas"

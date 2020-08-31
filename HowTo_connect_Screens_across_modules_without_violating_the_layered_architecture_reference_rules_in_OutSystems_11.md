@@ -7,7 +7,6 @@ If you want to connect to a screen from another module you may not make the scre
 This article gives you a step by step guideline how to make a reference in accordance with the architecture rules.
 The picture below illustrates that when A references B, A unnecessarily inherits the cluster D,E,G
 ![Side reference example](images/SideReferences.png)
-
 ## Implementation steps
 To illustrate the steps we'll create a link to the OSMDb Cinemas screen from the HowToLinkToWebScreens module.
 ### Step 1 Create a Server Action to retrieve a reactive url
@@ -16,8 +15,7 @@ To illustrate the steps we'll create a link to the OSMDb Cinemas screen from the
 * Navigate to the `GetEntryUrl` action and copy all the input parameters to the `ReactiveGetEntryUrl` action.
 * Add a `GetEntryUrl` to the actionflow
 * Add the following assign: `Url = Replace(GetEntryURL.URL, ".aspx", "")`
-The action should now look like this ![Screenshot of ReactiveGetEntryUrl](images/ReactiveGetEntryUrl.png)
-
+The action should now look like this ![Screenshot of ReactiveGetEntryUrl](images/ReactiveGetEntryURL.png)
 ### Step 2 Create a ServerAction to retrieve the screen url
 * Create a new server action (Ctrl +N) and name it `CinemasGetEntryUrl`. Add a output parameter of type text and name it `Url`. Set function to Yes.
 * Add a ServerAction `ReactiveGetEntryUrl` to the actionflow, set the `EspaceName` to "OSMDb" and `ScreenName` = "Cinemas"

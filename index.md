@@ -1,6 +1,5 @@
 ---
 layout: default
-title : Welcome to my portfolio!
 ---
 #My Publications
 * [How to Create Customized Versions of a Base Application](HowToDynamicallyImportTheCustomizedProductThemeInTheBaseProduct.html)

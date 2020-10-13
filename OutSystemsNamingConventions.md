@@ -4,7 +4,7 @@
 Use PascalCase and don't use underscores except for the layer Suffix or Prefix.
 Examples:
 
-### Core Module Naming
+### Core Layer Module Naming
 Reusable services around business concepts, exporting entities, business rules and web-blocks
 
 | Suffix | Description                                  | Example |
@@ -18,7 +18,7 @@ Reusable services around business concepts, exporting entities, business rules a
 
 *An “M” indicates a Mobile only module, like _MCS, _MBL or _MCW*
 
-### Foundation Module Naming
+### Foundation Layer Module Naming
 
 Non Functional requirements or integration modules, reusable in any business context
 
@@ -34,5 +34,4 @@ Non Functional requirements or integration modules, reusable in any business con
 
 *An “M” indicates a Mobile only module, like _MPat, *
 
-### Foundation Layer Module Naming
 ## Application Naming

@@ -8,4 +8,4 @@ twitter_username: pschmeddes # DO NOT include the @ character, or else the build
 github_username:  pschmeddes # DO NOT include the @ character, or else the build will fail!
 
 show_excerpts: true # set to false to remove excerpts on the homepage
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate

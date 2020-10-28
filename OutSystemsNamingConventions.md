@@ -26,14 +26,14 @@
 ## Domains
 * Domain names do not have to comply to specific OutSystems naming restrictions and should be written in plain English.
 * Max length of domain names is 50 characters
-* Vertical domains have a meaningful business name (e.g. *Soccer Fields*, *Movies*)
-* Horizontal domains have a meaningful name, which may be more technical (e.g. *Identity*, *Style Guide*)
-* Define a 3 letter acronym for each domain. e.g. Soccer Fields :*SFL*
+* Vertical domains have a meaningful business name (e.g. `Soccer Fields`, `Movies`)
+* Horizontal domains have a meaningful name, which may be more technical (e.g. `Identity`, `*Style Guide`)
+* Define a 3 letter acronym for each domain. e.g. Soccer Fields :`SFL`
 
 ## Applications
 * Application names do not have to comply to specific OutSystems naming restrictions and should be written in plain English.
 * Max length of application names is 50 characters
-* The application name starts with the domain prefix of the domain its belongs to. E.g. *SFL Soccer Fields App*
+* The application name starts with the domain prefix of the domain its belongs to. E.g. `SFL Soccer Fields App`
 * Suffix the application name with it's purpose or type.
   * App - for a Reactive Web Application
   * Web - for a Traditional Web Application
@@ -76,18 +76,18 @@ Non Functional requirements or integration modules, reusable in any business con
 *An “M” indicates a Mobile only module, like _MPat, *
 
 ## Entities and attributes
-* Primary identifiers of entities always have the attribute name ‘Id’.
-*	Foreign key attributes are composed of the referenced entity name suffixed with “Id” (e.g. “CustomerId” for a reference to the Customer entity)
-*	Include the Entity’s name in the record’s name (e.g. “Customer” instead of “record”)
+* Primary identifiers of entities always have the attribute name `Id`.
+*	Foreign key attributes are composed of the referenced entity name suffixed with `Id` (e.g. `CustomerId` for a reference to the Customer entity)
+*	Include the Entity’s name in the record’s name (e.g. `Customer` instead of `record`)
 
 ## Variables
-Local variables used as constants (i.e. have a fixed, default value that is not supposed to be changed over their lifetime) have a meaningful name, prefixed by the word ‘Const’ (e.g. ConstPollingInterval).
+Local variables used as constants (i.e. have a fixed, default value that is not supposed to be changed over their lifetime) have a meaningful name, prefixed by the word `Const` (e.g. `ConstPollingInterval`)
 
 ## Screens
 * Screen names start with the name of the (main) entity followed by a suffixes showing the purpose of the screen names. Use the following suffixes:
-  * _List - Listing instances e.g. Customer_List
-  * _Edit - for editing a record e.g. Customer_Edit
-  * _Show - showing a record e.g. Customer_Show
+  * _List - Listing instances e.g. `Customer_List`
+  * _Edit - for editing a record e.g. `Customer_Edit`
+  * _Show - showing a record e.g. `Customer_Show`
   * tbd add more suffixes
 *	Set the name property of ShowRecords, EditRecords and TableRecords *TBD include reactive variant*
 * Action button text is specified on UX design and follows UX standards. In situations where no UX design is available, the following action button text applies:
@@ -98,11 +98,11 @@ Local variables used as constants (i.e. have a fixed, default value that is not 
   * ‘Edit’ to start editing the current instance on an entity
 
 ## Blocks
-* Reusable (web-)blocks have a name that describes their function followed by the suffix ‘_Block’ e.g Customer_Block
+* Reusable (web-)blocks have a name that describes their function followed by the suffix `_Block` e.g `Customer_Block`
 
 ## Actions
 * *tbd check for completeness*
-*	Prefix actions invoked by Timers with “Timer_”
+*	Prefix actions invoked by Timers with `Timer_`
 *	Use Entity/Structure names in variables
 * Avoid empty labels, for example in in assigments
 *	Comment unclear or complex logic.
@@ -120,11 +120,11 @@ Exposed SOAP services
 
 ## CSS
 * All css must be in lowercase
-*	Separate names with a hyphen. e.g. '.color-red'
+*	Separate names with a hyphen. e.g. `.color-red`
 *	Use tab to indent the declarations
 *	Write your rules in alphabetical order
 *	Selectors must be separated by a new line
-*	Use shorthand when possible e.g. 'padding: 10px;'
-*	Do not use units when using zeroes. E.g. 'padding: 0;'
-*	Also leave out the 0 before the pivot. E.g. 'opacity: .7;'
-*	Be aware when vendor prefixes are required ('-webkit-transform')
+*	Use shorthand when possible e.g. `padding: 10px;`
+*	Do not use units when using zeroes. E.g. `padding: 0;`
+*	Also leave out the 0 before the pivot. E.g. `opacity: .7;`
+*	Be aware when vendor prefixes are required (`-webkit-transform`)

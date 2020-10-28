@@ -12,8 +12,8 @@
 * [Blocks](#Blocks)
 * [Actions](#Actions)
 * [Service Actions (OutSystems APIs)](#Service-Actions)
-* [Services](#Services)
-* [CSS](#CSS)
+* [Services](#services)
+* [CSS](#css)
 
 ## Language
 *  All OutSystems code (Service Studio and Integration Studio), including comments and documentation will be in English.

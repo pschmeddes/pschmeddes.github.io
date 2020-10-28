@@ -12,7 +12,8 @@
 * [Blocks](#Blocks)
 * [Actions](#Actions)
 * [Service Actions (OutSystems APIs)](#Service-Actions)
-* [Services](#services)
+* [REST Services](#rest-services)
+* [SOAP Services](#soap-services)
 * [CSS](#css)
 
 ## Language
@@ -109,6 +110,13 @@ Local variables used as constants (i.e. have a fixed, default value that is not 
 *	Use Static Entities instead of hard-coded values
 *	Use Site Properties for “semi” static data
 *	Use Pascal Case
+## Service Actions
+TBD
+## REST services
+TBD
+## SOAP Services
+TBD
+Exposed SOAP services
 
 ## CSS
 * All css must be in lowercase

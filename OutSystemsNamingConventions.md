@@ -1,9 +1,19 @@
 # OutSystems Naming Conventions
 
 ## Table of contents
-TBD add index
+
 * [Language](#Language)
+* [Domains](#Domains)
+* [Applications](#Applications)
+* [Modules](#Modules)
 * [Entities and attributes](#Entities-and-attributes)
+* [Variables](#Variables)
+* [Screens](#Screens)
+* [Blocks](#Blocks)
+* [Actions](#Actions)
+* [Service Actions (OutSystems APIs)](#Service-Actions)
+* [Services](#Services)
+* [CSS](#CSS)
 
 ## Language
 *  All OutSystems code (Service Studio and Integration Studio), including comments and documentation will be in English.
@@ -11,41 +21,6 @@ TBD add index
 * All UI in the OutSystems model will be developed in English and may be translated using the standard OutSystems localization features if required.
 * Objects in the OutSystems environment have meaningful, unabbreviated names. Where naming limits prevent this (most OutSystems element names have a limit of 50 characters), standard abbreviations as provided in the [Common Glossary] must be used.
 
-## Entities and attributes
-* Primary identifiers of entities always have the attribute name ‘Id’.
-*	Foreign key attributes are composed of the referenced entity name suffixed with “Id” (e.g. “CustomerId” for a reference to the Customer entity)
-*	Include the Entity’s name in the record’s name (e.g. “Customer” instead of “record”)
-
-## Variables
-Local variables used as constants (i.e. have a fixed, default value that is not supposed to be changed over their lifetime) have a meaningful name, prefixed by the word ‘Const’ (e.g. ConstPollingInterval).
-
-## Screens
-* Screen names start with the name of the (main) entity followed by a suffixes showing the purpose of the screen names. Use the following suffixes:
-  * _List - Listing instances e.g. Customer_List
-  * _Edit - for editing a record e.g. Customer_Edit
-  * _Show - showing a record e.g. Customer_Show
-  * tbd add more suffixes
-*	Set the name property of ShowRecords, EditRecords and TableRecords *TBD include reactive variant*
-* Action button text is specified on UX design and follows UX standards. In situations where no UX design is available, the following action button text applies:
-  * ‘Save’ to trigger the action to store the data of the current instance of an entity in the database
-  * ‘Back’ to cancel the action and return to the previous screen
-  * ‘New” to start the creation of a new instance of an entity
-  * ‘Delete’ to (logically) remove the current instance from the database
-  * ‘Edit’ to start editing the current instance on an entity
-
-## Blocks
-* Reusable (web-)blocks have a name that describes their function followed by the suffix ‘_Block’ e.g Customer_Block
-
-## Actions
-* *tbd check for completeness*
-*	Prefix actions invoked by Timers with “Timer_”
-*	Use Entity/Structure names in variables
-* Avoid empty labels, for example in in assigments
-*	Comment unclear or complex logic.
-*	Set the example string of Expressions
-*	Use Static Entities instead of hard-coded values
-*	Use Site Properties for “semi” static data
-*	Use Pascal Case
 
 ## Domains
 * Domain names do not have to comply to specific OutSystems naming restrictions and should be written in plain English.
@@ -98,3 +73,50 @@ Non Functional requirements or integration modules, reusable in any business con
 | _Lib | Generic **Lib**rary module | Audit_Lib |
 
 *An “M” indicates a Mobile only module, like _MPat, *
+
+## Entities and attributes
+* Primary identifiers of entities always have the attribute name ‘Id’.
+*	Foreign key attributes are composed of the referenced entity name suffixed with “Id” (e.g. “CustomerId” for a reference to the Customer entity)
+*	Include the Entity’s name in the record’s name (e.g. “Customer” instead of “record”)
+
+## Variables
+Local variables used as constants (i.e. have a fixed, default value that is not supposed to be changed over their lifetime) have a meaningful name, prefixed by the word ‘Const’ (e.g. ConstPollingInterval).
+
+## Screens
+* Screen names start with the name of the (main) entity followed by a suffixes showing the purpose of the screen names. Use the following suffixes:
+  * _List - Listing instances e.g. Customer_List
+  * _Edit - for editing a record e.g. Customer_Edit
+  * _Show - showing a record e.g. Customer_Show
+  * tbd add more suffixes
+*	Set the name property of ShowRecords, EditRecords and TableRecords *TBD include reactive variant*
+* Action button text is specified on UX design and follows UX standards. In situations where no UX design is available, the following action button text applies:
+  * ‘Save’ to trigger the action to store the data of the current instance of an entity in the database
+  * ‘Back’ to cancel the action and return to the previous screen
+  * ‘New” to start the creation of a new instance of an entity
+  * ‘Delete’ to (logically) remove the current instance from the database
+  * ‘Edit’ to start editing the current instance on an entity
+
+## Blocks
+* Reusable (web-)blocks have a name that describes their function followed by the suffix ‘_Block’ e.g Customer_Block
+
+## Actions
+* *tbd check for completeness*
+*	Prefix actions invoked by Timers with “Timer_”
+*	Use Entity/Structure names in variables
+* Avoid empty labels, for example in in assigments
+*	Comment unclear or complex logic.
+*	Set the example string of Expressions
+*	Use Static Entities instead of hard-coded values
+*	Use Site Properties for “semi” static data
+*	Use Pascal Case
+
+## CSS
+* All css must be in lowercase
+*	Separate names with a hyphen. e.g. '.color-red'
+*	Use tab to indent the declarations
+*	Write your rules in alphabetical order
+*	Selectors must be separated by a new line
+*	Use shorthand when possible e.g. 'padding: 10px;'
+*	Do not use units when using zeroes. E.g. 'padding: 0;'
+*	Also leave out the 0 before the pivot. E.g. 'opacity: .7;'
+*	Be aware when vendor prefixes are required ('-webkit-transform')

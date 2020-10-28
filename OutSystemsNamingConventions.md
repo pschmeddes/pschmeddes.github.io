@@ -1,4 +1,4 @@
-#OutSystems Naming Conventions
+# OutSystems Naming Conventions
 
 ## Language
 *  All OutSystems code (Service Studio and Integration Studio), including comments and documentation will be in English.

@@ -111,9 +111,15 @@ Local variables used as constants (i.e. have a fixed, default value that is not 
 *	Use Site Properties for “semi” static data
 *	Use Pascal Case
 ## Service Actions
-TBD *Should we adopt a similair naming as for REST APIs?*
+TBD *Should we adopt a similar naming as for REST APIs?*
 
-Service Actions follow the Server Action naming with the suffix "OAPI" e.g. `CustomerCreateOAPI`
+1. Service Actions follow the Server Action naming with the suffix "OAPI" e.g. `CustomerCreateOAPI`
+2. OAPI Versioning
+    - Only use major versions, starting at v1.
+    - Versions are reflected in the name of the OAPI.
+    - Only backwards INcompatible updates lead to a new version of the API.
+3. TDB
+
 ## REST APIs
 There will be multiple APIs and potentially multiple versions of the same API. This requires naming conventions and logical structuring.
 
@@ -125,23 +131,17 @@ There will be multiple APIs and potentially multiple versions of the same API. T
 
 2. Resource names are plural nouns like "users", "customers" etc.
 3. Path parameters and query parameters are implemented correctly
-When fetching an object by ID, the parameter should be in the path:
-```
-Convention:     Ids are in the path
+4. When fetching an object by ID, the parameter should be in the path.
+Example(s):     `/v1/customers/123`
 
-Example(s):     /v1/customers/123
-```
-When searching through a list of objects, the parameters should be in the query:
-```
-Convention:     Search parameters are in the query
-
-Example(s):     /v1/customers?name=Appy&status=active
-```
-5. API Versioning
+5. When searching through a list of objects, the parameters should be in the query:
+Example(s):     `/v1/customers?name=Appy&status=active`
+6. API Versioning
 - Only use major versions, starting at v1.
 - Versions are reflected in the path of the API.
 - Only backwards INcompatible updates lead to a new version of the API.
-6. Words and field names are in camelCase
+7. Words and field names are in camelCase
+Note: This is an exception to the OutSystems rule that names are in PascalCase.
 ```
 {
     "customerNumber": 12345,
@@ -150,8 +150,7 @@ Example(s):     /v1/customers?name=Appy&status=active
 ```
 
 ## SOAP Services
-TBD
-Exposed SOAP services
+The rules for SOAP services have not yet been established.
 
 ## CSS
 For CSS naming in OutSystem we use a slightly modified BEM (Block, Element, Modifier).

@@ -119,6 +119,15 @@ TBD
 Exposed SOAP services
 
 ## CSS
+For CSS naming in OutSystem we use a slightly modified BEM (Block, Element, Modifier).
+See http://getbem.com/naming/ Note: Do not use underscores “__” in the names.
+Block is the entire component e.g. .card and should be considered as a parent. E.g.
+* `.card-title{}`
+* `.card-content{}`
+* `.card-footer{}`
+
+Naming rules:
+
 * All css must be in lowercase
 *	Separate names with a hyphen. e.g. `.color-red`
 *	Use tab to indent the declarations

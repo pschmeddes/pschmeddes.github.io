@@ -22,27 +22,27 @@
 * All UI in the OutSystems model will be developed in English and may be translated using the standard OutSystems localization features if required.
 * Objects in the OutSystems environment have meaningful, unabbreviated names. Where naming limits prevent this (most OutSystems element names have a limit of 50 characters), standard abbreviations as provided in the [Common Glossary] must be used.
 
-
 ## Domains
 * Domain names do not have to comply to specific OutSystems naming restrictions and should be written in plain English.
 * Max length of domain names is 50 characters
 * Vertical domains have a meaningful business name (e.g. `Soccer Fields`, `Movies`)
-* Horizontal domains have a meaningful name, which may be more technical (e.g. `Identity`, `*Style Guide`)
-* Define a 3 letter acronym for each domain. e.g. Soccer Fields :`SFL`
+* Horizontal domains have a meaningful name, which may be more technical (e.g. `Identity`, `Back-end Style Guide`)
+* Define a 2 letter acronym for each domain. e.g. Soccer Fields :`SF`
 
 ## Applications
 * Application names do not have to comply to specific OutSystems naming restrictions and should be written in plain English.
 * Max length of application names is 50 characters
-* The application name starts with the domain prefix of the domain its belongs to. E.g. `SFL Soccer Fields App`
+* The application name starts with the domain prefix of the domain its belongs to. E.g. `SF Soccer Fields App`
 * Suffix the application name with it's purpose or type.
   * App - for a Reactive Web Application
   * Web - for a Traditional Web Application
   * Mobile - for a Mobile Application
   * Core - for a Core Services application exposing core business services
   * Library - for Foundation Services application that exposes business agnostic services
-
+* Define an acronym for each application e.g. Soccer Fields App : 'SFA'
 ## Modules
 * Use PascalCase and don't use underscores except for the layer Suffix or Prefix.
+* Prefix the module name with the Application acronym except end user modules. (The module name is part of the url and we should bother users with technicalities.)
 
 ### Core Layer Module Naming
 Reusable services around business concepts, exporting entities, business rules and web-blocks
@@ -74,6 +74,24 @@ Non Functional requirements or integration modules, reusable in any business con
 | _Lib | Generic **Lib**rary module | Audit_Lib |
 
 *An “M” indicates a Mobile only module, like _MPat, *
+
+## Soccer Fields naming example
+
+| Type   | Name          | Acronym |
+| ------ | --------------| --- |
+| Domain | Soccer Fields | SF |
+| Application | SF Soccer Fields App | SF |
+| Application | SF Field Core Services | FLC |
+| Application | SF Soccer Fields Core | SFC |
+| Module | SoccerFields |
+| Module | SF_Th |
+| Module | SFC_Booking_CS |
+| Module | SFC_Player_CS |
+| Module | FLC_Field_CS |
+| Module | FLC_Field_IS |
+| Module | FLC_Field_Sync |
+
+
 
 ## Entities and attributes
 * Primary identifiers of entities always have the attribute name `Id`.
@@ -110,15 +128,19 @@ Local variables used as constants (i.e. have a fixed, default value that is not 
 *	Use Static Entities instead of hard-coded values
 *	Use Site Properties for “semi” static data
 *	Use Pascal Case
+
 ## Service Actions
+Service actions are also known as **O**utSystems **API**s
 TBD *Should we adopt a similar naming as for REST APIs?*
 
-1. Service Actions follow the Server Action naming with the suffix "OAPI" e.g. `CustomerCreateOAPI`
+1. Service Actions follow the Server Action naming with the suffix "Oapi"
 2. OAPI Versioning
     - Only use major versions, starting at v1.
     - Versions are reflected in the name of the OAPI.
     - Only backwards INcompatible updates lead to a new version of the API.
-3. TDB
+3. Don't use underscores in names
+
+Example: `CustomerCreateOapiV1`
 
 ## REST APIs
 There will be multiple APIs and potentially multiple versions of the same API. This requires naming conventions and logical structuring.

@@ -2,19 +2,19 @@
 
 ## Table of contents
 
-* [Language](#language)
-* [Domains](#domains)
-* [Applications](#applications)
-* [Modules](#modules)
-* [Entities and attributes](#entities-and-attributes)
-* [Variables](#variables)
-* [Screens](#screens)
-* [Blocks](#blocks)
-* [Actions](#actions)
-* [Service Actions (OutSystems APIs)](#service-actions)
-* [REST Services](#rest-services)
-* [SOAP Services](#soap-services)
-* [CSS](#css)
+1. [Language](#language)
+2. [Domains](#domains)
+3. [Applications](#applications)
+4. [Modules](#modules)
+5. [Entities and attributes](#entities-and-attributes)
+6. [Variables](#variables)
+7. [Screens](#screens)
+8. [Blocks](#blocks)
+9. [Actions](#actions)
+10. [Service Actions (OutSystems APIs)](#service-actions)
+11. [REST APIs](#rest-apis)
+12. [SOAP Services](#soap-services)
+13. [CSS](#css)
 
 ## Language
 *  All OutSystems code (Service Studio and Integration Studio), including comments and documentation will be in English.
@@ -111,7 +111,9 @@ Local variables used as constants (i.e. have a fixed, default value that is not 
 *	Use Site Properties for “semi” static data
 *	Use Pascal Case
 ## Service Actions
-TBD
+TBD *Should we adopt a similair naming as for REST APIs?*
+
+Service Actions follow the Server Action naming with the suffix "OAPI" e.g. `CustomerCreateOAPI`
 ## REST APIs
 There will be multiple APIs and potentially multiple versions of the same API. This requires naming conventions and logical structuring.
 

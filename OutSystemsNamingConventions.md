@@ -112,8 +112,41 @@ Local variables used as constants (i.e. have a fixed, default value that is not 
 *	Use Pascal Case
 ## Service Actions
 TBD
-## REST services
-TBD
+## REST APIs
+There will be multiple APIs and potentially multiple versions of the same API. This requires naming conventions and logical structuring.
+
+1. Base paths are based on resources.
+```
+/users              -> retrieves all users.
+/users/{userId}     -> retrieves a specific user.
+```
+
+2. Resource names are plural nouns like "users", "customers" etc.
+3. Path parameters and query parameters are implemented correctly
+When fetching an object by ID, the parameter should be in the path:
+```
+Convention:     Ids are in the path
+
+Example(s):     /v1/customers/123
+```
+When searching through a list of objects, the parameters should be in the query:
+```
+Convention:     Search parameters are in the query
+
+Example(s):     /v1/customers?name=Appy&status=active
+```
+5. API Versioning
+- Only use major versions, starting at v1.
+- Versions are reflected in the path of the API.
+- Only backwards INcompatible updates lead to a new version of the API.
+6. Words and field names are in camelCase
+```
+{
+    "customerNumber": 12345,
+    "customerGroup": "internal"
+}
+```
+
 ## SOAP Services
 TBD
 Exposed SOAP services

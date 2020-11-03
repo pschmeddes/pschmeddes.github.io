@@ -1,6 +1,35 @@
 ---
 layout: default
 ---
+# Introduction
+## Purpose
+The purpose of these documents is to describe the Synobsys OutSystems development standards and guidelines as well as the methods to enforce their proper use.
+## Intended audience
+All members involved in the OutSystems development such as:
+* Team member
+* Product Owner
+* Scrum Master
+* Subject Matter Expert (SME)
+* UX designer
+* UI designer
+* Business Analyst
+* Test Manager
+* Tester
+* End users
+
+# OutSystems reference
+This set of documents is an extension to the OutSystems standards and best practices next follows a list of the consulted documents for your reference.
+## Architecture
+*	Designing the architecture of your OutSystems applications
+*	The Architecture Canvas
+*	Validating your application architecture
+*	Translating business concepts into application modules
+*	Service-Oriented Architectures for OutSystems applications
+*	Core Service abstraction
+*	Loosely coupling modules
+TBD 
+
+
 # OutSystems Standards and Guidelines
 * [Naming Conventions](OutSystemsNamingConventions.md)
 * [Server Action Security](ServerActionSecurity.md)

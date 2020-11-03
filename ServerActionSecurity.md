@@ -28,13 +28,13 @@ Example Action to login the ServiceAccount
 1. Configure the Service Account
   * Setup a username and password for the ServiceAccount
   * Store the ServiceAccount credentials in your configuration (do not forget to encrypt the password)
-2. tbd
+2. Create an action to login the ServiceAccount using the configured credentials.
 
 ## Timer_TemplateAction
 Example how to use a system account in Timers, BPT, etc.
+![Timer_TemplateAction](images\TimerTemplateAction.png)
 
 ### Implementation steps
 1. Copy the Timer_TemplateAction to your module
 2. Rename it to your needs
-3. Replace TemplateRoleCheck by <YourRoleName>RoleCheck
-4. Implement the timer logic
+3. Implement the timer logic

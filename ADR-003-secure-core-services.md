@@ -1,4 +1,4 @@
-# ADR 2: Core Services must be secured
+# ADR 3: Core Services must be secured
 
 > Describe here the forces that influence the design decision, including technological, cost-related, and project local.
 

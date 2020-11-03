@@ -24,7 +24,7 @@ We rejected the use of a token because in rest request the token parameter will 
  The above URL exposes the API key. So, never use this form of security.
 
 ## Status
-Proposed
+Accepted
 
 ## Consequences
 

@@ -24,7 +24,7 @@ The **D**efinition **o**f **D**one (DoD) is used to determine when a task or use
 # Checklist for code review
 
 - [ ] Naming is in accordance with the [OutSystems Naming Conventions](OutSystemsNamingConventions.md)
-- [ ] [ADR 2 code and documentation in English.](ADR-002-code-and-documentation-in-English.md) only
+- [ ] All code and documentation is in English [ADR 2 standard language is English.](ADR-002-standard-language-is-English.md)
 - [ ] No findings in Discovery
 - [ ] No findings in the Architecture Dashboard
 

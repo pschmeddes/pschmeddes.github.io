@@ -1,6 +1,6 @@
 # Server Action Security
 
-Following [ADR 2 Core Services must be secured](adr\ADR-002-secure-core-services.md) we will always check the authentication and authorization in server side logic.
+Following [ADR 2 Core Services must be secured](ADR-002-secure-core-services.md) we will always check the authentication and authorization in server side logic.
 
 Each server action must include the following checks
 * Is the user logged in?

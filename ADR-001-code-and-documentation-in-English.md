@@ -1,4 +1,4 @@
-# ADR 1: All code and documentation in English
+# ADR 1: All code and documentation must be in English
 > Describe here the forces that influence the design decision, including technological, cost-related, and project local.
 
 TBS

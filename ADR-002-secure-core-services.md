@@ -9,7 +9,7 @@
 
 > Describe here our response to these forces, that is, the design decision that was made. State the decision in full sentences, with active voice ("We will...").
 
-We will check that a user is logged in and that this user has te proper authorization to perform the action. For this we will using the `Check<RoleName>` function
+We will check that a user is logged in and that this user has the proper authorization to perform the action. For this we will using the `Check<RoleName>` function
 
 ## Rationale
 

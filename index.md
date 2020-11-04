@@ -19,22 +19,23 @@ All members involved in the OutSystems development such as:
 
 # Contents
 
-* [OutSystems Standards and Guidelines](#standards)
-* [Architecture Decision Records (ADR)](#adr)
-* [OutSystems Reference](#osref)
-* [Publications](#pubs)
+1. [OutSystems Standards and Guidelines](#standards)
+2. [Architecture Decision Records (ADR)](#adr)
+3. [Patterns](#patterns)
+4. [How-To Guides](#howto)
+5. [OutSystems Reference](#osref)
+6. [Publications](#pubs)
 
 ---
 
-# OutSystems Standards and Guidelines {standards}
+# 1. OutSystems Standards and Guidelines {standards}
 * [Naming Conventions](OutSystemsNamingConventions.md)
 * [Server Action Security](ServerActionSecurity.md)
-* [How to introduce a new style class](how-to-introduce-a-new-style-class.md)
 * [**D**efinition **o**f **R**eady(DoR)](DefinitionOfReady.md)
 * [**D**efinition **o**f **D**one(DoD)](DefinitionOfDone.md)
 * [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.md)
 
-# Architecture Decision Records (ADR) {adr}
+# 2. Architecture Decision Records (ADR) {adr}
 See these article for an explanation of ADRs
 * https://adr.github.io/
 * https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html
@@ -43,7 +44,12 @@ See these article for an explanation of ADRs
 2. [ADR 2: Standard language is English](ADR-002-standard-language-is-English.md)
 3. [ADR 3: Core Services must be secured](ADR-003-secure-core-services.md)
 
-# OutSystems reference {osref}
+# 3. Patterns {patterns}
+TBD
+# 4. How-To Guides {howto}
+* [How to introduce a new style class](how-to-introduce-a-new-style-class.md)
+
+# 5.OutSystems reference {osref}
 This set of documents is an extension to the OutSystems standards and best practices next follows a list of the consulted documents for your reference.
 ## Architecture
 *	Designing the architecture of your OutSystems applications

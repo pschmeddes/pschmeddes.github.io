@@ -19,7 +19,7 @@ All members involved in the OutSystems development such as:
 
 # Contents
 
-1. [OutSystems Standards and Guidelines](#standards)
+1. [OutSystems Standards and Guidelines](#outSystems-standards-and-guidelines)
 2. [Architecture Decision Records (ADR)](#adr)
 3. [Patterns](#patterns)
 4. [How-To Guides](#howto)
@@ -28,7 +28,7 @@ All members involved in the OutSystems development such as:
 
 ---
 
-# 1. OutSystems Standards and Guidelines {standards}
+# OutSystems Standards and Guidelines
 * [Naming Conventions](OutSystemsNamingConventions.md)
 * [Server Action Security](ServerActionSecurity.md)
 * [**D**efinition **o**f **R**eady(DoR)](DefinitionOfReady.md)

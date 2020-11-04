@@ -26,7 +26,7 @@ The **D**efinition **o**f **D**one (DoD) is used to determine when a task or use
 - [ ] Naming is in accordance with the [OutSystems Naming Conventions](OutSystemsNamingConventions.md)
 - [ ] All code and documentation is in English [ADR 2 standard language is English.](ADR-002-standard-language-is-English.md)
 - [ ] No findings in Discovery
-- [ ] No findings in the Architecture Dashboard
+- [ ] No findings in the [Architecture Dashboard](https://architecture.outsystems.com/)
 
 ## Screen
 - [ ] There is a clear description

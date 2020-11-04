@@ -61,7 +61,7 @@ This set of documents is an extension to the OutSystems standards and best pract
 *	Loosely coupling modules
 TBD
 
-# Publications {pubs}
+# Publications
 Publication on Medium
 * How to Create Customized Versions of a Base Application
 * How-to connect Screens across modules without violating the layered architecture reference rules

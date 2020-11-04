@@ -28,28 +28,41 @@ All members involved in the OutSystems development such as:
 
 ---
 
-# OutSystems Standards and Guidelines
+# 1 OutSystems Standards and Guidelines
 * [Naming Conventions](OutSystemsNamingConventions.md)
 * [Server Action Security](ServerActionSecurity.md)
 * [**D**efinition **o**f **R**eady(DoR)](DefinitionOfReady.md)
 * [**D**efinition **o**f **D**one(DoD)](DefinitionOfDone.md)
 * [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.md)
 
-# 2. Architecture Decision Records (ADR) {adr}
-See these article for an explanation of ADRs
+# 2 Architecture Decision Records
+See these article for an explanation of **A**rchitecture **D**ecision **R**ecords (ADR)
 * https://adr.github.io/
 * https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html
 
+ADRs:
 1. [ADR 1: We will document Architecture Decisions (AD) with the ADR template](ADR-001-documenting-architecture-decisions.md)
 2. [ADR 2: Standard language is English](ADR-002-standard-language-is-English.md)
 3. [ADR 3: Core Services must be secured](ADR-003-secure-core-services.md)
 
-# 3. Patterns {patterns}
+# 3 Patterns
 TBD
-# 4. How-To Guides {howto}
+# 4 How-To Guides
+[OutSystems How-To Guides](https://success.outsystems.com/Documentation/How-to_Guides)
+## Development
+
+## Front-End
+Here you can find all existing how-tos on front-end development.
+* [Front-End] (https://success.outsystems.com/Documentation/How-to_Guides/Front-End) by OutSystems
 * [How to introduce a new style class](how-to-introduce-a-new-style-class.md)
 
-# 5.OutSystems reference {osref}
+## Logic  
+## Data
+## Processes
+## DevOps
+## Integrations
+
+# 5 OutSystems reference
 This set of documents is an extension to the OutSystems standards and best practices next follows a list of the consulted documents for your reference.
 ## Architecture
 *	Designing the architecture of your OutSystems applications
@@ -61,7 +74,7 @@ This set of documents is an extension to the OutSystems standards and best pract
 *	Loosely coupling modules
 TBD
 
-# Publications
+# 6 Publications
 Publication on Medium
 * How to Create Customized Versions of a Base Application
 * How-to connect Screens across modules without violating the layered architecture reference rules

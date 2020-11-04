@@ -22,8 +22,8 @@ All members involved in the OutSystems development such as:
 1. [OutSystems Standards and Guidelines](#outSystems-standards-and-guidelines)
 2. [Architecture Decision Records (ADR)](#adr)
 3. [Patterns](#patterns)
-4. [How-To Guides](#howto)
-5. [OutSystems Reference](#osref)
+4. [How-To Guides](#howto-guides)
+5. [OutSystems Reference](#outSystems-reference)
 6. [Publications](#publications)
 
 # 1 OutSystems Standards and Guidelines
@@ -91,5 +91,9 @@ This set of documents is an extension to the OutSystems standards and best pract
 
 # 6 Publications
 Publications on Medium
-* How to Create Customized Versions of a Base Application
-* How-to connect Screens across modules without violating the layered architecture reference rules
+* [How to Create Customized Versions of a Base Application](https://itnext.io/how-to-dynamically-import-the-customized-product-theme-in-the-base-product-b10b534e3e1a)
+* [Avoiding security threats when sending messages from OutSystems Applications](https://medium.com/@pschmeddes/avoiding-security-threats-when-sending-messages-from-outsystems-applications-79bb03dd7bf9)
+* [External Core Services Pattern Variations in Practice](https://itnext.io/external-core-services-pattern-variations-in-practice-bdcb1da07b5b)
+* [Best Practices for developing High-Quality OutSystems Apps](https://itnext.io/best-practices-for-developing-high-quality-outsystems-apps-bfbfc6d67081)
+* [How-to connect Screens across modules without violating the layered architecture reference rules]https://itnext.io/how-to-connect-outsystems-web-screens-across-espaces-without-violating-the-no-side-reference-rule-b03f8aae16ac)
+* [OutSystems and Microservices in Practice](https://itnext.io/outsystems-and-microservices-in-practice-9b8038e58cb4)

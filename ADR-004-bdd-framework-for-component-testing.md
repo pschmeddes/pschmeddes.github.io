@@ -1,15 +1,24 @@
-# ADR N: brief decision title 
-Describe here the forces that influence the design decision, including technological, cost-related, and project local. 
+# ADR 4: BDD framework for component testing
+## Context
+Component testing is part of the delivery job of an OutSystems Development Team. We require a standardized method for component testing as part of our standardized development method.
+Solid automated component test procedures are key for meeting the quality standards.
+Test automation is a prerequisite for implementing a CI/CD pipeline.
 
-## Decision 
-Describe here our response to these forces, that is, the design decision that was made. State the decision in full sentences, with active voice ("We will...").
+## Decision
+We will use the BDD framework for component testing
 
-## Rationale 
-Describe here the rationale for the design decision. Also indicate the rationale for significant *rejected* alternatives. This section may also indicate assumptions, constraints, requirements, and results of evaluations and experiments.
+## Rationale
+There exist several [Automated Testing Tools](https://success.outsystems.com/Documentation/Best_Practices/OutSystems_Testing_Guidelines/Automated_Testing_Tools) that are suitable for component testing. OutSystems recommends to use the BDD framework for Component testing and we accept this recommendation.
+
+For more background information check the OutSystems Testing Guidelines for [Component Testing](https://success.outsystems.com/Documentation/Best_Practices/OutSystems_Testing_Guidelines/Component_Testing)
+and the [BDD Framework](https://success.outsystems.com/Documentation/Best_Practices/OutSystems_Testing_Guidelines/Automated_Testing_Tools#BDDFramework_(Forge_Component)) section on Automated Testing Tools.
 
 ## Status
-[Proposed | Accepted | Deprecated | Superseded]
-If deprecated, indicate why. If superseded, include a link to the new ADR. 
+Proposed
+>[Proposed | Accepted | Deprecated | Superseded]
+If deprecated, indicate why. If superseded, include a link to the new ADR.
 
 ## Consequences
-Describe here the resulting context, after applying the decision. All consequences should be listed, not just the "positive" ones. 
+* All team members must master the use of the BDD framework for component testing.
+* Guidance on the use of the BDD framework is needed.
+* Product owners must provide the acceptance criteria in Gherkin

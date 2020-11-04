@@ -36,7 +36,8 @@ All members involved in the OutSystems development such as:
 * [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.md)
 
 # 2 Architecture Decision Records
-See these article for an explanation of **A**rchitecture **D**ecision **R**ecords (ADR)
+See these articles for an explanation of **A**rchitecture **D**ecision **R**ecords (ADR):
+
 * https://adr.github.io/
 * https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html
 
@@ -53,13 +54,17 @@ TBD
 
 ## Front-End
 Here you can find all existing how-tos on front-end development.
-* [Front-End] (https://success.outsystems.com/Documentation/How-to_Guides/Front-End) by OutSystems
+* OutSystems [Front-End](https://success.outsystems.com/Documentation/How-to_Guides/Front-End) how-to guides
 * [How to introduce a new style class](how-to-introduce-a-new-style-class.md)
 
-## Logic  
+## Logic
+
 ## Data
+
 ## Processes
+
 ## DevOps
+
 ## Integrations
 
 # 5 OutSystems reference

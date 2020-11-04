@@ -24,7 +24,7 @@ All members involved in the OutSystems development such as:
 3. [Patterns](#patterns)
 4. [How-To Guides](#howto)
 5. [OutSystems Reference](#osref)
-6. [Publications](#pubs)
+6. [Publications](#publications)
 
 ---
 

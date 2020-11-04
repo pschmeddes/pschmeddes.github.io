@@ -26,14 +26,12 @@ All members involved in the OutSystems development such as:
 5. [OutSystems Reference](#osref)
 6. [Publications](#publications)
 
----
-
 # 1 OutSystems Standards and Guidelines
 * [Naming Conventions](OutSystemsNamingConventions.md)
 * [Server Action Security](ServerActionSecurity.md)
 * [**D**efinition **o**f **R**eady(DoR)](DefinitionOfReady.md)
 * [**D**efinition **o**f **D**one(DoD)](DefinitionOfDone.md)
-* [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.md)
+* [Code Review Checklist](CodeReviewChecklist.md)
 
 # 2 Architecture Decision Records
 See these articles for an explanation of **A**rchitecture **D**ecision **R**ecords (ADR):
@@ -45,6 +43,7 @@ ADRs:
 1. [ADR 1: We will document Architecture Decisions (AD) with the ADR template](ADR-001-documenting-architecture-decisions.md)
 2. [ADR 2: Standard language is English](ADR-002-standard-language-is-English.md)
 3. [ADR 3: Core Services must be secured](ADR-003-secure-core-services.md)
+4. [ADR 4: BDD framework for Component testing](ADR-004-bdd-framework-for-component-testing.md)
 
 # 3 Patterns
 TBD
@@ -53,7 +52,6 @@ TBD
 ## Development
 
 ## Front-End
-Here you can find all existing how-tos on front-end development.
 * OutSystems [Front-End](https://success.outsystems.com/Documentation/How-to_Guides/Front-End) how-to guides
 * [How to introduce a new style class](how-to-introduce-a-new-style-class.md)
 
@@ -67,19 +65,31 @@ Here you can find all existing how-tos on front-end development.
 
 ## Integrations
 
+## Security
+* How-to response to [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.md)
+## Testing
+* [How-to setup BDD testing](TBD)
+
 # 5 OutSystems reference
 This set of documents is an extension to the OutSystems standards and best practices next follows a list of the consulted documents for your reference.
 ## Architecture
-*	Designing the architecture of your OutSystems applications
-*	The Architecture Canvas
-*	Validating your application architecture
-*	Translating business concepts into application modules
-*	Service-Oriented Architectures for OutSystems applications
-*	Core Service abstraction
-*	Loosely coupling modules
-TBD
+*	[Designing the architecture of your OutSystems applications](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications)
+*	[The Architecture Canvas](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/The_Architecture_Canvas)
+*	[Validating your application architecture](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/Validating_your_application_architecture)
+*	[Translating business concepts into application modules](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/02_Translating_business_concepts_into_application_modules)
+*	[Service-Oriented Architectures for OutSystems applications](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_architecture_of_your_OutSystems_applications/04_Service-Oriented_Architectures_for_OutSystems_applications)
+*	[Core Service abstraction](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_architecture_of_your_OutSystems_applications/05_Service_architecture_patterns/01_Core_Service_abstraction)
+*	[Loosely coupling modules](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_architecture_of_your_OutSystems_applications/05_Service_architecture_patterns/02_Loosely_coupling_modules)
+
+## Best practices
+* [Best Practices](https://success.outsystems.com/Documentation/Best_Practices) main page
+* [Development](https://success.outsystems.com/Documentation/Best_Practices/Development)
+* [Architecture](https://success.outsystems.com/Documentation/Best_Practices/Architecture)
+* [Performance and Monitoring](https://success.outsystems.com/Documentation/Best_Practices/Performance_and_Monitoring)
+* [Security](https://success.outsystems.com/Documentation/Best_Practices/Security)
+* [OutSystems Testing Guidelines](https://success.outsystems.com/Documentation/Best_Practices/OutSystems_Testing_Guidelines)
 
 # 6 Publications
-Publication on Medium
+Publications on Medium
 * How to Create Customized Versions of a Base Application
 * How-to connect Screens across modules without violating the layered architecture reference rules

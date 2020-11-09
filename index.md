@@ -44,35 +44,37 @@ ADRs:
 2. [ADR 2: Standard language is English](ADR-002-standard-language-is-English.md)
 3. [ADR 3: Core Services must be secured](ADR-003-secure-core-services.md)
 4. [ADR 4: BDD framework for Component testing](ADR-004-bdd-framework-for-component-testing.md)
+5. [ADR 5: Centralized Styling](ADR-005-centralized styling.md)
 
 # 3 Patterns
-TBD
+* [Integration Patterns for Core Services Abstraction](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/05_Integration_Patterns_for_Core_Services_Abstraction)
+* TBD
 # 4 How-To Guides
 [OutSystems How-To Guides](https://success.outsystems.com/Documentation/How-to_Guides)
-## Development
-
-## Front-End
+## 4.1 Development
+* [How to Create Customized Versions of a Base Application](https://itnext.io/how-to-dynamically-import-the-customized-product-theme-in-the-base-product-b10b534e3e1a)
+## 4.2 Front-End
 * OutSystems [Front-End](https://success.outsystems.com/Documentation/How-to_Guides/Front-End) how-to guides
 * [How to introduce a new style class](how-to-introduce-a-new-style-class.md)
 
-## Logic
+## 4.3 Logic
 
-## Data
+## 4.4 Data
 
-## Processes
+## 4.5 Processes
 
-## DevOps
+## 4.6 DevOps
 
-## Integrations
+## 4.7 Integrations
 
-## Security
+## 4.8 Security
 * How-to response to [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.md)
-## Testing
+## 4.9 Testing
 * [How-to setup BDD testing](TBD)
 
 # 5 OutSystems reference
 This set of documents is an extension to the OutSystems standards and best practices next follows a list of the consulted documents for your reference.
-## Architecture
+## 5.1 Architecture
 *	[Designing the architecture of your OutSystems applications](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications)
 *	[The Architecture Canvas](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/The_Architecture_Canvas)
 *	[Validating your application architecture](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/Validating_your_application_architecture)
@@ -81,7 +83,7 @@ This set of documents is an extension to the OutSystems standards and best pract
 *	[Core Service abstraction](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_architecture_of_your_OutSystems_applications/05_Service_architecture_patterns/01_Core_Service_abstraction)
 *	[Loosely coupling modules](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_architecture_of_your_OutSystems_applications/05_Service_architecture_patterns/02_Loosely_coupling_modules)
 
-## Best practices
+## 5.2 Best practices
 * [Best Practices](https://success.outsystems.com/Documentation/Best_Practices) main page
 * [Development](https://success.outsystems.com/Documentation/Best_Practices/Development)
 * [Architecture](https://success.outsystems.com/Documentation/Best_Practices/Architecture)

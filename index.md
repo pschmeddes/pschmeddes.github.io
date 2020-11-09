@@ -20,11 +20,11 @@ All members involved in the OutSystems development such as:
 # Contents
 
 1. [OutSystems Standards and Guidelines](#outSystems-standards-and-guidelines)
-2. [Architecture Decision Records (ADR)](#adr)
-3. [Patterns](#patterns)
-4. [How-To Guides](#howto-guides)
-5. [OutSystems Reference](#outSystems-reference)
-6. [Publications](#publications)
+2. [Architecture Decision Records (ADR)](#2-architecture-decision-records)
+3. [Patterns](#3-patterns)
+4. [How-To Guides](#4-how-to-guides)
+5. [OutSystems Reference](#5-outSystems-reference)
+6. [Publications](#6-publications)
 
 # 1 OutSystems Standards and Guidelines
 * [Naming Conventions](OutSystemsNamingConventions.md)

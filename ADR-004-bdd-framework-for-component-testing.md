@@ -21,4 +21,4 @@ If deprecated, indicate why. If superseded, include a link to the new ADR.
 ## Consequences
 * All team members must master the use of the BDD framework for component testing.
 * Guidance on the use of the BDD framework is needed.
-* Product owners must provide the acceptance criteria in Gherkin
+* Acceptance criteria must be defined in the Gherkin language.

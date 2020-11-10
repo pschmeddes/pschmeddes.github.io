@@ -6,16 +6,16 @@ layout: default
 The purpose of these documents is to describe the Synobsys OutSystems development standards and guidelines as well as the methods to enforce their proper use.
 ## Intended audience
 All members involved in the OutSystems development such as:
-* Team member
-* Product Owner
-* Scrum Master
-* Subject Matter Expert (SME)
-* UX designer
-* UI designer
-* Business Analyst
-* Test Manager
-* Tester
-* End users
+- Team member
+- Product Owner
+- Scrum Master
+- Subject Matter Expert (SME)
+- UX designer
+- UI designer
+- Business Analyst
+- Test Manager
+- Tester
+- End users
 
 # Contents
 
@@ -27,17 +27,17 @@ All members involved in the OutSystems development such as:
 6. [Publications](#6-publications)
 
 # 1 OutSystems Standards and Guidelines
-* [Naming Conventions](OutSystemsNamingConventions.md)
-* [Server Action Security](ServerActionSecurity.md)
-* [**D**efinition **o**f **R**eady(DoR)](DefinitionOfReady.md)
-* [**D**efinition **o**f **D**one(DoD)](DefinitionOfDone.md)
-* [Code Review Checklist](CodeReviewChecklist.md)
+- [Naming Conventions](OutSystemsNamingConventions.md)
+- [Server Action Security](ServerActionSecurity.md)
+- [**D**efinition **o**f **R**eady(DoR)](DefinitionOfReady.md)
+- [**D**efinition **o**f **D**one(DoD)](DefinitionOfDone.md)
+- [Code Review Checklist](CodeReviewChecklist.md)
 
 # 2 Architecture Decision Records
 See these articles for an explanation of **A**rchitecture **D**ecision **R**ecords (ADR):
 
-* https://adr.github.io/
-* https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html
+- https://adr.github.io/
+- https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html
 
 ADRs:
 1. [ADR 1: We will document Architecture Decisions (AD) with the ADR template](ADR-001-documenting-architecture-decisions.md)
@@ -47,15 +47,15 @@ ADRs:
 5. [ADR 5: Centralized Styling](ADR-005-centralized styling.md)
 
 # 3 Patterns
-* [Integration Patterns for Core Services Abstraction](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/05_Integration_Patterns_for_Core_Services_Abstraction)
-* TBD
+- [Integration Patterns for Core Services Abstraction](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/05_Integration_Patterns_for_Core_Services_Abstraction)
+- TBD
 # 4 How-To Guides
 [OutSystems How-To Guides](https://success.outsystems.com/Documentation/How-to_Guides)
 ## 4.1 Development
-* [How to Create Customized Versions of a Base Application](https://itnext.io/how-to-dynamically-import-the-customized-product-theme-in-the-base-product-b10b534e3e1a)
+- [How to Create Customized Versions of a Base Application](https://itnext.io/how-to-dynamically-import-the-customized-product-theme-in-the-base-product-b10b534e3e1a)
 ## 4.2 Front-End
-* OutSystems [Front-End](https://success.outsystems.com/Documentation/How-to_Guides/Front-End) how-to guides
-* [How to introduce a new style class](how-to-introduce-a-new-style-class.md)
+- OutSystems [Front-End](https://success.outsystems.com/Documentation/How-to_Guides/Front-End) how-to guides
+- [How to introduce a new style class](how-to-introduce-a-new-style-class.md)
 
 ## 4.3 Logic
 
@@ -68,9 +68,9 @@ ADRs:
 ## 4.7 Integrations
 
 ## 4.8 Security
-* How-to response to [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.md)
+- How-to response to [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.md)
 ## 4.9 Testing
-* [How-to setup BDD testing](TBD)
+- [How-to setup BDD testing](TBD)
 
 # 5 OutSystems reference
 This set of documents is an extension to the OutSystems standards and best practices next follows a list of the consulted documents for your reference.
@@ -84,18 +84,18 @@ This set of documents is an extension to the OutSystems standards and best pract
 *	[Loosely coupling modules](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_architecture_of_your_OutSystems_applications/05_Service_architecture_patterns/02_Loosely_coupling_modules)
 
 ## 5.2 Best practices
-* [Best Practices](https://success.outsystems.com/Documentation/Best_Practices) main page
-* [Development](https://success.outsystems.com/Documentation/Best_Practices/Development)
-* [Architecture](https://success.outsystems.com/Documentation/Best_Practices/Architecture)
-* [Performance and Monitoring](https://success.outsystems.com/Documentation/Best_Practices/Performance_and_Monitoring)
-* [Security](https://success.outsystems.com/Documentation/Best_Practices/Security)
-* [OutSystems Testing Guidelines](https://success.outsystems.com/Documentation/Best_Practices/OutSystems_Testing_Guidelines)
+- [Best Practices](https://success.outsystems.com/Documentation/Best_Practices) main page
+- [Development](https://success.outsystems.com/Documentation/Best_Practices/Development)
+- [Architecture](https://success.outsystems.com/Documentation/Best_Practices/Architecture)
+- [Performance and Monitoring](https://success.outsystems.com/Documentation/Best_Practices/Performance_and_Monitoring)
+- [Security](https://success.outsystems.com/Documentation/Best_Practices/Security)
+- [OutSystems Testing Guidelines](https://success.outsystems.com/Documentation/Best_Practices/OutSystems_Testing_Guidelines)
 
 # 6 Publications
 Publications on Medium
-* [How to Create Customized Versions of a Base Application](https://itnext.io/how-to-dynamically-import-the-customized-product-theme-in-the-base-product-b10b534e3e1a)
-* [Avoiding security threats when sending messages from OutSystems Applications](https://medium.com/@pschmeddes/avoiding-security-threats-when-sending-messages-from-outsystems-applications-79bb03dd7bf9)
-* [External Core Services Pattern Variations in Practice](https://itnext.io/external-core-services-pattern-variations-in-practice-bdcb1da07b5b)
-* [Best Practices for developing High-Quality OutSystems Apps](https://itnext.io/best-practices-for-developing-high-quality-outsystems-apps-bfbfc6d67081)
-* [How-to connect Screens across modules without violating the layered architecture reference rules]https://itnext.io/how-to-connect-outsystems-web-screens-across-espaces-without-violating-the-no-side-reference-rule-b03f8aae16ac)
-* [OutSystems and Microservices in Practice](https://itnext.io/outsystems-and-microservices-in-practice-9b8038e58cb4)
+- [How to Create Customized Versions of a Base Application](https://itnext.io/how-to-dynamically-import-the-customized-product-theme-in-the-base-product-b10b534e3e1a)
+- [Avoiding security threats when sending messages from OutSystems Applications](https://medium.com/@pschmeddes/avoiding-security-threats-when-sending-messages-from-outsystems-applications-79bb03dd7bf9)
+- [External Core Services Pattern Variations in Practice](https://itnext.io/external-core-services-pattern-variations-in-practice-bdcb1da07b5b)
+- [Best Practices for developing High-Quality OutSystems Apps](https://itnext.io/best-practices-for-developing-high-quality-outsystems-apps-bfbfc6d67081)
+- [How-to connect Screens across modules without violating the layered architecture reference rules]https://itnext.io/how-to-connect-outsystems-web-screens-across-espaces-without-violating-the-no-side-reference-rule-b03f8aae16ac)
+- [OutSystems and Microservices in Practice](https://itnext.io/outsystems-and-microservices-in-practice-9b8038e58cb4)

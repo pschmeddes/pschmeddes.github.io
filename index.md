@@ -70,7 +70,7 @@ ADRs:
 ## 4.8 Security
 - How-to response to [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.md)
 ## 4.9 Testing
-- [How-to setup BDD testing](TBD)
+- [How to get started with the BDD testframework](How-to-get-started-with-the-BDD-testframework.md)
 
 # 5 OutSystems reference
 This set of documents is an extension to the OutSystems standards and best practices next follows a list of the consulted documents for your reference.

@@ -1,8 +1,8 @@
-title: My OutSystems guidelines
+title: OutSystems standards and guidelines for Synobsys projects
 author: Paul Schmeddes
 email: pschmeddes@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  a collection of articles on Software Engineering featuring OutSystems
+  standards, best practices and how-tos for developing OutSystems applications
 # social links
 twitter_username: pschmeddes # DO NOT include the @ character, or else the build will fail!
 github_username:  pschmeddes # DO NOT include the @ character, or else the build will fail!

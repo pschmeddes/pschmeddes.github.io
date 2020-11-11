@@ -49,10 +49,13 @@ ADRs:
 # 3 Patterns
 - [Integration Patterns for Core Services Abstraction](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/05_Integration_Patterns_for_Core_Services_Abstraction)
 - TBD
+
 # 4 How-To Guides
 [OutSystems How-To Guides](https://success.outsystems.com/Documentation/How-to_Guides)
+
 ## 4.1 Development
 - [How to Create Customized Versions of a Base Application](https://itnext.io/how-to-dynamically-import-the-customized-product-theme-in-the-base-product-b10b534e3e1a)
+
 ## 4.2 Front-End
 - OutSystems [Front-End](https://success.outsystems.com/Documentation/How-to_Guides/Front-End) how-to guides
 - [How to introduce a new style class](how-to-introduce-a-new-style-class.md)
@@ -70,6 +73,8 @@ ADRs:
 ## 4.8 Security
 - How-to response to [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.md)
 ## 4.9 Testing
+[Test Automation in the Delivery Lifecycle](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle)
+
 - [How to get started with the BDD testframework](How-to-get-started-with-the-BDD-testframework.md)
 
 # 5 OutSystems reference

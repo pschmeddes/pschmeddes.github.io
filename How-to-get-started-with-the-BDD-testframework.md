@@ -22,6 +22,20 @@ In LifeTime create a new application using the bddframework template.
 1. Open your LifeTime environment users module <yourlifetimeserver>/lifetime/Users_List.aspx
 2. Open the Teams tab
 3. Open the Team where you want to create the application for ![Team](images\TeamCreateApplication.png)
+4. Create a new application ![Create application screen](images\LifeTimeCreateApplication.png) parameters:
+    - environment: Development
+    - What are you building : BDDFramework
+    - Give the app a name following the [naming convention](OutSystemsNamingConventions.md)
+    - Fill the description
+    - Upload an icon. (We recommend to use the same icon as the application with a test watermark added)
+
+5. Open the new application in ServiceStudio and create a new BDDFramework module
+6. In the MainTestFlow add a new BDDFramework Scenario screen and name it TestSuite. Please note that you *must* name the screen TestSuite for the reporting tool to work.
+![Create TestSuite Screen](images\CreateTestSuiteScreen.png)
+7. This action also adds a webblock sample_test we will move that to a separate ui flow
+8. Create a new ui flow an name it TestScenarios
+9. Move the sample_test webblock to the TestScenarios flow
+10.  
 
 
 ## Building a test scenarios

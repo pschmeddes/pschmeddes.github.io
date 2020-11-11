@@ -61,6 +61,7 @@ ADRs:
 - [How to introduce a new style class](how-to-introduce-a-new-style-class.md)
 
 ## 4.3 Logic
+- Prefer StringBuilder over "string" + "string" for better performance as it has a better memory allocation.
 
 ## 4.4 Data
 

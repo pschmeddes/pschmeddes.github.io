@@ -12,15 +12,56 @@
 
 
 ## Writing test scenarios
+Refer to the OutSystems [Top-Notch Acceptance Criteria](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle#Top-Notch_Acceptance_Criteria) section for guidance on writing acceptance criteria.
+
+We create thest scenaios base on the acceptance criteria written in the [Given When Then](https://www.agilealliance.org/glossary/gwt) format.
 
 ## Creating a new test suite
+
+In LifeTime create a new application using the bddframework template.
+1. Open your LifeTime environment users module <yourlifetimeserver>/lifetime/Users_List.aspx
+2. Open the Teams tab
+3. Open the Team where you want to create the application for ![Team](images\TeamCreateApplication.png)
+
 
 ## Building a test scenarios
 
 ## Adding test suites to the BDD framework reporting tool
 To add a test suite to the BDD framework reporting tool you must add your module name to the ModuleListCSV site property.  
 
-## TBD
+# Example
+
+_As a Store Manager I should be able to manage my
+products and categories_
+
+**Scenario:** Search shop products
+
+**Given** that my shop has multiple wine products **and** one of those is an Altos de Luzon (Red)
+
+**When** I search for the keywords "altos de"
+
+**Then** I should get 1 single result containing Altos de Luzon (Red)
+
+
+_As a Store Manager I should be able to manage my products and
+categories_
+
+**Scenario Outline:** Search shop products
+
+**Given** that my shop has multiple wine products
+
+**When** I search for the keywords “<Keywords>”
+
+**Then** I should get <Number of Results>
+
+Examples:
+
+| Keywords | Number of Results |
+| -------- | -- |
+| Altos de | 1 |
+| Altos | 3 |
+| Hormigas | 2 |
 
 ## Reference
-- [Gherkin](https://www.guru99.com/gherkin-test-cucumber.html)
+- [Given When Then](https://www.agilealliance.org/glossary/gwt)
+- [Test Automation in the Delivery Lifecycle](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle)

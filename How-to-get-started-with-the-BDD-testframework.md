@@ -14,7 +14,7 @@
 ## Writing test scenarios
 Refer to the OutSystems [Top-Notch Acceptance Criteria](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle#Top-Notch_Acceptance_Criteria) section for guidance on writing acceptance criteria.
 
-We create thest scenaios base on the acceptance criteria written in the [Given When Then](https://www.agilealliance.org/glossary/gwt) format.
+We create test scenarios based on the acceptance criteria written in the [Given When Then](https://www.agilealliance.org/glossary/gwt) format.
 
 ## Creating a new test suite
 
@@ -75,14 +75,25 @@ Create reusable actions in module TalentManagerCoreTests
 - Copy the Sample_Test webblock and rename it to `TalentManagerAddSkillGroup`
 - Set the names of the Scenario and the Given-When-Then blocks: ![Scenario Add SkillGroup image](images\ScenarioAddSkillGroup.png)
 - Add the following logic to the a_Setup screen action: ![Setup action flow screenshot](images\SetupScreenAction.png)
-- Add the following logic to the b_Given screen action: ![Given action flow screenshot]()
-- Add the following logic to the c_When screen action: ![When action flow screenshot]()
-- Add the following logic to the d_Then screen action: ![Then action flow screenshot]()
+- Add the following logic to the b_Given screen action:
+    - Add an Assert webblock to the flow and set the name to AssertTalentManager
+    - Set Expected to: `"User is TalentManager"`
+    - Set Obtained to: `"User is " +
+If(LoggedInUserId = NullIdentifier(), "not logged in",
+If(CheckTalentManagerRole(LoggedInUserId), "", "not a ")) + "TalentManager"`
+- Add the following logic to the c_When screen action: ![When action flow screenshot](images\WhenScreenAction.png)
+- Add the following logic to the d_Then screen action:
+    - Add an Assert webblock to the flow and set the name to AssertSkillGroupCreated
+    - Set Expected to `"SkillGroup record created successfully"`
+    - Set Obtained to `"SkillGroup record " +
+If(CreatedSkillGroupId <> NullIdentifier(), "created successfully", "not created")`
 - Add the following logic to the e_Teardown screen action: ![Teardown action flow screenshot]()
+   - Call SkillGroupDelete if a record was created
 
 ## Adding test suites to the BDD framework reporting tool
-To add a test suite to the BDD framework reporting tool you must add your module name to the ModuleListCSV site property.  
+To add a test suite to the BDD framework reporting tool you must add the module names separated with a comma to the ModuleListCSV site property. E.g. `TalentManager_CS_Tests`
 
+<!--
 # Example
 
 _As a Store Manager I should be able to manage my
@@ -115,6 +126,7 @@ Examples:
 | Altos de | 1 |
 | Altos | 3 |
 | Hormigas | 2 |
+-->
 
 ## Reference
 - [Given When Then](https://www.agilealliance.org/glossary/gwt)

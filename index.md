@@ -32,7 +32,7 @@ All members involved in the OutSystems development such as:
 - [**D**efinition **o**f **R**eady(DoR)](DefinitionOfReady.md)
 - [**D**efinition **o**f **D**one(DoD)](DefinitionOfDone.md)
 - [Code Review Checklist](CodeReviewChecklist.md)
-
+- Apply the [The Boy Scout Rule](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html)
 # 2 Architecture Decision Records
 See these articles for an explanation of **A**rchitecture **D**ecision **R**ecords (ADR):
 

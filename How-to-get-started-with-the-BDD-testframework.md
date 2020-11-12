@@ -30,7 +30,7 @@ In LifeTime create a new application using the bddframework template.
     - Fill the description
     - Upload an icon. (We recommend to use the same icon as the application with a test watermark added)
 
-- Open the new application in ServiceStudio and create a new BDDFramework module
+- Open the new application in ServiceStudio and create a new BDDFramework module name it like the module you are testing with the suffix `_Test`
 - In the MainTestFlow add a new BDDFramework Scenario screen and name it TestSuite. Please note that you *must* name the screen TestSuite for the reporting tool to work.
 ![Create TestSuite Screen](images\CreateTestSuiteScreen.png)
 - This action also adds a webblock sample_test that we keep as a template

@@ -13,7 +13,6 @@
 
 ## Writing test scenarios
 Refer to the OutSystems [Top-Notch Acceptance Criteria](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle#Top-Notch_Acceptance_Criteria) section for guidance on writing acceptance criteria.
-
 We create test scenarios based on the acceptance criteria written in the [Given When Then](https://www.agilealliance.org/glossary/gwt) format.
 
 ## Creating a new test suite
@@ -62,8 +61,11 @@ In LifeTime create a new application using the service template.
 _As a Talent Manager I should be able to manage skill and categories_
 
 **Scenario:** Add Skill Group
+
 **Given** I am a Talent Manager
+
 **When** I add a new Skill Group  named "Play"
+
 **Then** I should be able to get a successful result
 
 ### Preparation steps
@@ -131,3 +133,4 @@ Examples:
 ## Reference
 - [Given When Then](https://www.agilealliance.org/glossary/gwt)
 - [Test Automation in the Delivery Lifecycle](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle)
+- [Component Testing](https://success.outsystems.com/Documentation/Best_Practices/OutSystems_Testing_Guidelines/Component_Testing)

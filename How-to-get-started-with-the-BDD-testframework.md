@@ -131,6 +131,6 @@ Examples:
 -->
 
 ## Reference
-- [Given When Then](https://www.agilealliance.org/glossary/gwt)
-- [Test Automation in the Delivery Lifecycle](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle)
-- [Component Testing](https://success.outsystems.com/Documentation/Best_Practices/OutSystems_Testing_Guidelines/Component_Testing)
+- <a href="https://www.agilealliance.org/glossary/gwt" target="_blank">Given When Then</a>
+- <a href="https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle" target="_blank">Test Automation in the Delivery Lifecycle</a>
+- <a href="https://success.outsystems.com/Documentation/Best_Practices/OutSystems_Testing_Guidelines/Component_Testing" target="_blank">Component Testing</a>

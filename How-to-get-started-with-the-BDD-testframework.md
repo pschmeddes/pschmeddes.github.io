@@ -70,8 +70,8 @@ _As a Talent Manager I should be able to manage skill and categories_
 
 ### Preparation steps
 Create reusable actions in module TalentManagerCoreTests
-- `GetOrCreateTalentManager`: Gets or creates (if not already existing) a Talent Manager user
-- `GetSampleSkillGroup`: Initializes a sample Skill Group record with given fields
+- `UserTalentManagerGetOrCreate`: Gets or creates (if not already existing) a Talent Manager user
+- `SkillGroupSampleGet`: Initializes a sample Skill Group record with given fields
 
 ### Implement the scenario
 - Copy the Sample_Test webblock and rename it to `TalentManagerAddSkillGroup`

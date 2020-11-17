@@ -33,6 +33,7 @@ All members involved in the OutSystems development such as:
 - [**D**efinition **o**f **D**one(DoD)](DefinitionOfDone.md)
 - [Code Review Checklist](CodeReviewChecklist.md)
 - Apply the [The Boy Scout Rule](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html)
+
 # 2 Architecture Decision Records
 See these articles for an explanation of **A**rchitecture **D**ecision **R**ecords (ADR):
 
@@ -65,9 +66,9 @@ ADRs:
 - When heavily used prefer StringBuilder over "string" + "string" for better performance as it has a better memory allocation. See [How to create large strings with StringBuilder](https://success.outsystems.com/Documentation/How-to_Guides/Logic/How_to_create_large_strings_with_StringBuilder)
 
 ## 4.4 Data
-
+-
 ## 4.5 Processes
-
+-
 ## 4.6 DevOps
 
 ## 4.7 Integrations
@@ -75,8 +76,7 @@ ADRs:
 ## 4.8 Security
 - How-to response to [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.md)
 ## 4.9 Testing
-[Test Automation in the Delivery Lifecycle](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle)
-
+- [Test Automation in the Delivery Lifecycle](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle)
 - [How to get started with the BDD testframework](How-to-get-started-with-the-BDD-testframework.md)
 
 # 5 OutSystems reference

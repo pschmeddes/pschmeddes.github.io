@@ -40,11 +40,12 @@ See these articles for an explanation of **A**rchitecture **D**ecision **R**ecor
 - https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html
 
 ADRs:
-1. [ADR 1: We will document Architecture Decisions (AD) with the ADR template](ADR-001-documenting-architecture-decisions.md)
-2. [ADR 2: Standard language is English](ADR-002-standard-language-is-English.md)
-3. [ADR 3: Core Services must be secured](ADR-003-secure-core-services.md)
-4. [ADR 4: BDD framework for Component testing](ADR-004-bdd-framework-for-component-testing.md)
-5. [ADR 5: Centralized Styling](ADR-005-centralized styling.md)
+- [ADR 1: We will document Architecture Decisions (AD) with the ADR template](ADR-001-documenting-architecture-decisions.md)
+- [ADR 2: Standard language is English](ADR-002-standard-language-is-English.md)
+- [ADR 3: Core Services must be secured](ADR-003-secure-core-services.md)
+- [ADR 4: BDD framework for Component testing](ADR-004-bdd-framework-for-component-testing.md)
+- [ADR 5: Centralized Styling](ADR-005-centralized styling.md)
+- [ADR 6: Approved forge components only](ADR-006-approved-forge-components-only.md)
 
 # 3 Patterns
 - [Integration Patterns for Core Services Abstraction](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/05_Integration_Patterns_for_Core_Services_Abstraction)

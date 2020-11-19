@@ -22,7 +22,7 @@ In LifeTime create a new application using the bddframework template.
 - Open your LifeTime environment users module <yourlifetimeserver>/lifetime/Users_List.aspx
 - Open the Teams tab
 - Open the Team where you want to create the application for ![Team](images\TeamCreateApplication.png)
-- Create a new application ![Create application screen](images\LifeTimeCreateApplication.png) parameters:
+- Click on the Create Application link  to start creating a new application ![Create application screen](images\LifeTimeCreateApplication.png) parameters:
     - environment: Development
     - What are you building : BDDFramework
     - Give the app a name following the [naming convention](OutSystemsNamingConventions.md)
@@ -41,7 +41,7 @@ In LifeTime create a new application using the bddframework template.
     - c_When
     - d_Then
     - e_Teardown
-- Remove the `Sample_Test` webblock from the `TestSuite` Screen
+- Open the `TestSuite` screen and remove the `Sample_Test` webblock from the Mainflow
 - Set the module description to "<tested module name> tests module using BDDFramework"
 - Publish the module
 
@@ -49,7 +49,7 @@ In LifeTime create a new application using the bddframework template.
 In LifeTime create a new application using the service template.
 - Open your LifeTime environment users module <yourlifetimeserver>/lifetime/Users_List.aspx
 - Open the Teams tab
-- Open the Team where you want to create the application for ![Team](images\TeamCreateApplication.png)
+- Open the Team where you want to create the application for ![Team Create App screenshot](images\TeamCreateApplication.png)
 - Create a new application parameters:
     - environment: Development
     - What are you building : Service
@@ -72,7 +72,7 @@ _As a Talent Manager I should be able to manage skill and categories_
 
 ### Preparation steps
 Create reusable actions in module TalentManagerCoreTests
-- `UserTalentManagerGetOrCreate`: Gets or creates (if not already existing) a Talent Manager user
+- `UserTalentManagerGetOrCreate`: Gets or creates (if not already existing) a Talent Manager user. _Please note that as an exception we will **not** remove the user in the Teardown of the tests as this may interfere with other running tests and will polute the users administration._
 - `SkillGroupSampleGet`: Initializes a sample Skill Group record with given fields
 
 ### Implement the scenario

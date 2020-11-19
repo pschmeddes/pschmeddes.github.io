@@ -85,9 +85,10 @@ Create reusable actions in module TalentManagerCoreTests
     - Set Obtained to: `"User is " +
 If(LoggedInUserId = NullIdentifier(), "not logged in",
 If(CheckTalentManagerRole(LoggedInUserId), "", "not a ")) + "TalentManager"`
+
 - Add the following logic to the c_When screen action: ![When action flow screenshot](images\WhenScreenAction.png)
 - Add the following logic to the d_Then screen action:
-    - Add an Assert webblock to the flow and set the name to AssertSkillGroupCreated
+    - Add an Assert webblock to the flow and set the name to `AssertSkillGroupCreated`
     - Set Expected to `"SkillGroup record created successfully"`
     - Set Obtained to `"SkillGroup record " +
 If(CreatedSkillGroupId <> NullIdentifier(), "created successfully", "not created")`

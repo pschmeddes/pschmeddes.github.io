@@ -5,7 +5,7 @@ Solid automated component test procedures are key for meeting the quality standa
 Test automation is a prerequisite for implementing a CI/CD pipeline.
 
 ## Decision
-We will use the BDD framework for component testing. We will use the Gherkin language to defined test scenarios.
+We will use the BDD framework for component testing. We will use the [**Given-When-Then**](https://www.agilealliance.org/glossary/gwt) format (Gherkin) to defined test scenarios.
 
 ## Rationale
 There exist several [Automated Testing Tools](https://success.outsystems.com/Documentation/Best_Practices/OutSystems_Testing_Guidelines/Automated_Testing_Tools) that are suitable for component testing. OutSystems recommends to use the BDD framework for Component testing and we accept this recommendation.
@@ -24,4 +24,4 @@ If deprecated, indicate why. If superseded, include a link to the new ADR.
 ## Consequences
 - All team members must master the use of the BDD framework for component testing.
 - Guidance on the use of the BDD framework and Gherkin can be found at [How to et started with the BDD testframework](How-to-get-started-with-the-BDD-testframework.md)
-- There are multiple ways to write acceptance criteria, but we recommend using the [**Given-When-Then**](https://www.agilealliance.org/glossary/gwt) format introduced as part of the BDD methodology, it follows the Specification By Example approach. See also [Top-Notch Acceptance Criteria](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle#Top-Notch_Acceptance_Criteria)
+- There are multiple ways to write acceptance criteria, but we decided to use the Gherkin [**Given-When-Then**](https://www.agilealliance.org/glossary/gwt) format introduced as part of the BDD methodology, it follows the Specification By Example approach. See also [Top-Notch Acceptance Criteria](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle#Top-Notch_Acceptance_Criteria)

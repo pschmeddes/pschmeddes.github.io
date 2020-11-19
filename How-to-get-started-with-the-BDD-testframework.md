@@ -30,17 +30,19 @@ In LifeTime create a new application using the bddframework template.
     - Upload an icon. (We recommend to use the same icon as the application with a test watermark added)
 
 - Open the new application in ServiceStudio and create a new BDDFramework module name it like the module you are testing with the suffix `_Test`
-- In the MainTestFlow add a new BDDFramework Scenario screen and name it TestSuite. Please note that you *must* name the screen TestSuite for the reporting tool to work.
+- In the MainTestFlow add a new BDDFramework Scenario screen and name it `TestSuite`. Please note that you *must* name the screen `TestSuite` for the reporting tool to work.
+
 ![Create TestSuite Screen](images\CreateTestSuiteScreen.png)
-- This action also adds a webblock sample_test that we keep as a template
+
+- This action also adds a webblock `sample_test` that we keep as a template
 - Rename the sample_test screen actions to:
     - a_Setup
     - b_Given
     - c_When
     - d_Then
     - e_Teardown
-- Remove the Sample_Test webblock from the TestSuite Screen
-- Set the module description to "< tested module > tests module using BDDFramework"
+- Remove the `Sample_Test` webblock from the `TestSuite` Screen
+- Set the module description to "<tested module name> tests module using BDDFramework"
 - Publish the module
 
 ### Create Core Test Services
@@ -56,7 +58,7 @@ In LifeTime create a new application using the service template.
     - Upload an icon. (We recommend to use the same icon as the application with a test watermark added)
 - Publish the Module
 
-## Building a test scenario
+## Building a test scenario example
 
 _As a Talent Manager I should be able to manage skill and categories_
 

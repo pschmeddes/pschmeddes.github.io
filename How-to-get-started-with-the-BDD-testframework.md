@@ -6,10 +6,20 @@
 
 1. You **must read** the [BDD framework documentation](https://www.outsystems.com/forge/Component_Documentation.aspx?ProjectId=1201&ProjectName=bddframework) and **do the exercises** in your personal environment.
 2. Install the [BDD framework](https://www.outsystems.com/forge/component-overview/1201/bddframework) from the Forge
-3. Install the [BDD framework reporting tool](#) TBD new forge component
-    - Set the BDD framework rest api effective url to your environment base url e.g. https://synobsys.outsystemscloud.com/
-    - Set the Timer_ExecuteNewRoundOfTestSuites schedule and activate the timer
+3. Install the [BDD framework reporting tool](#) TBD forge component
+    3.1 To install the BDD framework reporting tool go to <yourdevserver>/servicecenter/Applications_List.aspx and click on publish application. Upload the "BDD Framework Reporting.oap" and 1-Click Publish
 
+    ![Publish BDD Framework Application](images\PublishBDDFrameworkApplication.png)
+
+    3.2 Set the BDD framework rest api effective url
+        - In Service Center open the BDDFrameworkReporting module and open the integrations tab
+        - Navigate to the Consumed REST APIs section and open the BDDFrameworkV1 REST API
+        - Set the effective url to your environment base url e.g. https://synobsys.outsystemscloud.com/
+    3.2 Set the Timer_ExecuteNewRoundOfTestSuites schedule and activate the timer
+        - In Service Center open the BDDFrameworkReporting module and open the timers tab
+        - Click on the Timer_ExecuteNewRoundOfTestSuites
+        - Enter the desired schedule e.g. daily at 01:00 h
+        - Click on Activate to activate the timer if it is not active
 
 ## Writing test scenarios
 Refer to the OutSystems [Top-Notch Acceptance Criteria](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle#Top-Notch_Acceptance_Criteria) section for guidance on writing acceptance criteria.

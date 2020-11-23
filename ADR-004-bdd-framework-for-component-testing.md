@@ -14,7 +14,7 @@ For more background information check the OutSystems Testing Guidelines for [Com
 and the [BDD Framework](https://success.outsystems.com/Documentation/Best_Practices/OutSystems_Testing_Guidelines/Automated_Testing_Tools#BDDFramework_(Forge_Component)) section on Automated Testing Tools.
 
 ## Status
-Proposed
+Accepted
 
 <!--
 [Proposed | Accepted | Deprecated | Superseded]

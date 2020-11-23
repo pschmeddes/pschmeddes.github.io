@@ -12,16 +12,17 @@
     ![Publish BDD Framework Application](images\PublishBDDFrameworkApplication.png)
 
     3.2 Set the BDD framework rest api effective url
-    
-        - In Service Center open the BDDFrameworkReporting module and open the integrations tab
-        - Navigate to the Consumed REST APIs section and open the BDDFrameworkV1 REST API
-        - Set the effective url to your environment base url e.g. https://synobsys.outsystemscloud.com/
+
+    - In Service Center open the BDDFrameworkReporting module and open the integrations tab
+    - Navigate to the Consumed REST APIs section and open the BDDFrameworkV1 REST API
+    - Set the effective url to your environment base url e.g. https://synobsys.outsystemscloud.com/
+
     3.2 Set the Timer_ExecuteNewRoundOfTestSuites schedule and activate the timer
 
-        - In Service Center open the BDDFrameworkReporting module and open the timers tab
-        - Click on the Timer_ExecuteNewRoundOfTestSuites
-        - Enter the desired schedule e.g. daily at 01:00 h
-        - Click on Activate to activate the timer if it is not active
+    - In Service Center open the BDDFrameworkReporting module and open the timers tab
+    - Click on the Timer_ExecuteNewRoundOfTestSuites
+    - Enter the desired schedule e.g. daily at 01:00 h
+    - Click on Activate to activate the timer if it is not active
 
 ## Writing test scenarios
 Refer to the OutSystems [Top-Notch Acceptance Criteria](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle#Top-Notch_Acceptance_Criteria) section for guidance on writing acceptance criteria.

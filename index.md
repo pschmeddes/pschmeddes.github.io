@@ -66,10 +66,12 @@ ADRs:
 - When heavily used prefer StringBuilder over "string" + "string" for better performance as it has a better memory allocation. See [How to create large strings with StringBuilder](https://success.outsystems.com/Documentation/How-to_Guides/Logic/How_to_create_large_strings_with_StringBuilder)
 
 ## 4.4 Data
--
+- TBD How to create static entities following the coding best practice: "never use auto-number integers for Static Entity IDs - replace by easily recognizable unique text codes/labels, having the same value throughout all environments"
+
 ## 4.5 Processes
 -
 ## 4.6 DevOps
+- [OutSystems deployment rollbacks](https://itnext.io/outsystems-deployment-rollbacks-8b3c010f5f90)
 
 ## 4.7 Integrations
 

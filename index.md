@@ -72,6 +72,7 @@ ADRs:
 -
 ## 4.6 DevOps
 - [OutSystems deployment rollbacks](https://itnext.io/outsystems-deployment-rollbacks-8b3c010f5f90)
+- [Preparing for an application version rollback scenario in Production](https://www.outsystems.com/forums/discussion/15466/preparing-for-an-application-version-rollback-scenario-in-production/)
 
 ## 4.7 Integrations
 

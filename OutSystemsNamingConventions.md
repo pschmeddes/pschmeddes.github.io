@@ -148,8 +148,8 @@ There will be multiple APIs and potentially multiple versions of the same API. T
 
 1. Base paths are based on resources.
 ```
-/users              -> retrieves all users.
-/users/{userId}     -> retrieves a specific user.
+/users              -&gt; retrieves all users.
+/users/{userId}     -&gt; retrieves a specific user.
 ```
 
 2. Resource names are plural nouns like "users", "customers" etc.
@@ -196,19 +196,20 @@ Naming rules:
 - Be aware when vendor prefixes are required (`-webkit-transform`)
 
 ## Test Code naming
+
 ### Test Applications
-- <Lifetime Application name> Tests
+- &lt;Lifetime Application name&gt; Tests
 ### Test modules
-- <Feature/Concept/Goal>_Tests
+- &lt;Feature/Concept/Goal&gt;_Tests
 ### Test Data modules
-- <Domain/Subdomain/Concept>_TestDataSetup
+- &lt;Domain/Subdomain/Concept&gt;_TestDataSetup
 ### Shared Pattern Modules
-- <Domain/Subdomain/Concept>_TestDataShared
+- &lt;Domain/Subdomain/Concept&gt;_TestDataShared
 ### Test screens
-- <Concept/Goal>_TestSuite
+- &lt;Concept/Goal&gt;_TestSuite
 ### Test Blocks
-- <Concept/Goal>_Test
+- &lt;Concept/Goal&gt;_Test
 ### Test Data actions
-- <Concept>_<RecordName>_Get
-- <Concept>_<RecordName>_Create
-- <Concept>_<RecordName>_Teardown
+- &lt;Concept&gt;_&lt;RecordName&gt;_Get
+- &lt;Concept&gt;_&lt;RecordName&gt;_Create
+- &lt;Concept&gt;_&lt;RecordName&gt;_Teardown

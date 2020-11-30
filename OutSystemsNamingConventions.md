@@ -43,7 +43,7 @@
 - Define an acronym for each application e.g. Soccer Fields App : 'SFA'
 ## Modules
 - Use PascalCase and don't use underscores except for the layer Suffix or Prefix.
-- Prefix the module name with the Application acronym except end user modules. (The module name is part of the url and we should bother users with technicalities.)
+- Prefix the module name with the Application acronym except end user modules. (The module name is part of the url and we should not bother users with technicalities.)
 
 ### Core Layer Module Naming
 Reusable services around business concepts, exporting entities, business rules and web-blocks

@@ -15,6 +15,7 @@
 11. [REST APIs](#rest-apis)
 12. [SOAP Services](#soap-services)
 13. [CSS](#css)
+14. [Test Code naming](#test-code-naming)
 
 ## Language
 - All OutSystems code (Service Studio and Integration Studio), including comments and documentation will be in English.
@@ -193,3 +194,21 @@ Naming rules:
 - Do not use units when using zeroes. E.g. `padding: 0;`
 - Also leave out the 0 before the pivot. E.g. `opacity: .7;`
 - Be aware when vendor prefixes are required (`-webkit-transform`)
+
+## Test Code naming
+### Test Applications
+- <Lifetime Application name> Tests
+### Test modules
+- <Feature/Concept/Goal>_Tests
+### Test Data modules
+- <Domain/Subdomain/Concept>_TestDataSetup
+### Shared Pattern Modules
+- <Domain/Subdomain/Concept>_TestDataShared
+### Test screens
+- <Concept/Goal>_TestSuite
+### Test Blocks
+- <Concept/Goal>_Test
+### Test Data actions
+- <Concept>_<RecordName>_Get
+- <Concept>_<RecordName>_Create
+- <Concept>_<RecordName>_Teardown

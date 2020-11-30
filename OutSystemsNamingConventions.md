@@ -134,14 +134,14 @@ Local variables used as constants (i.e. have a fixed, default value that is not 
 Service actions are also known as **O**utSystems **API**s
 TBD *Should we adopt a similar naming as for REST APIs?*
 
-1. Service Actions follow the Server Action naming with the suffix "Oapi"
-2. OAPI Versioning
+1. Service Actions follow the Server Action naming with the suffix "SA"
+2. Versioning
     - Only use major versions, starting at v1.
-    - Versions are reflected in the name of the OAPI.
+    - Versions are reflected in the name of the Service Action.
     - Only backwards INcompatible updates lead to a new version of the API.
 3. Don't use underscores in names
 
-Example: `CustomerCreateOapiV1`
+Example: `CustomerCreateSAv1`
 
 ## REST APIs
 There will be multiple APIs and potentially multiple versions of the same API. This requires naming conventions and logical structuring.

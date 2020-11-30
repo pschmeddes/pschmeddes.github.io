@@ -185,7 +185,7 @@ Block is the entire component e.g. .card and should be considered as a parent. E
 
 Naming rules:
 
-- All css must be in lowercase
+- All CSS must be in lowercase
 - Separate names with a hyphen. e.g. `.color-red`
 - Use tab to indent the declarations
 - Write your rules in alphabetical order
@@ -199,16 +199,22 @@ Naming rules:
 
 Test Applications
 : &lt;Lifetime Application name&gt; Tests
+
 Test modules
 : &lt;Feature/Concept/Goal&gt;_Tests
+
 Test Data modules
 : &lt;Domain/Subdomain/Concept&gt;_TestDataSetup
+
 Shared Pattern Modules
 : &lt;Domain/Subdomain/Concept&gt;_TestDataShared
+
 Test screens
 : &lt;Concept/Goal&gt;_TestSuite
+
 Test Blocks
 : &lt;Concept/Goal&gt;_Test
+
 Test Data actions
 : &lt;Concept&gt;_&lt;RecordName&gt;_Get
 : &lt;Concept&gt;_&lt;RecordName&gt;_Create

@@ -15,7 +15,7 @@ Inside the Data Action start with a CheckRole and exit the action with empty out
 ### Hiding elements in the screen using the _hidden_ class
 Be aware that a reactive screen always contains the full code stack of the page hiding data using an if statement still exposes the data to the browser.
 
-If you want to hide a widget you can use the class `hidden` in either the style class or the extended class attribute of the widget or block with the folloing steps:
+If you want to hide a widget you can use the class `hidden` in either the style class or the extended class attribute of the widget or block with the [checkIfCurrentUserHasRole](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/JavaScript_API/Security#checkifcurrentuserhasrole) JavaScript function:
 1. Creating a client function `UserHas<SomeRole>` with output parameter `HasRole`
     - Insert a JavaScript element
     - Add an output parameter HasRoleJS and map it to the HasRole output parameter

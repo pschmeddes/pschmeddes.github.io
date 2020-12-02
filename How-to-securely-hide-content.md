@@ -26,7 +26,7 @@ $parameters.HowToGuideUser = $public.Security.checkIfCurrentUserHasRole($roles.<
 
 ### Hiding elements using an _If_ widget
 Using the same approach as for the hidden class set the condition of the if to `<UserHasSomeRole>()`
-Be aware of side effects when you put some widgets inside an If widget e.g. hiding a
+Be aware of side effects when you put some widgets inside an If widget e.g. hiding a TabsContentItem with an if will break the styling of the tabs.
 
 ## Editing sensitive data
 tbd

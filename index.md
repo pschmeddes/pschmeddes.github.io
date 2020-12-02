@@ -61,6 +61,7 @@ ADRs:
 ## 4.2 Front-End
 - OutSystems [Front-End](https://success.outsystems.com/Documentation/How-to_Guides/Front-End) how-to guides
 - [How to introduce a new style class](how-to-introduce-a-new-style-class.md)
+- [How to securely hide content](How-to-securely-hide-content.md)
 
 ## 4.3 Logic
 - When heavily used prefer StringBuilder over "string" + "string" for better performance as it has a better memory allocation. See [How to create large strings with StringBuilder](https://success.outsystems.com/Documentation/How-to_Guides/Logic/How_to_create_large_strings_with_StringBuilder)

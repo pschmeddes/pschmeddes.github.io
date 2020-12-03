@@ -24,13 +24,19 @@ If you want to hide a widget you can use the class `hidden` in either the style 
     `// check if the current user has the '<SomeRole>' role
 $parameters.HowToGuideUser = $public.Security.checkIfCurrentUserHasRole($roles.<SomeRole>);`
 2. Entering the following expression in the class or Extended style class attribute: `If(UserHas<SomeRole> (),"","hidden")`
+![TBD add screenshot]()
 
 ### Hiding elements using an _If_ widget
 Using the same approach as for the hidden class set the condition of the if to `<UserHasSomeRole>()`
 Be aware of side effects when you put some widgets inside an If widget e.g. hiding a TabsContentItem with an if will break the styling of the tabs.
-
+![TBD add screenshot]()
 ## Editing sensitive data
-tbd
+Scenarios:
+1. You have a page to edit a record and want to hide some fields from unauthorized users. E.g. not An unauthorized user cannot view or edit the salary of an employee
+2. You want to disable editing of some sensitive data. E.g. An unauthorized user can see the price of a product but is not able to change it.
+**Implementation steps**
+TBD
+
 ## Redirecting users to a role based page
 To redirect a user to a specific page based on the user his authorization we can create a redicect page and use the JavaScript_API to check the roles to redirect the user. Each page is authorized to the specific role so even if the user is able to manipulate the page or goes directly to the page he will not have unauthorized access.
 **Implementation steps**

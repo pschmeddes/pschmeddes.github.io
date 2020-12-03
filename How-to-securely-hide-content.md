@@ -3,6 +3,7 @@
 This how-to guide describes follows the  [Reactive web security best practices](https://success.outsystems.com/Documentation/Best_Practices/Security/Reactive_web_security_best_practices) and shows you how-to securely hide content from unauthorized users in the following situations.
 - displaying sensitive data
 - editing sensitive data
+- redirecting users to a role based page
 
 ## Showing sensitive data to authorized users only
 
@@ -30,5 +31,11 @@ Be aware of side effects when you put some widgets inside an If widget e.g. hidi
 
 ## Editing sensitive data
 tbd
-## Redirecting users to a specific page per role
-tbd  
+## Redirecting users to a role based page
+To redirect a user to a specific page based on the user his authorization we can create a redicect page and use the JavaScript_API to check the roles to redirect the user. Each page is authorized to the specific role so even if the user is able to manipulate the page or goes directly to the page he will not have unauthorized access.
+**Implementation steps**
+- Create a redirect page and
+- Add an `OnInitialize` event to the page
+- Use the [checkIfCurrentUserHasRole](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/JavaScript_API/Security#checkifcurrentuserhasrole) JavaScript_API function to redirect the user to a specific page.
+E.g. If a user has the ProductManager role he will be redirected to the ProductDetail page, if he has the ProductViewer role he will be redirected to the ProductShow page otherwise an not authorized exception is raised.
+![screenshot of OnInitialize flow](images\ProductRedirect.png)

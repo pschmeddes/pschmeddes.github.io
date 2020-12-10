@@ -18,12 +18,25 @@ To do this there are several methods available depending on your installation an
 If you have database access you can use database management tools to drop columns. Be aware that once a column is dropped it's no longer save to revert to a version where that column exists and the data in the column is lost.
 [Access the database of your OutSystems Cloud](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Access_the_database_of_your_OutSystems_Cloud) describes how to get access to the SaaS database.
 ### Drop attribute with the DBCleaner_API
-TBD
+**WARNING only to be used by experienced staff who understand the impact**
+
+You can use the [DBCleaner_API](https://success.outsystems.com/Documentation/11/Reference/OutSystems_APIs/DbCleaner_API) to manage your database. OutSystems recommends the use of the [DB Cleaner on Steroids](https://www.outsystems.com/forge/component-overview/5018/db-cleaner-on-steroids) forge component.
+
+**Please refer to [Documentation](https://www.outsystems.com/forge/Component_Documentation.aspx?ProjectId=5018&ProjectName=db-cleaner-on-steroids) to understand the impact of using this component.**
+
+**DISCLAIMER**
+
+_This component is provided AS-IS with no warranty and is **not** supported by OutSystems._
+
+_This component takes advantage of private and undocumented Platform APIs, which can change without notice. As a result, this component may unexpectedly break as the Platform is upgraded._
+
+_We advise proper testing to ensure that your applications continue to work as expected when upgrading/patching the Platform._
+
+**Do not use this component in Production unless proper testing and certainty of the operations and its impacts on the data that exists in the environment.**
 
 ## Adding an Attribute
 Beware of the reuse of deleted attributes that still exists as columns in the database.
-Best practice is to add attributes to the end of the entity and not change the order of attributes.
-TBD ???why? what happens when you insert a column or change the order of attributes? True story or not?
+New attributes are always added as new columns at the end of the table. The order in Service Studio has no effect.
 
 ## Renaming an Attribute
 Try to avoid renaming an attribute, change the label instead. If a rename is necessary after you deployed to another environment use the following steps:

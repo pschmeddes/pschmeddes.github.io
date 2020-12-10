@@ -16,13 +16,14 @@ The attribute remains in the database until you drop the attribute from the data
 To do this there are several methods available depending on your installation and permissions.
 ### Drop attribute with SQL
 If you have database access you can use database management tools to drop columns. Be aware that once a column is dropped it's no longer save to revert to a version where that column exists and the data in the column is lost.
-[Access the database of your OutSystems Cloud]() describes how to get access to the SaaS database.
+[Access the database of your OutSystems Cloud](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Access_the_database_of_your_OutSystems_Cloud) describes how to get access to the SaaS database.
 ### Drop attribute with the DBCleaner_API
 TBD
 
 ## Adding an Attribute
 Beware of the reuse of deleted attributes that still exists as columns in the database.
-Best practice is to add attributes to the end of the entity and not change the order of attributes ??? why? what happens when you insert a column or change the order of attributes
+Best practice is to add attributes to the end of the entity and not change the order of attributes.
+TBD ???why? what happens when you insert a column or change the order of attributes? True story or not?
 
 ## Renaming an Attribute
 Try to avoid renaming an attribute, change the label instead. If a rename is necessary after you deployed to another environment use the following steps:

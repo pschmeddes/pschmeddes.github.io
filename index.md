@@ -68,6 +68,7 @@ ADRs:
 
 ## 4.4 Data
 - TBD How to create static entities following the coding best practice: "never use auto-number integers for Static Entity IDs - replace by easily recognizable unique text codes/labels, having the same value throughout all environments"
+- [Data Model Change Management](DataModelChangeManagement.md)
 
 ## 4.5 Processes
 -

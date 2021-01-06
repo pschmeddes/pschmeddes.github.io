@@ -1,4 +1,18 @@
 #User Story template
+
+## Summary
+3-liner + INVEST principle
+- User stories must (ideally) be **Independent** from
+one another’s
+- User stories must be **Negotiable** in conversations between the business and the development team
+- User stories must be acknowledged by the business that their are **Valuable**
+- User stories must be written to be **Estimable**
+- User stories should be as **Small** as possible
+- User stories should be **Testable** through an Acceptance Criteria
+
+## Template
+
+
 - Title
 - Definition: _**As a** user role **I want to** function **so that** value_
     - Make it **concrete, small,** and **testable**

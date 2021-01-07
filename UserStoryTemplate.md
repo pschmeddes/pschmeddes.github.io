@@ -36,7 +36,7 @@ one another’s
     **I want to** see a list of promotions on my home page,
     **so that** I know which products are being sold at a specially reduced price for the week._
 - Acceptance Criteria (can alternatively be written in Gherkin syntax)
-    - User is able to log on to app
+    - User can log on to app
     - User home page has a section called “Promotions”
     - Promotional items are included for current calendar week (Sunday to Saturday)
     - Promotional items are grouped by Product Category

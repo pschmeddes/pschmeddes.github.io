@@ -18,6 +18,7 @@ one another’s
     - Make it **concrete, small,** and **testable**
 - Context and Value
     - Map the user story into a step in the captured **business processes**
+    -Business rules
 - Acceptance criteria
     - Use **business language**
     - Add pictures, screenshots or mockups to illustrate the **user experience**

@@ -12,21 +12,21 @@ one another’s
 
 ## Template
 
-
 - Title
 - Definition: _**As a** user role **I want to** function **so that** value_
     - Make it **concrete, small,** and **testable**
-- Context and Value
-    - Map the user story into a step in the captured **business processes**
-    -Business rules
+- Context and Value: Map the user story into a step in the captured **business processes** and **Domain**
+- Business rules: Describe the business rules that apply
+- Business object: List the involved business objects
 - Acceptance criteria
     - Use **business language**
     - Add pictures, screenshots or mockups to illustrate the **user experience**
     - Provide **real sample data** or as meaningful as possible
     - Identify the impact on the prior and next **business process steps**
-    - Use **Gherkin language**
+    - Use the [**Given-When-Then**](https://www.agilealliance.org/glossary/gwt) template
 - Non-functional (aka quality) requirements
     - Impose **constraints on the design or implementation**
+- Resolution: Describe how the story will be developed
 
 ## Example
 

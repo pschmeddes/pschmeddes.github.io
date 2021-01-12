@@ -29,6 +29,7 @@ All members involved in the OutSystems development such as:
 # 1 OutSystems Standards and Guidelines
 - [Naming Conventions](OutSystemsNamingConventions.md)
 - [Server Action Security](ServerActionSecurity.md)
+- [User Story Template](UserStoryTemplate.md)
 - [**D**efinition **o**f **R**eady(DoR)](DefinitionOfReady.md)
 - [**D**efinition **o**f **D**one(DoD)](DefinitionOfDone.md)
 - [Code Review Checklist](CodeReviewChecklist.md)

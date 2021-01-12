@@ -51,6 +51,7 @@ ADRs:
 # 3 Patterns
 - [Integration Patterns for Core Services Abstraction](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/05_Integration_Patterns_for_Core_Services_Abstraction)
 - [Circuit Breaker Pattern: Make Your Apps Ready to Deal with Timeouts](https://www.outsystems.com/blog/posts/circuit-breaker-pattern/)
+- TBD Localization Ready datamodel with Entity Layers for Translated Fields and Non-Translated Fields https://vertabelo.com/blog/data-modeling-for-multiple-languages-how-to-design-a-localization-ready-system/
 
 # 4 How-To Guides
 [OutSystems How-To Guides](https://success.outsystems.com/Documentation/How-to_Guides)

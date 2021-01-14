@@ -39,21 +39,20 @@ one another’s
 - Acceptance Criteria - Scenarios
 
     1. User can login
-
-    **Given** I have an active account
-    **When**  I log in with a valid password
-    **Then**  I will be directed to homepage
+    - **Given** I have an active account
+    - **When**  I log in with a valid password
+    - **Then**  I will be directed to homepage
     2. Invalid login
-    **Given** I have an active account,
-    **When** I log in with an invalid password,
-    **Then** I will be directed to the error page
+    - **Given** I have an active account,
+    - **When** I log in with an invalid password,
+    - **Then** I will be directed to the error page
     3. Show promotions
-    **Given** I am logged in to the application,
-    **When** I go to my homepage,
-    **Then** promotional items are shown in the section promotions for the current calendar week (Sunday to Saturday)
-    **and** Promotional items are grouped by Product Category,
-    **and** Promotional items are listed in alphabetical order within the category
-    **and** The sales price for each item is always clearly shown
+    - **Given** I am logged in to the application,
+    - **When** I go to my homepage,
+    - **Then** promotional items are shown in the section promotions for the current calendar week (Sunday to Saturday)
+    - **and** Promotional items are grouped by Product Category,
+    - **and** Promotional items are listed in alphabetical order within the category
+    - **and** The sales price for each item is always clearly shown
 
 - Acceptance Criteria (mockup & flow)
 

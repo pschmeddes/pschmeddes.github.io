@@ -28,6 +28,8 @@ All members involved in the OutSystems development such as:
 
 # 1 OutSystems Standards and Guidelines
 - [Naming Conventions](OutSystemsNamingConventions.md)
+- [OutSystems Platform Best Practices](https://success.outsystems.com/Documentation/Best_Practices/Development/OutSystems_Platform_Best_Practices)
+- [ ] Coding Style Guide
 - [Server Action Security](ServerActionSecurity.md)
 - [User Story Template](UserStoryTemplate.md)
 - [**D**efinition **o**f **R**eady(DoR)](DefinitionOfReady.md)

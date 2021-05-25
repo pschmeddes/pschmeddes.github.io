@@ -23,12 +23,20 @@ Sitll in lifetime edit teams
 Create the domain Configuration Application by clicking Create Application
 
     - Environment: Development
-    - What are you building:  DomainCoreWidgets
+    - What are you building:  GlobalUI
     - Fill in your app's basic info
         - Name: <DomainPrefix> + <domainname> + Core Widgets e.g. FLD Fields Core Widgets
         - Description: <domainname> + Core Widgets
         - Upload icon: A domain specific icon
     - Click on Create App
+
+### Create Canonical Model application
+- open team CDM Canonical Model
+- click on create application
+- type: ConceptUI, name: CDM <domain>, description <domain> canonical model uploadicon: <domainicon>
+
+You are now ready to setup the domain concept.
+
 ## Create modules
 
 Now switch to service studio
@@ -57,7 +65,18 @@ Now switch to service studio
 11. Check that ther are no reminders or warnings in the TrueChang tab.
 10. 1-click publish the module
 
-You are now ready to setup the domain concept.
-
 ## How-to Setup a domain concept
-In lifetime go to teams and open 
+
+### Create Concept Core Application
+- In lifetime go to teams and open <yourdomain> team
+- Click on Create Application
+- Environment: Development, type: GlobalService name <domainprefix> +<concept> + Core e.g. FLD Fields Core, Upload Icon <your domain concept icon>
+
+### Create Concept UI Application
+- In lifetime go to teams and open <yourdomain> team
+- Click on Create Application
+- Environment: Development, type: ConceptUI name <domainprefix> +<concept> + UI e.g. FLD Fields UI
+
+### Create Concept Core Service Module
+- In Service Studio open application <domainprefix> <concept> Core e.g. FLD Field Core
+- Click on add module

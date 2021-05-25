@@ -5,6 +5,7 @@ To setup a new domain follow these instructions.
 2. Enter the domain prefix and name e.g. FLD - Fields in the New Team field and fill the description
 3. Click on create 
 4. You can now add users to the team with team specific permissions
+
 ### Create domain foundation application
 Still in lifetime edit teams 
 Create the domain Configuration Application by clicking Create Application
@@ -16,6 +17,7 @@ Create the domain Configuration Application by clicking Create Application
         - Description: <domainname> + Foundation Services
         - Upload icon: A domain specific icon
     - Click on Create App
+
 ### Create domain core widgets application
 Sitll in lifetime edit teams
 Create the domain Configuration Application by clicking Create Application
@@ -28,6 +30,7 @@ Create the domain Configuration Application by clicking Create Application
         - Upload icon: A domain specific icon
     - Click on Create App
 ## Create modules
+
 Now switch to service studio
 ### Create module 
 ### Create a domain configuration module
@@ -39,6 +42,7 @@ Now switch to service studio
 6. Rename Service Action SampleRole_Check to <newRole_Check> e.g. FieldsAdministrator_Check
 7. Publish the module. This module is now placed in Application Independent Modules.
 8. Move this module to application "<domain> Foundation"
+
 ### Create domain navigation module
 1. In service studio open application <domain> Core Widgets
 2. Click on add module name=<domainprefix> + <domain> + "_Navigation_CW"

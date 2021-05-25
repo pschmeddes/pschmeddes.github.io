@@ -60,7 +60,7 @@ ADRs:
 [OutSystems How-To Guides](https://success.outsystems.com/Documentation/How-to_Guides)
 
 ## 4.1 Development
-- [How to setup a domain](how-to/how-to-setup-a-new-domain.md)
+- [How to setup a domain](how-to/how-to-setup-a-new-domain.html) 
 - [How to Create Customized Versions of a Base Application](https://itnext.io/how-to-dynamically-import-the-customized-product-theme-in-the-base-product-b10b534e3e1a)
 
 ## 4.2 Front-End

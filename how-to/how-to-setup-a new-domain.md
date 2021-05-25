@@ -27,7 +27,10 @@ Create the domain Configuration Application by clicking Create Application
         - Description: <domainname> + Core Widgets
         - Upload icon: A domain specific icon
     - Click on Create App
-## Create a domain configuration module
+## Create modules
+Now switch to service studio
+### Create module 
+### Create a domain configuration module
 1. Go to Service Studion and open module (Ctrl+O) "Stencil_Domain_Configuration_Lib"
 2. Click Module > Clone
 3. Close Module Stencil_Domain_Configuration_Lib
@@ -35,4 +38,22 @@ Create the domain Configuration Application by clicking Create Application
 5. Rename Role SampleRole to a meaningfull role e.g. FieldsAdministrator
 6. Rename Service Action SampleRole_Check to <newRole_Check> e.g. FieldsAdministrator_Check
 7. Publish the module. This module is now placed in Application Independent Modules.
-8. Move this application to 
+8. Move this module to application "<domain> Foundation"
+### Create domain navigation module
+1. In service studio open application <domain> Core Widgets
+2. Click on add module name=<domainprefix> + <domain> + "_Navigation_CW"
+3. Open manage dependencies <Ctrl+Q> 
+4. Remove all dependencies to Stencil_Domain_Configuration_Lib
+5. Add dependency to <domain>_Configuration_FS
+6. Remove the Reminder from the datamodel diagram.
+7. Click on apply
+8. Check that there are no errors and no dependencies to Stencil_Domain_Configuration_Lib
+9. Rename the Domain_CommonBlocks ui flow to <domain>_CommonBlocks.
+10. Remove the rename reminder
+11. Check that ther are no reminders or warnings in the TrueChang tab.
+10. 1-click publish the module
+
+You are now ready to setup the domain concept.
+
+## How-to Setup a domain concept
+In lifetime go to teams and open 

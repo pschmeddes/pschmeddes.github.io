@@ -8,7 +8,7 @@ We prefer forge components in with the following priority:
 1. Supported - The component is supported by OutSystems. Issues can be reported to OutSystems support.
 2. Trusted - The component is reviewed and labeled Trusted.
 3. Stable and active e.g. regular updates, most downloaded, and questions are answered.
-
+4. Check the [Trusted components requirements](https://success.outsystems.com/Support/Forge_Components/Forge_FAQs/Trusted_components_requirements)
 
 
 ### Intellectual property

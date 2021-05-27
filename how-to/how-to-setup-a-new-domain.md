@@ -42,11 +42,11 @@ You are now ready to setup the domain concept.
 
 ## Create modules
 Open Service Studio for your development environment
-### Create a Domain Configuration Foundation Services module
-1. Go to Service Studio and open module (Ctrl+O) "Stencil_Domain_Configuration_FS"
+### Create a Domain Security Foundation Services module
+1. Go to Service Studio and open module (Ctrl+O) "Stencil_Domain_Security_FS"
 2. Click Module > Clone
-3. Close Module Stencil_Domain_Configuration_FS
-4. Rename the new module CloneOFStencil_Domain_Configuration to <domainprefix> +"_" <domain> + "_Configuration_FS" e.g. FLD_Fields_Configuration_FS
+3. Close Module Stencil_Domain_Security_FS
+4. Rename the new module CloneOFStencil_Domain_Security_FS to <domainprefix> +"_" <domain> + "_Security_FS" e.g. FLD_Fields_Security_FS
 5. Rename Role SampleRole to a meaningfull role e.g. FieldsAdministrator
 6. Rename Service Action SampleRole_Check to <newRole_Check> e.g. FieldsAdministrator_Check
 7. Publish the module. This module is now placed in Application Independent Modules.

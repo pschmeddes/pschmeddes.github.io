@@ -25,8 +25,8 @@ Create the domain Configuration Application by clicking Create Application
 - Environment: Development
 - What are you building:  GlobalUI
 - Fill in your app's basic info
-  - Name: <DomainPrefix> + <domainname> + Core Widgets e.g. FLD Fields Core Widgets
-  - Description: <domainname> + Core Widgets
+  - Name: DomainPrefix + domainname + Core Widgets e.g. FLD Fields Core Widgets
+  - Description: domainname + Core Widgets. Domain common widgets
   - Upload icon: A domain specific icon
   - Click on Create App
 
@@ -43,37 +43,39 @@ You are now ready to setup the domain concept.
 ## Create modules
 Open Service Studio for your development environment
 ### Create a Domain Security Foundation Services module
-1. Go to Service Studio and open module (Ctrl+O) "Stencil_Domain_Security_FS"
-2. Click Module > Clone
-3. Close Module Stencil_Domain_Security_FS
-4. Rename the new module CloneOFStencil_Domain_Security_FS to <domainprefix> +"_" <domain> + "_Security_FS" e.g. FLD_Fields_Security_FS
-5. Rename Role SampleRole to a meaningfull role e.g. FieldsAdministrator
-6. Rename Service Action SampleRole_Check to <newRole_Check> e.g. FieldsAdministrator_Check
-7. Publish the module. This module is now placed in Application Independent Modules.
-8. Move this module to application "<domain> Foundation"
+- Go to Service Studio and open module (Ctrl+O) "Stencil_Domain_Security_FS"
+- Click Module > Clone
+- Close Module Stencil_Domain_Security_FS
+- Rename the new module CloneOFStencil_Domain_Security_FS to <domainprefix> +"_" <domain> + "_Security_FS" e.g. FLD_Fields_Security_FS
+- Rename Role SampleRole to a meaningfull role e.g. FieldsAdministrator
+- Rename Service Action SampleRole_Check to <newRole_Check> e.g. FieldsAdministrator_Check
+- Publish the module. This module is now placed in Application Independent Modules.
+- Move this module to application "<domain> Foundation"
 
 ### Create Domain Notifications Foundation Services Module
-1. Go to Service Studio and open module (Ctrl+O) "Stencil_Notifications_FS"
-2. Click Module > Clone
-3. Close Module Stencil_Domain_Configuration_FS
-4. Rename the new module CloneOFStencil_Domain_Configuration to <domainprefix> +"_" <domain> + "_Notifications_FS" e.g. FLD_Fields_Notificationsn_FS
-5. TK edit from here
-7. Publish the module. This module is now placed in Application Independent Modules.
-8. Move this module to application "<domain> Foundation"
+- Go to Service Studio and open module (Ctrl+O) "Stencil_Notifications_FS"
+- Click Module > Clone
+- Close Module Stencil_Domain_Configuration_FS
+- Rename the new module CloneOFStencil_Domain_Configuration to <domainprefix> +"_" <domain> + "_Notifications_FS" e.g. FLD_Fields_Notificationsn_FS
+- Delete the SAMPLE_Notification record from entity DomainNotification
+- Add the required DomainNotifications 
+- Publish the module. This module is now placed in Application Independent Modules.
+- Move this module to application "<domain> Foundation"
 
 ### Create domain navigation module
-1. In service studio open application <domain> Core Widgets
-2. Click on add module name=<domainprefix> + <domain> + "_Navigation_CW"
-3. Open manage dependencies <Ctrl+Q>
-4. Remove all dependencies to Stencil_Domain_Configuration_Lib
-5. Add dependency to <domain>_Configuration_FS
-6. Remove the Reminder from the datamodel diagram.
-7. Click on apply
-8. Check that there are no errors and no dependencies to Stencil_Domain_Configuration_Lib
-9. Rename the Domain_CommonBlocks ui flow to <domain>_CommonBlocks.
-10. Remove the rename reminder
-11. Check that ther are no reminders or warnings in the TrueChang tab.
-10. 1-click publish the module
+- In service studio open module Stencil_DomainCoreWidgets_CW
+- Click on Module > Clone
+- Rename the CloneOfStencil_DomainCoreWidgets_CW to <domainprefix> + <domain> + "_Navigation_CW"
+- Open manage dependencies <Ctrl+Q>
+- Remove all dependencies to Stencil_Domain_Configuration_Lib
+- Add dependency to <domain>_Configuration_FS
+- Remove the Reminder from the datamodel diagram.
+- Click on apply
+- Check that there are no errors and no dependencies to Stencil_Domain_Configuration_Lib
+- Rename the Domain_CommonBlocks ui flow to <domain>_CommonBlocks.
+- Remove the rename reminder
+- Check that there are no reminders or warnings in the TrueChang tab.
+- 1-click publish the module
 
 ## How-to Setup a domain concept
 For each domain concept perform the following steps
@@ -81,7 +83,11 @@ For each domain concept perform the following steps
 ### Create Concept Core Application
 - In lifetime go to teams and open <yourdomain> team
 - Click on Create Application
-- Environment: Development, type: GlobalService name <domainprefix> +<concept> + Core e.g. FLD Fields Core, Upload Icon <your domain concept icon>
+  - Environment: Development
+  - type: GlobalService
+  - name <domainprefix> +<concept> + Core e.g. FLD Fields Core
+  - Upload Icon <your domain concept icon>
+  - Click on Create app
 
 ### Create Concept OAPI Application
 - In lifetime go to teams and open <yourdomain> team
@@ -116,7 +122,8 @@ For each domain concept perform the following steps
   - Name: <DomainPrefix> + "_" + <concept> + "_CS" e.g.: FLD_Fields_CS
   - Module type: Service
 - Add a description to the new module. E.g. Fields Core Services
-- Open manage dependencies (Ctrl+Q) and refresh all
+- Open manage dependencies (Ctrl+Q) and refresh all and apply
+- add a dependency to your domain security module (e.g. FLD_Fields_Security_FS) check role service actions
 - 1-Click publish the module
 - Add the Concept entities and attributes
 - Change the Id type to Text with a length of 36 (we use GUID's as identifiers)

@@ -1,9 +1,13 @@
-
 # How-to Setup a domain concept
 
 For each domain concept perform the following steps
 
-## Create Concept Core Application
+1. [Create LifeTime Applications](#CreateApps)
+1. [Create Concept Modules](#CreateModules)
+
+## Create LifeTime Applications {#CreateApps}
+
+### Create Concept Core Application
 
 1. In lifetime go to teams and open your domain team
 1. Click on Create Application
@@ -13,7 +17,7 @@ For each domain concept perform the following steps
     * Upload Icon \<your domain concept icon\>
     * Click on Create app
 
-## Create Concept OAPI Application
+### Create Concept OAPI Application
 
 1. In lifetime go to teams and open your domain team
 1. Click on Create Application
@@ -24,7 +28,7 @@ For each domain concept perform the following steps
     * Upload Icon: \<your domain concept icon\>
     * Click on Create app
 
-## <optional> Create Concept API Application 
+### \<optional\> Create Concept API Application 
 
 When exposing services to external systems create an API Application as a container for the exposed REST and or SOAP services.
 
@@ -37,7 +41,7 @@ When exposing services to external systems create an API Application as a contai
     * Upload Icon: \<your domain concept icon\>
     * Click on Create app
 
-## Create Concept UI Application
+### Create Concept UI Application
 
 1. In lifetime go to teams and open your domain team
 1. Click on Create Application
@@ -45,7 +49,9 @@ When exposing services to external systems create an API Application as a contai
     * type: ConceptUI 
     * name \<domainprefix\> +\<concept\> + UI e.g. FLD Fields UI
 
-## Create Concept Core Service Module
+## Create Modules {#CreateModules}
+
+### Create Concept Core Service Module
 
 1. In Service Studio open application \<domainprefix\> \<concept\> Core e.g. FLD Field Core
 1. Click on add module
@@ -61,7 +67,7 @@ When exposing services to external systems create an API Application as a contai
 1. Ensure that there a no dependencies to Stencil_Core_Services_Pat
 1. 1-Click publish the module
 
-## Create Concept Canonical model
+### Create Concept Canonical model
 
 1. In Service Studio open application CDM <domainname>
 1. Click in add module

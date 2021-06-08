@@ -73,7 +73,7 @@ List of ADRs:
 
 * [How to setup a domain](how-to/how-to-setup-a-new-domain.html)
 * [How-to setup a new domain concept](how-to\how-to-setup-a-new-domain-concept.html)
-* [How-to add an entity to your module](how-to\how-to-add an entity to your module.html)
+* [How-to add an entity to your module](how-to\how-to-add-an-entity-to-your-module.html)
 
 ### Development
 

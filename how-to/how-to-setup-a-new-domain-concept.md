@@ -9,8 +9,8 @@ For each domain concept perform the following steps
 1. Click on Create Application
     * Environment: Development
     * type: GlobalService
-    * name <domainprefix> +<concept> + Core e.g. FLD Fields Core
-    * Upload Icon <your domain concept icon>
+    * name \<domainprefix\> + \<concept\> + Core e.g. FLD Fields Core
+    * Upload Icon \<your domain concept icon\>
     * Click on Create app
 
 ## Create Concept OAPI Application
@@ -19,9 +19,9 @@ For each domain concept perform the following steps
 1. Click on Create Application
     * Environment: Development
     * Type: GlobalService
-    * Name <domainprefix> +<concept> + OAPI e.g. FLD_Fields_OAPI
-    * Description: <domain> + <concept> OutSystems APIs (Service Actions)
-    * Upload Icon: <your domain concept icon>
+    * Name \<domainprefix\> +\<concept\> + OAPI e.g. FLD_Fields_OAPI
+    * Description: \<domain\> + \<concept\> OutSystems APIs (Service Actions)
+    * Upload Icon: \<your domain concept icon\>
     * Click on Create app
 
 ## <optional> Create Concept API Application 
@@ -32,9 +32,9 @@ When exposing services to external systems create an API Application as a contai
 1. Click on Create Application
     * Environment: Development
     * Type: GlobalService
-    * Name <domainprefix> +<concept> + API e.g. FLD_Fields_API
-    * Description: <domain> + <concept> APIs (REST and or SOAP Services)
-    * Upload Icon: <your domain concept icon>
+    * Name \<domainprefix\> +\<concept\> + API e.g. FLD_Fields_API
+    * Description: \<domain\> + \<concept\> APIs (REST and or SOAP Services)
+    * Upload Icon: \<your domain concept icon\>
     * Click on Create app
 
 ## Create Concept UI Application
@@ -43,13 +43,13 @@ When exposing services to external systems create an API Application as a contai
 1. Click on Create Application
     * Environment: Development
     * type: ConceptUI 
-    * name <domainprefix> +<concept> + UI e.g. FLD Fields UI
+    * name \<domainprefix\> +\<concept\> + UI e.g. FLD Fields UI
 
 ## Create Concept Core Service Module
 
-1. In Service Studio open application <domainprefix> <concept> Core e.g. FLD Field Core
+1. In Service Studio open application \<domainprefix\> \<concept\> Core e.g. FLD Field Core
 1. Click on add module
-    * Name: <DomainPrefix> + "_" + <concept> + "_CS" e.g.: FLD_Fields_CS
+    * Name: \<DomainPrefix\> + "_" + \<concept\> + "_CS" e.g.: FLD_Fields_CS
     * Module type: Service
 1. Add a description to the new module. E.g. Fields Core Services
 1. Open manage dependencies (Ctrl+Q) and refresh all and apply
@@ -65,12 +65,12 @@ When exposing services to external systems create an API Application as a contai
 
 1. In Service Studio open application CDM <domainname>
 1. Click in add module
-    * Name <domainprefix> + "_" + <concept> + "_CDM" e.g.: FLD_Fields_CDM
+    * Name \<domainprefix\> + "_" + \<concept\> + "_CDM" e.g.: FLD_Fields_CDM
     * Module type: Library
 1. Add a description to the new module e.g. Fields Canonical model
 1. 1-Click publish the module
 1. For each exposed "object" define a canonical data structure that will be used for interface parameters
-    * <entity_name> - for full records e,g, Field
-    * <entity_name>+Summary for list purpose e.g. FieldSummary
-    * <entity_name>_Information for a nested graph of the object e.g. OrderInformation for Order and details
+    * \<entity_name\> - for full records e,g, Field
+    * \<entity_name\>_Summary for list purpose e.g. FieldSummary
+    * \<entity_name\>_Information for a nested graph of the object e.g. OrderInformation for Order and details
 1. Create te structure by copying an entity from the CS module and changing all identifiers to text or to a corresponding structure e.g. CreateByUser type UserId to CreatedByUserName type Text

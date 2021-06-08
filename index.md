@@ -72,8 +72,8 @@ List of ADRs:
 ### Architecture
 
 * [How to setup a domain](how-to/how-to-setup-a-new-domain.html)
-* [How-to setup a new domain concept](how-to\how-to-setup-a-new-domain-concept.md)
-* [How-to implement database actions](how-to\how-to-implement-database-actions.md)
+* [How-to setup a new domain concept](how-to\how-to-setup-a-new-domain-concept.html)
+* [How-to implement database actions](how-to\how-to-implement-database-actions.html)
 
 ### Development
 
@@ -82,8 +82,8 @@ List of ADRs:
 ### Front-End
 
 * OutSystems [Front-End](https://success.outsystems.com/Documentation/How-to_Guides/Front-End) how-to guides
-* [How to introduce a new style class](how-to-introduce-a-new-style-class.md)
-* [How to securely hide content](How-to-securely-hide-content.md)
+* [How to introduce a new style class](how-to-introduce-a-new-style-class.html)
+* [How to securely hide content](How-to-securely-hide-content.html)
 
 ### Logic
 
@@ -92,7 +92,7 @@ List of ADRs:
 ### Data
 
 * TBD How to create static entities following the coding best practice: "never use auto-number integers for Static Entity IDs - replace by easily recognizable unique text codes/labels, having the same value throughout all environments"
-* [Data Model Change Management](DataModelChangeManagement.md)
+* [Data Model Change Management](DataModelChangeManagement.html)
 
 ### Processes
 
@@ -107,7 +107,7 @@ List of ADRs:
 
 ### Security
 
-* How-to response to [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.md)
+* How-to response to [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.html)
 
 ### Testing
 

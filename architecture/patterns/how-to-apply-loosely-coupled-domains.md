@@ -1,7 +1,9 @@
 # How-to apply loosely coupled domains
+
 This how-to explains how to apply a strict loosely coupled domain architecture
 
 ## Rules
+
 Across domains, keep loose coupling relationships, providing domain APIs divided in two parts:
 
 * **Public structures**
@@ -18,12 +20,11 @@ Data transactions and detail retrieval
 
 To provide a clear separation between intra- and extra domain logic use the following application architecture.
 
-* <domain> Canonical Library - providing the canonical structures
-Modules:
-   * <domainacronym><subjectarea>_Lib - Library modules containing the canonical model
-* <domain> Core - providing core services
-* <domain> UI - domain user interface modules
-* <domain> OAPI - providing Service Actions
+* \<domain\> Canonical Library - providing the canonical structures. Containing the following modules:
+    * \<DomainPrefix\>\<conceptname\>_Lib - Library modules containing the canonical model
+    * \<domain\> Core - providing core services
+    * \<domain\> UI - domain user interface modules
+    * \<domain\> OAPI - providing Service Actions
 
 ## Example Domain Architecture
 

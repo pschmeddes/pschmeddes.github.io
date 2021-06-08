@@ -157,16 +157,16 @@ When exposing services to external systems create an API Application as a contai
 1. Ensure that there a no dependencies to Stencil_Core_Services_Pat
 1. 1-Click publish the module
 
-### Create Concept Canonical model
+## Create Concept Canonical model
 
-* In Service Studio open application CDM <domainname>
-* Click in add module
+1. In Service Studio open application CDM <domainname>
+1. Click in add module
     * Name <domainprefix> + "_" + <concept> + "_CDM" e.g.: FLD_Fields_CDM
     * Module type: Library
-* Add a description to the new module e.g. Fields Canonical model
-* 1-Click publish the module
-* For each exposed "object" define a canonical data structure that will be used for interface parameters
+1. Add a description to the new module e.g. Fields Canonical model
+1. 1-Click publish the module
+1. For each exposed "object" define a canonical data structure that will be used for interface parameters
     * <entity_name> - for full records e,g, Field
     * <entity_name>+Summary for list purpose e.g. FieldSummary
     * <entity_name>_Information for a nested graph of the object e.g. OrderInformation for Order and details
-* Create te structure by copying an entity from the CS module and changing all identifiers to text or to a corresponding structure e.g. CreateByUser type UserId to CreatedByUserName type Text
+1. Create te structure by copying an entity from the CS module and changing all identifiers to text or to a corresponding structure e.g. CreateByUser type UserId to CreatedByUserName type Text

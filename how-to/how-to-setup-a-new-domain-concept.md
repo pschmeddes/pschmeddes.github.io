@@ -13,9 +13,9 @@ For each domain concept perform the following steps
 1. Click on **Create Application**
 ![Create Application image](images\CreateApplication.png)
 
-    * Choose owner team: `<your_domain_team>`
+    * Choose owner team: \<your_domain_team\>
     * Choose the environment: Development
-    * What are you building?: `<your_organisation>_Service` e.g. _Synobsys_Service_
+    * What are you building?: \<your_organisation>_Service\> (Service) e.g. _Synobsys_Service_
     * Name `<domainprefix> + <concept>` + Core e.g. FLD Fields Core
     * Description: `enter a description`
     * Upload Icon `<your domain concept icon>`
@@ -25,33 +25,36 @@ For each domain concept perform the following steps
 
 1. Open the Lifetime applications page : `https://<your_lifetime_server>/lifetime/Applications.aspx`
 1. Click on **Create Application**
-    * 
-    * Environment: Development
-    * Type: GlobalService
+    * Choose owner team: \<your_domain_team\>
+    * Choose the environment: Development
+    * What are you building?: \<your_organisation>_Service\> (Service) e.g. _Synobsys_Service_
     * Name \<domainprefix\> +\<concept\> + OAPI e.g. FLD_Fields_OAPI
     * Description: \<domain\> + \<concept\> OutSystems APIs (Service Actions)
     * Upload Icon: \<your domain concept icon\>
-    * Click on Create app
+    * Click on **Create app**
 
 ### \<optional\> Create Concept API Application 
 
 When exposing services to external systems create an API Application as a container for the exposed REST and or SOAP services.
 
-1. In lifetime go to teams and open your domain team
-1. Click on Create Application
-    * Environment: Development
-    * Type: GlobalService
+1. Open the Lifetime applications page : `https://<your_lifetime_server>/lifetime/Applications.aspx`
+1. Click on **Create Application**
+    * Choose owner team: \<your_domain_team\>
+    * Choose the environment: Development
+    * What are you building?: \<your_organisation>_Service\> (Service) e.g. _Synobsys_Service_
+    * What are you building?: \<your_organisation>_Service\> (Service) e.g. _Synobsys_Service_
     * Name \<domainprefix\> +\<concept\> + API e.g. FLD_Fields_API
     * Description: \<domain\> + \<concept\> APIs (REST and or SOAP Services)
     * Upload Icon: \<your domain concept icon\>
-    * Click on Create app
+    * Click on **Create app**
 
 ### Create Concept UI Application
 
-1. In lifetime go to teams and open your domain team
-1. Click on Create Application
-    * Environment: Development
-    * type: ConceptUI 
+1. Open the Lifetime applications page : `https://<your_lifetime_server>/lifetime/Applications.aspx`
+1. Click on **Create Application**
+    * Choose owner team: \<your_domain_team\>
+    * Choose the environment: Development
+    * What are you building?: ConceptUI
     * name \<domainprefix\> +\<concept\> + UI e.g. FLD Fields UI
 
 ## Create Modules {#CreateModules}

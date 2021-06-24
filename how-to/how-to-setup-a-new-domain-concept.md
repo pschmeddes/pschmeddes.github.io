@@ -9,21 +9,23 @@ For each domain concept perform the following steps
 
 ### Create Concept Core Application
 
-1. Open the Lifetime applications pages : `https://<your_lifetime_server>/lifetime/Applications.aspx`
+1. Open the Lifetime applications page : `https://<your_lifetime_server>/lifetime/Applications.aspx`
 1. Click on **Create Application**
-![Create Application image](how-to\images\CreateApplication.png)
+![Create Application image](images\CreateApplication.png)
 
-    * Select the owner team: `<your_domain_team>`
+    * Choose owner team: `<your_domain_team>`
     * Choose the environment: Development
-    * type: `<your_organisation>_Service` e.g. _Synobsys_Service_
-    * name `<domainprefix> + <concept>` + Core e.g. FLD Fields Core
+    * What are you building?: `<your_organisation>_Service` e.g. _Synobsys_Service_
+    * Name `<domainprefix> + <concept>` + Core e.g. FLD Fields Core
+    * Description: `enter a description`
     * Upload Icon `<your domain concept icon>`
     * Click on **Create app**
 
 ### Create Concept OAPI Application
 
-1. In lifetime go to teams and open your domain team
-1. Click on Create Application
+1. Open the Lifetime applications page : `https://<your_lifetime_server>/lifetime/Applications.aspx`
+1. Click on **Create Application**
+    * 
     * Environment: Development
     * Type: GlobalService
     * Name \<domainprefix\> +\<concept\> + OAPI e.g. FLD_Fields_OAPI

@@ -15,7 +15,7 @@ Follow this guideline to setup the database actions.
     * Label
     * Label (plural)
 
-1. Go to Logic tab (Ctrl-3)
+1. Switcht to the Stencil_CoreServices_Pat and go to Logic tab (Ctrl-3)
 1. Copy the folder TemplateEntityDbActions to your module
 1. Go to Data tab (Ctrl-4) and locate the TemplateEntity in the Stencil_CoreServices_Pat referenced module
 1. Find all usages of the TemplateEntity (F12)

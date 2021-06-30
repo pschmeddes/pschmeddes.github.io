@@ -9,11 +9,11 @@ Follow this guideline to setup the database actions.
 1. In ServiceStudio open \<YourCoreServices\> module
 1. With \<Ctrl+O\> open the Stencil_CoreServices_Pat module
 1. Go to the Stencil_CoreServices_Pat data tab \<Ctrl+4\>
-1. Copy TemplateEntity to your module and rename it to the desired name 
+1. Copy **TemplateEntity** to your module
+1. Rename **TemplateEntity** to the **\<new entity name\>**
 ![]()
 1. Open the entity editor and enter a proper description for the entity
 1. In the entity editor open the More options and set the
-
     * Label
     * Label (plural)
 1. In the Indexes tab review the Unique \<Functional key attribute\> index

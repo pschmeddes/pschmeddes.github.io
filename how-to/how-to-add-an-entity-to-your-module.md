@@ -40,10 +40,14 @@ Follow this guideline to setup the database actions.
 1. Remove the TemplateEntity dependency (Del)
 1. Using (Ctrl + R): find string "TemplateEntity" and replace all ocurrences with your new entity
 
-** Rename the FunctionalKey attribute
+## Rename the FunctionalKey attribute
 
-1. Designate a meaningful name to the FunctionalKey for your entity and using (Ctrl + R) find string "FunctionalKey"and replace all occurences with that name **`TBD needs revision`** 
+1. Designate a meaningful name to the FunctionalKey for your entity and using (Ctrl + R) find string "FunctionalKey"and replace all occurences with that name 
 1. Fix the errors one by one by clicking on each of them
 1. When done, check alll the TBD (To Be Done)  items (shown as warnings in the TrueChange tab) and remove them when OK
 1. Check that there are no warnings in the TrueChange tab
 1. 1-Click publish your module.
+
+## Create BDD tests
+
+TK Nog invullen

@@ -17,7 +17,7 @@ Its premise is:
 
 A simple premise, right? It seems like it, but pulling it off in the messy real world is hard. It calls for new skills, discipline, and a systematic approach.
 
-![](images/outsystems_domain_driven_architecture_9.png?width=750)
+![domain driven architecture picture](images/outsystems_domain_driven_architecture_9.png?width=750)
 
 ## What's a domain?
 
@@ -27,19 +27,18 @@ A domain is a boundary for a business problem that needs to be solved by softwar
 
 1. Focus on the core domain
 
-2. Design a model in a creative collaboration between domain people and software people
+1. Design a model in a creative collaboration between domain people and software people
 
     a. Design by business
 
-    - Strong dependencies aren't allowed between each domain, avoiding collision and promoting independence.
+    * Strong dependencies aren't allowed between each domain, avoiding collision and promoting independence.
 
     b. Loosely coupling between domains
 
-    - Strong dependencies aren't allowed between each domain, avoiding collision and promoting independence.
+    * Strong dependencies aren't allowed between each domain, avoiding collision and promoting independence.
 
     c. Ensure independent life cycles
 
-    - Ensure that every line of business translated into domains, have a clear and isolated life cycle 
+    * Ensure that every line of business translated into domains, have a clear and isolated life cycle
 
-
-3. Speak a ubiquitous language so that all stakeholders fully understand each other and can work efficiently
+1. Speak a ubiquitous language so that all stakeholders fully understand each other and can work efficiently

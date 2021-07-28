@@ -71,7 +71,7 @@ List of ADRs:
 
 ### Tips and Tricks
 
-* [Tips and Tricks](how-to\TipsAndTricks.md)
+* [Tips and Tricks](how-to\TipsAndTricks..html)
 
 ### Architecture
 

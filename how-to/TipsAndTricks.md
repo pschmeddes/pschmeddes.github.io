@@ -39,6 +39,6 @@ In this episode, Cristiana Umbelino shares 5 steps for you to be a more producti
 * [OutSystems UI](https://www.outsystems.com/outsystemsuiwebsite/)
 * [How to Build a Front-End Architecture in OutSystems](https://success.outsystems.com/Documentation/How-to_Guides/Front-End/How_to_Build_a_Front-End_Architecture_in_OutSystems)
 * [Create a Custom Application Template](https://success.outsystems.com/Documentation/11/Developing_an_Application/Design_UI/Reuse_UI/Create_a_Custom_Application_Template)
-* [Architecture - Hi Webinar #5 | Hi Interactive](https://youtu.be/Lvs1-0FiNSk)
+* [Architecture - Hi Webinar #5 by Hi Interactive](https://youtu.be/Lvs1-0FiNSk)
 
 ---

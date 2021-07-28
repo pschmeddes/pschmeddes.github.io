@@ -17,3 +17,11 @@ Title Publish Environment YOURENVIRONMENTNAME
 ```
 
 ---
+
+## 3 ways to LEVEL UP your SQL skills in OutSystems
+
+In this episode, OutSystems Developer Advocate Rui Barbosa shows us 3 different perspectives to take your SQL skills to the next level. See why SQL nodes can be better than always using Aggregates, how Indexes can help you control query execution (and improve performance), and how you can leverage modern SQL syntax in your OutSystems queries!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OZ76-_7UpEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---

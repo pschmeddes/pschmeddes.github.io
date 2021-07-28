@@ -69,6 +69,10 @@ List of ADRs:
 
 [OutSystems How-To Guides](https://success.outsystems.com/Documentation/How-to_Guides)
 
+### Tips and Tricks
+
+* [Tips and Tricks](how-to\TipsAndTricks.md)
+
 ### Architecture
 
 * [How to setup a domain](how-to/how-to-setup-a-new-domain.html)

@@ -9,7 +9,7 @@ Use this checklist as an aid to the code review, but don't be limited to it. Giv
 * [ ] Have the best practices been applied. That is, it is built correctly and efficiently.
 * [ ] There are no hard coded values
 * [ ] There are Zero warnings.
-^ [ ] There is documentation explaining the decision to hide a warning.
+* [ ] There is documentation explaining the decision to hide a warning.
 * [ ] No findings in Discovery
 * [ ] No findings in the [Architecture Dashboard](https://architecture.outsystems.com/)
 * [ ] [DevOps configuration](TBD) is updated. E.g. Turn Light BPT on, data export/import is described.

@@ -1,11 +1,14 @@
 # ADR N: Approved forge components only
+
 ## Context
+
 TBD
 <!--
 Describe here the forces that influence the design decision, including technological, cost-related, and project local.
 -->
 
 ## Decision
+
 We will only use forge components that are approved by the Center of Excellence
 <!--
 Describe here our response to these forces, that is, the design decision that was made. State the decision in full sentences, with active voice ("We will...").
@@ -17,7 +20,8 @@ Describe here our response to these forces, that is, the design decision that wa
 -->
 
 ## Status
-**Proposed**
+
+Proposed
 
 <!--
 [Proposed | Accepted | Deprecated | Superseded]

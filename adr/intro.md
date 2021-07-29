@@ -15,5 +15,5 @@ See these articles for an explanation of **A**rchitecture **D**ecision **R**ecor
 * [ADR 2: Standard language is English](ADR-002-standard-language-is-English.md)
 * [ADR 3: Core Services must be secured](ADR-003-secure-core-services.md)
 * [ADR 4: BDD framework for Component testing](ADR-004-bdd-framework-for-component-testing.md)
-* [ADR 5: Centralized Styling](ADR-005-centralized-styling.md)
+* [ADR 5: Centralized Styling](ADR-005-centralized styling.md)
 * [ADR 6: Approved forge components only](ADR-006-approved-forge-components-only.md)

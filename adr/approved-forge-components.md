@@ -12,3 +12,5 @@ This page lists the forge components that are approved for use in projects.
 | Name | Version | Link | Approved By | Approved on | Curation Log |
 | --- | -----: | --- | --- | --- |
 | Broken References | 1.0.1 | <https://www.outsystems.com/forge/component-overview/10062/broken-references> | Paul | 29 July 2021 | [tk](tk) |
+| Shared Folder | 1.0.1 | <https://www.outsystems.com/forge/component-overview/8194/shared-folder> | Paul | 29 Juli 2021 | [tk](tk) |
+

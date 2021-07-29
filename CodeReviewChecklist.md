@@ -3,10 +3,13 @@
 Use this checklist as an aid to the code review, but don't be limited to it. Give suggestions on how the can be improved. Most important discuss the review result with your colleague and keep an open mind.
 
 * [ ] No broken references shown in the [Broken References](https://www.outsystems.com/forge/component-overview/10062/broken-references) tool
+* [ ] No modules exists in application Independent Modules
 * [ ] Naming is in accordance with the [OutSystems Naming Conventions](OutSystemsNamingConventions.md)
 * [ ] All code and documentation is in English [ADR 2 standard language is English.](ADR-002-standard-language-is-English.md)
 * [ ] Have the best practices been applied. That is, it is built correctly and efficiently.
 * [ ] There are no hard coded values
+* [ ] There are Zero warnings.
+^ [ ] There is documentation explaining the decision to hide a warning.
 * [ ] No findings in Discovery
 * [ ] No findings in the [Architecture Dashboard](https://architecture.outsystems.com/)
 * [ ] [DevOps configuration](TBD) is updated. E.g. Turn Light BPT on, data export/import is described.

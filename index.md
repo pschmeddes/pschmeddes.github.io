@@ -43,11 +43,14 @@ All members involved in the OutSystems development such as:
 * [Code Review Checklist](CodeReviewChecklist.html)
 * Apply the [The Boy Scout Rule](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html)
 
-## Architecture Decision Records
+## Architecture
 
-[Architecture Decision Records](adr\intro.html)
+### Architectural Knowledge Management (AKM)
 
-## Patterns
+* [Architecture Decision Records](adr\intro.html)
+* [Approved Forge Components](adr\approved-forge-components.html)
+
+### Patterns
 
 * [Integration Patterns for Core Services Abstraction](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/05_Integration_Patterns_for_Core_Services_Abstraction)
 * [Circuit Breaker Pattern: Make Your Apps Ready to Deal with Timeouts](https://www.outsystems.com/blog/posts/circuit-breaker-pattern/)

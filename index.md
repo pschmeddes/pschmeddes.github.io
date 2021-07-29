@@ -25,7 +25,7 @@ All members involved in the OutSystems development such as:
 ## Contents
 
 1. [OutSystems Standards and Guidelines](#outSystems-standards-and-guidelines)
-1. [Architecture Decision Records (ADR)](adr\intro.md)
+1. [Architecture Decision Records (ADR)](adr\intro.html)
 1. [Patterns](#patterns)
 1. [How-To Guides](#how-to-guides)
 1. [OutSystems Reference](#outSystems-reference)
@@ -33,22 +33,22 @@ All members involved in the OutSystems development such as:
 
 ## OutSystems Standards and Guidelines
 
-* [Naming Conventions](OutSystemsNamingConventions.md)
+* [Naming Conventions](OutSystemsNamingConventions.html)
 * [OutSystems Platform Best Practices](https://success.outsystems.com/Documentation/Best_Practices/Development/OutSystems_Platform_Best_Practices)
 * [Code Style Guide](https://leonardo-monteiro-fernandes.medium.com/a-code-style-guide-for-outsystems-97a923084159)
-* [Server Action Security](ServerActionSecurity.md)
-* [User Story Template](UserStoryTemplate.md)
-* [**D**efinition **o**f **R**eady(DoR)](DefinitionOfReady.md)
-* [**D**efinition **o**f **D**one(DoD)](DefinitionOfDone.md)
-* [Code Review Checklist](CodeReviewChecklist.md)
-* Apply the [The Boy Scout Rule](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.md)
+* [Server Action Security](ServerActionSecurity.html)
+* [User Story Template](UserStoryTemplate.html)
+* [**D**efinition **o**f **R**eady(DoR)](DefinitionOfReady.html)
+* [**D**efinition **o**f **D**one(DoD)](DefinitionOfDone.html)
+* [Code Review Checklist](CodeReviewChecklist.html)
+* Apply the [The Boy Scout Rule](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html)
 
 ## Architecture
 
 ### Architectural Knowledge Management (AKM)
 
-* [Architecture Decision Records](adr\intro.md)
-* [Approved Forge Components](adr\approved-forge-components.md)
+* [Architecture Decision Records](adr\intro.html)
+* [Approved Forge Components](adr\approved-forge-components.html)
 
 ### Patterns
 
@@ -62,7 +62,7 @@ All members involved in the OutSystems development such as:
 
 ### Tips and Tricks
 
-* [Tips and Tricks](how-to\TipsAndTricks.md)
+* [Tips and Tricks](how-to\TipsAndTricks.html)
 
 ### Architecture
 
@@ -107,7 +107,7 @@ All members involved in the OutSystems development such as:
 ### Testing
 
 * [Test Automation in the Delivery Lifecycle](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle)
-* [How to get started with the BDD testframework](How-to-get-started-with-the-BDD-testframework.md)
+* [How to get started with the BDD testframework](How-to-get-started-with-the-BDD-testframework.html)
 
 ## OutSystems reference
 

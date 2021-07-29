@@ -13,6 +13,7 @@ Use this checklist as an aid to the code review, but don't be limited to it. Giv
 * [ ] No findings in Discovery
 * [ ] No findings in the [Architecture Dashboard](https://architecture.outsystems.com/)
 * [ ] [DevOps configuration](TBD) is updated. E.g. Turn Light BPT on, data export/import is described.
+* [ ] Unused dependencies are removed
 
 ---
 
@@ -23,7 +24,7 @@ Use this checklist as an aid to the code review, but don't be limited to it. Giv
 * [ ] The screen is compatible with the browsers defined in the project see or the OutSystems supported browsers [End User Requirements](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/OutSystems_system_requirements#End_User_Requirements) for the OutSystems supported browsers
 * [ ] There is no inline CSS
 * [ ] All temporary CSS classes are replaced by Theme classes
-* [ ] There are no hard coded values
+* [ ] There are no hard coded values in the screen actions
 
 ---
 
@@ -35,7 +36,7 @@ Use this checklist as an aid to the code review, but don't be limited to it. Giv
 * [ ] Variable names are self explanatory
 * [ ] The action performs a single task
 * [ ] Does the action comply with the [Software that Fits in Your Head](https://youtu.be/4Y0tOi7QWqM) rules.
-* [ ] Are the action flow vertical and tidy
+* [ ] Are the action flow vertical and tidy. See [A code style guide for OutSystems](https://leonardo-monteiro-fernandes.medium.com/a-code-style-guide-for-outsystems-97a923084159)
 * [ ] Assigns and if statements have proper labels
 * [ ] Complex logic is clearly documented
 * [ ] Action flow is understandable without opening the elements

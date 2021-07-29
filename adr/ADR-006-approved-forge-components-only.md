@@ -28,6 +28,6 @@ If deprecated, indicate why. If superseded, include a link to the new ADR.
 ## Consequences
 
 * OutSystems Supported and Trusted components are allowed
-* All other components are curated and when a component is approved it is added to the [list of approved forge components](approved-forge-components.html).
+* All other components are curated and when a component is approved it is added to the [list of approved forge components](approved-forge-components.md).
 
 >Describe here the resulting context, after applying the decision. All consequences should be listed, not just the "positive" ones.

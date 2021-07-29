@@ -34,7 +34,7 @@ Use this checklist as an aid to the code review, but don't be limited to it. Giv
 * [ ] All variables have a clear description
 * [ ] Variable names are self explanatory
 * [ ] The action performs a single task
-* [ ] Does the action comply with the [Software that Fits in Your Head](https://youtu.be/4Y0tOi7QWqM) rules 
+* [ ] Does the action comply with the [Software that Fits in Your Head](https://youtu.be/4Y0tOi7QWqM) rules.
 * [ ] Are the action flow vertical and tidy
 * [ ] Assigns and if statements have proper labels
 * [ ] Complex logic is clearly documented

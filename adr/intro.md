@@ -9,7 +9,7 @@ See these articles for an explanation of **A**rchitecture **D**ecision **R**ecor
 * <https://adr.github.io/>
 * <https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html>
 
-## List of ADRs
+## Decision log (ADRs)
 
 * [ADR 1: We will document Architecture Decisions (AD) with the ADR template](ADR-001-documenting-architecture-decisions.md)
 * [ADR 2: Standard language is English](ADR-002-standard-language-is-English.md)

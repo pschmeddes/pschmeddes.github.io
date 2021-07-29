@@ -25,7 +25,7 @@ All members involved in the OutSystems development such as:
 ## Contents
 
 1. [OutSystems Standards and Guidelines](#outSystems-standards-and-guidelines)
-1. [Architecture Decision Records (ADR)](#architecture-decision-records)
+1. [Architecture Decision Records (ADR)](adr\intro.html)
 1. [Patterns](#patterns)
 1. [How-To Guides](#how-to-guides)
 1. [OutSystems Reference](#outSystems-reference)
@@ -33,31 +33,19 @@ All members involved in the OutSystems development such as:
 
 ## OutSystems Standards and Guidelines
 
-* [Naming Conventions](OutSystemsNamingConventions.md)
+* [Naming Conventions](OutSystemsNamingConventions.html)
 * [OutSystems Platform Best Practices](https://success.outsystems.com/Documentation/Best_Practices/Development/OutSystems_Platform_Best_Practices)
 * [Coding Style Guide](tbd)
-* [Server Action Security](ServerActionSecurity.md)
-* [User Story Template](UserStoryTemplate.md)
-* [**D**efinition **o**f **R**eady(DoR)](DefinitionOfReady.md)
-* [**D**efinition **o**f **D**one(DoD)](DefinitionOfDone.md)
-* [Code Review Checklist](CodeReviewChecklist.md)
+* [Server Action Security](ServerActionSecurity.html)
+* [User Story Template](UserStoryTemplate.html)
+* [**D**efinition **o**f **R**eady(DoR)](DefinitionOfReady.html)
+* [**D**efinition **o**f **D**one(DoD)](DefinitionOfDone.html)
+* [Code Review Checklist](CodeReviewChecklist.html)
 * Apply the [The Boy Scout Rule](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html)
 
 ## Architecture Decision Records
 
-See these articles for an explanation of **A**rchitecture **D**ecision **R**ecords (ADR):
-
-* <https://adr.github.io/>
-* <https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html>
-
-List of ADRs:
-
-* [ADR 1: We will document Architecture Decisions (AD) with the ADR template](ADR-001-documenting-architecture-decisions.md)
-* [ADR 2: Standard language is English](ADR-002-standard-language-is-English.md)
-* [ADR 3: Core Services must be secured](ADR-003-secure-core-services.md)
-* [ADR 4: BDD framework for Component testing](ADR-004-bdd-framework-for-component-testing.md)
-* [ADR 5: Centralized Styling](ADR-005-centralized-styling.md)
-* [ADR 6: Approved forge components only](ADR-006-approved-forge-components-only.md)
+[Architecture Decision Records](adr\intro.html)
 
 ## Patterns
 

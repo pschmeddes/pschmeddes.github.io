@@ -19,7 +19,7 @@ Use this checklist as an aid to the code review, but don't be limited to it. Giv
 ## Screen
 
 * [ ] There is a clear description
-* [ ] Screen rendering is checked the browser zoom at 100% and all applicable screensizes for Tablets etc. (Chrome Developer Tools <Ctrl + Shift + I> and Toggle device toolbar <Ctrl + Shift + M)
+* [ ] Screen rendering is checked the browser zoom at 100% and all applicable screensizes for Tablets etc. (Chrome Developer Tools \<Ctrl + Shift + I\> and Toggle device toolbar \<Ctrl + Shift + M\>
 * [ ] The screen is compatible with the browsers defined in the project see or the OutSystems supported browsers [End User Requirements](https://success.outsystems.com/Documentation/11/Setting_Up_OutSystems/OutSystems_system_requirements#End_User_Requirements) for the OutSystems supported browsers
 * [ ] There is no inline CSS
 * [ ] All temporary CSS classes are replaced by Theme classes
@@ -34,7 +34,7 @@ Use this checklist as an aid to the code review, but don't be limited to it. Giv
 * [ ] All variables have a clear description
 * [ ] Variable names are self explanatory
 * [ ] The action performs a single task
-* [ ] Does the action comply with the "Fits into my head" rules
+* [ ] Does the action comply with the [Software that Fits in Your Head](https://youtu.be/4Y0tOi7QWqM) rules 
 * [ ] Are the action flow vertical and tidy
 * [ ] Assigns and if statements have proper labels
 * [ ] Complex logic is clearly documented

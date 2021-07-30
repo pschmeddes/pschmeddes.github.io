@@ -24,7 +24,7 @@ All members involved in the OutSystems development such as:
 
 ## Contents
 
-1. [OutSystems Standards and Guidelines](#outSystems-standards-and-guidelines)
+1. [Standards and Guidelines](#outSystems-standards-and-guidelines)
 1. [Architecture Decision Records (ADR)](adr\intro.html)
 1. [Patterns](#patterns)
 1. [How-To Guides](#how-to-guides)
@@ -56,58 +56,9 @@ All members involved in the OutSystems development such as:
 * [Circuit Breaker Pattern: Make Your Apps Ready to Deal with Timeouts](https://www.outsystems.com/blog/posts/circuit-breaker-pattern/)
 * TBD Localization Ready datamodel with Entity Layers for Translated Fields and Non-Translated Fields <https://vertabelo.com/blog/data-modeling-for-multiple-languages-how-to-design-a-localization-ready-system/>
 
-## How-To Guides
+## How to guides
 
-[OutSystems How-To Guides](https://success.outsystems.com/Documentation/How-to_Guides)
-
-### Tips and Tricks
-
-* [Tips and Tricks](how-to\TipsAndTricks.html)
-
-### Architecture
-
-* [How to setup a domain](how-to/how-to-setup-a-new-domain.html)
-* [How-to setup a new domain concept](how-to\how-to-setup-a-new-domain-concept.html)
-* [How-to add an entity to your module](how-to\how-to-add-an-entity-to-your-module.html)
-
-### Development
-
-* [How to Create Customized Versions of a Base Application](https://itnext.io/how-to-dynamically-import-the-customized-product-theme-in-the-base-product-b10b534e3e1a)
-
-### Front-End
-
-* OutSystems [Front-End](https://success.outsystems.com/Documentation/How-to_Guides/Front-End) how-to guides
-* [How to introduce a new style class](how-to-introduce-a-new-style-class.html)
-* [How to securely hide content](How-to-securely-hide-content.html)
-
-### Logic
-
-* When heavily used prefer StringBuilder over "string" + "string" for better performance as it has a better memory allocation. See [How to create large strings with StringBuilder](https://success.outsystems.com/Documentation/How-to_Guides/Logic/How_to_create_large_strings_with_StringBuilder)
-
-### Data
-
-* TBD How to create static entities following the coding best practice: "never use auto-number integers for Static Entity IDs - replace by easily recognizable unique text codes/labels, having the same value throughout all environments"
-* [Data Model Change Management](DataModelChangeManagement.html)
-
-### Processes
-
-* Nothing here yet
-
-### DevOps
-
-* [OutSystems deployment rollbacks](https://itnext.io/outsystems-deployment-rollbacks-8b3c010f5f90)
-* [Preparing for an application version rollback scenario in Production](https://www.outsystems.com/forums/discussion/15466/preparing-for-an-application-version-rollback-scenario-in-production/)
-
-### Integrations
-
-### Security
-
-* How-to response to [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.html)
-
-### Testing
-
-* [Test Automation in the Delivery Lifecycle](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle)
-* [How to get started with the BDD testframework](How-to-get-started-with-the-BDD-testframework.html)
+* [how to guides](how-to\intro.html)
 
 ## OutSystems reference
 

@@ -1,4 +1,6 @@
 ---
+title : Main page
+date : 2021-07-31
 layout: default
 ---
 # Introduction

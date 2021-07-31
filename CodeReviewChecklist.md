@@ -1,3 +1,8 @@
+---
+title: Code review checklist
+layout: default
+---
+
 # Code review checklist
 
 Use this checklist as an aid to the code review, but don't be limited to it. Give suggestions on how the can be improved. Most important discuss the review result with your colleague and keep an open mind.

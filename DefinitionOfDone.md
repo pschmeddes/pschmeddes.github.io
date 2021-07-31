@@ -1,3 +1,7 @@
+---
+title: Definition of Done
+---
+
 # Definition of Done
 
 The **D**efinition **o**f **D**one (DoD) is used to determine when a task or user story is completed: DONE!

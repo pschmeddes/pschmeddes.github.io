@@ -1,3 +1,7 @@
+---
+title: Data Model Change Management
+---
+
 # Data Model Change Management
 
 When you make changes to the Data Model this may impact modules in all environments of your factory an can potentially raise blocking deployment issues.

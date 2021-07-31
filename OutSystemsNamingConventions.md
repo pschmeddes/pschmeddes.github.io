@@ -1,3 +1,7 @@
+---
+Title: OutSystems Naming Conventions
+---
+
 # OutSystems Naming Conventions
 
 ## Table of contents

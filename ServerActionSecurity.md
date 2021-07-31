@@ -1,3 +1,7 @@
+---
+title: Server Action Security
+---
+
 # Server Action Security
 
 Following [ADR 3 Core Services must be secured](ADR-003-secure-core-services.md) we will always check the authentication and authorization in server side logic.

@@ -1,6 +1,5 @@
 ---
-summary:
-tags:
+title: Domain Driven Design
 ---
 
 # Domain Driven Design

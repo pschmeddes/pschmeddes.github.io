@@ -1,7 +1,7 @@
 ---
-summary:
-tags:
+title: Domain Driven Design with OutSystems
 ---
+
 # Domain Driven Design with OutSystems
 
 With OutSystems 11, several features were introduced allowing users to create a domain architecture based in Domain Driven Design.
@@ -16,7 +16,6 @@ Be aware that sometimes, DDD would be a great fit, but in others it won’t. DDD
 
 ![Quadrant showing when to leverage DDD](images/outsystems_domain_driven_architecture_10.png?width=900)
 
-
 ## Shaping Domain Driven Design
 
 Shaping a DDD architecture in OutSystems follows 3 major steps:
@@ -27,17 +26,17 @@ When designing the architecture of a complex system, the best approach is "*divi
 
 The iterative decomposition process has 3 steps:
 
-![](images/outsystems_domain_driven_architecture_12.png)
+![domain driven architecture picture](images/outsystems_domain_driven_architecture_12.png)
 
 1. Identify the business’s macro processes and criteria
 
-2. Decompose each macro process using predefined criteria:
+1. Decompose each macro process using predefined criteria:
 
     a. Line of Business
 
     b. Other functional criteria
 
-3. Ask if the desired level of granularity has been achieved. If not, continue decomposing.
+1. Ask if the desired level of granularity has been achieved. If not, continue decomposing.
 
 ### Dedicate a multidisciplinary team
 
@@ -49,13 +48,13 @@ Public interfaces need to be created by each team inside each domain, providing 
 
 ## Concepts and mapping to OutSystems
 
-![](images/outsystems_domain_driven_architecture_15.png?width=900)
+![ddd picture](images/outsystems_domain_driven_architecture_15.png?width=900)
 
 ## Domain types
 
 There are 3 domain types, each one with its own defined purpose.
 
-![](images/outsystems_domain_driven_architecture_16.png?width=900)
+![domain types](images/outsystems_domain_driven_architecture_16.png?width=900)
 
 * **Orchestrator domain** - presented in the image as a Omnichannel, it provides the end user with a unified view of the independent business verticals.
 
@@ -71,7 +70,7 @@ OutSystems allows you to design your architecture with a balanced compromise bet
 
 While inside the same domain, keep strong coupling between elements.
 
-![](images/outsystems_domain_driven_architecture_17.png?width=900)
+![inside a domain](images/outsystems_domain_driven_architecture_17.png?width=900)
 
 This benefits tight processes, by enforcing:
 
@@ -91,7 +90,7 @@ Read-only entities to allow consumers to list, search or mashup with other entit
 
 Data transactions and detail retrieval
 
-![](images/outsystems_domain_driven_architecture_18.png?width=900)
+![service actions](images/outsystems_domain_driven_architecture_18.png?width=900)
 
 Strong relationships between horizontal domains can be made as an exception to orchestrate composite logic or transactions.
 
@@ -105,7 +104,7 @@ A healthy domain architecture should provide data isolation, promote ownership a
 
 It should also help the organizations to have a better understanding of the current landscape of services being provided and map those into business in a better and easy way.
 
-![](images/outsystems_domain_driven_architecture_19.png?width=900)
+![domain architecture](images/outsystems_domain_driven_architecture_19.png?width=900)
 
 ### How decoupled should domains be?
 
@@ -113,7 +112,7 @@ When starting a domain architecture, it's always recommended to start simple and
 
 As the complexity, team structure and monolith increases, the architecture needs to be reviewed and new patterns should be implemented, as in the following diagram:
 
-![](images/outsystems_domain_driven_architecture_20.png?width=900)
+![decoupled or not](images/outsystems_domain_driven_architecture_20.png?width=900)
 
 To achieve this, some rules must be followed.
 
@@ -121,27 +120,27 @@ To achieve this, some rules must be followed.
 
 Reference objects between domains **are allowed within the following rules**:
 
-![](images/outsystems_domain_driven_architecture_21.png?width=900)
+![domain validation rules](images/outsystems_domain_driven_architecture_21.png?width=900)
 
 ( ) optional references set by configuration
 
-**Allowed references between vertical domains**
+* **Allowed references between vertical domains**
 
-* Weak references like Service Actions and Structures (optionally references to Entities are allowed upon configuration)
+    * Weak references like Service Actions and Structures (optionally references to Entities are allowed upon configuration)
 
-**Allowed references between horizontal domains**
+* **Allowed references between horizontal domains**
 
-* Weak references like Service Actions, Structures and Entities (optionally references to Server Actions are allowed depending on configuration)
+    * Weak references like Service Actions, Structures and Entities (optionally references to Server Actions are allowed depending on configuration)
 
-* Weak downward reference between a Vertical and Horizontal Domain Service Actions, Structures and Entities
+    * Weak downward reference between a Vertical and Horizontal Domain Service Actions, Structures and Entities
 
-**Allowed references vertical to horizontal domains**
+* **Allowed references vertical to horizontal domains**
 
-* Weak references like Service Actions and Structures
+    * Weak references like Service Actions and Structures
 
-* Strong reference between a Vertical and Horizontal if the referenced element is part of a Foundation App
+    * Strong reference between a Vertical and Horizontal if the referenced element is part of a Foundation App
 
-![](images/outsystems_domain_driven_architecture_22.png?width=900)
+![stronf references](images/outsystems_domain_driven_architecture_22.png?width=900)
 
 All remaining relationships between domains are considered architectural findings and not allowed.
 
@@ -151,7 +150,7 @@ As a note to remember, the orchestration domain in the [domain types section](#h
 
 The same Architecture Canvas principles are applicable both within and across domains.
 
-![](images/outsystems_domain_driven_architecture_23.png?width=900)
+![architecure principles](images/outsystems_domain_driven_architecture_23.png?width=900)
 
 ### Advanced Architecture Patterns
 
@@ -165,7 +164,7 @@ Sometimes it is necessary to orchestrate seamlessly in one single transaction lo
 
 The way we achieve this is by creating a Service Action that will then centralize in a single transaction multiple server actions, as follows:
 
-![](images/outsystems_domain_driven_architecture_24.png?width=900)
+![multiple transactions](images/outsystems_domain_driven_architecture_24.png?width=900)
 
 <!--
 #### Mashing up data
@@ -176,6 +175,7 @@ When the need arises to mash up data that do not change often, a query model pat
 
 The query model should only expose a subset of data, the only data needed to provide list and search capabilities, and so avoiding the need to expose the entire database model and avoiding complex synchronizations. For the remaining operations like get record details or update a record, a Service Action or Rest API are to be used.
 -->
+
 ### How to validate the domain architecture
 
 In order to validate the architecture, there is a tool called Discovery, available in the OutSystems [forge](https://www.outsystems.com/forge/component-overview/409/discovery).

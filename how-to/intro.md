@@ -1,15 +1,19 @@
+---
+title: How-To Guides
+---
 # How-To Guides
 
 <a class="external text" href="https://success.outsystems.com/Documentation/How-to_Guides" target="_blank">OutSystems How-To Guides</a>
-### Tips and Tricks
 
-* [Tips and Tricks](how-to\TipsAndTricks.html)
+## Tips and Tricks
+
+* [Tips and Tricks](TipsAndTricks.md)
 
 ## Architecture
 
-* [How to setup a domain](how-to/how-to-setup-a-new-domain.html)
-* [How-to setup a new domain concept](how-to\how-to-setup-a-new-domain-concept.html)
-* [How-to add an entity to your module](how-to\how-to-add-an-entity-to-your-module.html)
+* [How to setup a domain](how-to-setup-a-new-domain.md)
+* [How-to setup a new domain concept](how-to-setup-a-new-domain-concept.md)
+* [How-to add an entity to your module](how-to-add-an-entity-to-your-module.md)
 
 ## Development
 
@@ -18,8 +22,8 @@
 ## Front-End
 
 * OutSystems [Front-End](https://success.outsystems.com/Documentation/How-to_Guides/Front-End) how-to guides
-* [How to introduce a new style class](how-to-introduce-a-new-style-class.html)
-* [How to securely hide content](How-to-securely-hide-content.html)
+* [How to introduce a new style class](how-to-introduce-a-new-style-class.md)
+* [How to securely hide content](how-to-securely-hide-content.md)
 
 ## Logic
 
@@ -28,7 +32,7 @@
 ## Data
 
 * TBD How to create static entities following the coding best practice: "never use auto-number integers for Static Entity IDs - replace by easily recognizable unique text codes/labels, having the same value throughout all environments"
-* [Data Model Change Management](DataModelChangeManagement.html)
+* [Data Model Change Management](DataModelChangeManagement.md)
 
 ## Processes
 
@@ -43,9 +47,9 @@
 
 ## Security
 
-* How-to response to [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.html)
+* How-to response to [OutSystems Penetration Test Findings](OutSystemsPenTestFindings.md)
 
 ## Testing
 
 * [Test Automation in the Delivery Lifecycle](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Test_Automation_in_the_Delivery_Lifecycle)
-* [How to get started with the BDD testframework](How-to-get-started-with-the-BDD-testframework.html)
+* [How to get started with the BDD testframework](How-to-get-started-with-the-BDD-testframework.md)

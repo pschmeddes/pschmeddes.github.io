@@ -1,3 +1,7 @@
+---
+title: How to setup a new domain in OutSystems
+---
+
 # How to setup a new domain in OutSystems
 
 To setup a new domain follow these instructions.

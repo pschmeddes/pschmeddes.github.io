@@ -5,7 +5,9 @@ title: User Story template
 # User Story template
 
 ## Summary
+
 3-liner + INVEST principle
+
 * User stories must (ideally) be **Independent** from
 one another’s
 * User stories must be **Negotiable** in conversations between the business and the development team
@@ -46,11 +48,11 @@ one another’s
     * **Given** I have an active account
     * **When**  I log in with a valid password
     * **Then**  I will be directed to homepage
-    2. Invalid login
+    1. Invalid login
     * **Given** I have an active account,
     * **When** I log in with an invalid password,
     * **Then** I will be directed to the error page
-    3. Show promotions
+    1. Show promotions
     * **Given** I am logged in to the application,
     * **When** I go to my homepage,
     * **Then** promotional items are shown in the section promotions for the current calendar week (Sunday to Saturday)

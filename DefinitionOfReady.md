@@ -5,6 +5,7 @@ title: Definition of Ready
 # Definition of Ready
 
 A Story is ready for sprint when:
+
 * The story has a self-explanatory title in the format: "As a <role>, I want <function> so that <business goal>"
 * The story complies to the INVEST principle:
     * User stories must (ideally) be **Independent** from one another’s

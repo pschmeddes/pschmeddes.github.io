@@ -1,3 +1,9 @@
+---
+
+title: ADR 3 - Core Services must be secured
+
+---
+
 # ADR 3: Core Services must be secured
 
 * Public OutSystems Server Actions are exposed as REST services when consumed by Reactive or Mobile web applications.

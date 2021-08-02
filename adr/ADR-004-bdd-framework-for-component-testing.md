@@ -1,3 +1,7 @@
+---
+title: ADR 4 - BDD framework for component testing
+---
+
 # ADR 4: BDD framework for component testing
 
 ## Context

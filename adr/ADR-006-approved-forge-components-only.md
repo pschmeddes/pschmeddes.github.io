@@ -1,4 +1,8 @@
-# ADR 006: Approved forge components only
+---
+title: ADR 6 - Approved forge components only
+---
+
+# ADR 6: Approved forge components only
 
 ## Context
 

@@ -1,3 +1,6 @@
+---
+title: Tips and Tricks
+---
 # Tips and Tricks
 
 ## Clear Browser Cache to see client side code changes

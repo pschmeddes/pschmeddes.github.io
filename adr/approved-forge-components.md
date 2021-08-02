@@ -1,3 +1,7 @@
+---
+title: Approved forge components
+---
+
 # Approved forge components
 
 According to [ADR 006: Approved forge components only](ADR-006-approved-forge-components-only.html) allowed forge components are:

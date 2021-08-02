@@ -1,3 +1,6 @@
+---
+title: How-to apply loosely coupled domains
+---
 # How-to apply loosely coupled domains
 
 This how-to explains how to apply a strict loosely coupled domain architecture

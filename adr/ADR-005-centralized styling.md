@@ -1,4 +1,7 @@
-# ADR 005: Centralized Styling
+---
+title: ADR 5 - Centralized Styling
+---
+# ADR 5: Centralized Styling
 
 ## Context
 

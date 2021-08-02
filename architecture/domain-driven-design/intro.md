@@ -1,4 +1,5 @@
 ---
+title: OutSystems Domain Driven architecture
 summary: Learn the how OutSystems approach a Domain Driven architecture.
 tags:
 ---
@@ -31,9 +32,8 @@ Is this always true? Does it apply to any software factory? Let’s look into bo
 
 |Simple logic and faster centralized development?|Continuous integration, continuous delivery and scalability?|
 |--|--|
-|![monlith](images/outsystems_domain_driven_architecture_2.png?width=375)|![](images/outsystems_domain_driven_architecture_3.png?width=375)|
+|![monlith](images/outsystems_domain_driven_architecture_2.png?width=375)|![ddd](images/outsystems_domain_driven_architecture_3.png?width=375)|
 
-   
 Each option has advantages and disadvantages. Let’s look into the main ones:
 
 ![microservices](images/outsystems_domain_driven_architecture_4.png?width=900)
@@ -42,6 +42,3 @@ Now that you know the basics, you can drill down on the following topics:
 
 <pre class="script">
 template('MindTouch/IDF3/Views/Guide');</pre>
-
-
-

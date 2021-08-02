@@ -1,3 +1,6 @@
+---
+title: How to securely hide content in reactive web applications
+---
 # How-to Setup a domain concept
 
 For each domain concept perform the following steps
@@ -33,7 +36,7 @@ For each domain concept perform the following steps
     * Upload Icon: \<your domain concept icon\>
     * Click on **Create app**
 
-### \<optional\> Create Concept API Application 
+### \<optional\> Create Concept API Application
 
 When exposing services to external systems create an API Application as a container for the exposed REST and or SOAP services.
 

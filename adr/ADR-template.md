@@ -1,4 +1,8 @@
+---
+title: ADR N - brief decision title
+---
 # ADR N: brief decision title
+
 ## Context
 
 <!--
@@ -17,12 +21,12 @@ Describe here our response to these forces, that is, the design decision that wa
 -->
 
 ## Status
-**Proposed**
 
-<!--
-[Proposed | Accepted | Deprecated | Superseded]
+[x] **Proposed**
+[ ] Accepted
+[ ] Deprecated
+[ ] Superseded
 If deprecated, indicate why. If superseded, include a link to the new ADR.
--->
 
 ## Consequences
 

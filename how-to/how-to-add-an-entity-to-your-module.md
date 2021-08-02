@@ -1,3 +1,7 @@
+---
+title: How-to add an entity to your module
+---
+
 # How-to add an entity to your module
 
 Folowing the standards entities must be exposed Read Only. Therefore we required

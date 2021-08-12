@@ -2,7 +2,7 @@
 title: feature specification test
 ---
 
-# {{module.title}}
+# {{page.title}}
 
 ```gherkin
 

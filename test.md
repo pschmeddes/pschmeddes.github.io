@@ -2,13 +2,13 @@
 title: feature specification test
 ---
 
-# {{module.title}}
+# {{page.title}}
 
 ```gherkin
 
 feature: feature specification test
 
-<insert specification brief here>
+insert specification brief here
 
 given: some start situation
  when: I do something

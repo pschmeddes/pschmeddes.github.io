@@ -96,7 +96,7 @@ As a Talent Manager I should be able to manage skill and categories
 
 Create reusable actions in module TalentManagerCoreTests
 
-* `UserTalentManagerGetOrCreate`: Gets or creates (if not already existing) a Talent Manager user. _Please note that as an exception we will **not** remove the user in the Teardown of the tests as this may interfere with other running tests and will polute the users administration._
+* `UserTalentManagerGet`: Gets the configured Talent Manager user. 
 * `SkillGroupSampleGet`: Initializes a sample Skill Group record with given fields
 
 ### Implement the scenario

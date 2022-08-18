@@ -40,22 +40,22 @@ This is the list of approved domains:
 
 Icon | Identifier (DOM) | Name (Domain) | Type | Business name | Technical ownership
 -----|------------------|---------------|------|-----|---
-[todo] | FIN | Finance | Vertical | 09 Finance | -
-[todo] | IBP | Inbound Planning | Vertical | 04 Inbound Planning | -
-[todo] | MDM | Master Data Management | Vertical | 08 Master data management | Team 1
-[] | PRD | Production | Vertical | 03 Production | -
-[] | OBP | Outbound Planning | Vertical | 06 Outbound Planning | -
-[] | PUR | Purchasing | Vertical | 01 Inkopen | Team 1
-[] | SLS | Sales | Vertical | 02 Verkoop | Team 3
-[] | TSP | Transport | Vertical | 07 Transport | -
-[] | WHS | Warehouse | Vertical | 05 Warehouse | Team 2
-[] | CDM | Canonical Data Model | Horizontal | All teams
-[] | FOR | Forge Components | Horizontal | - | Paul
-[] | THM | Theme Development | Horizontal | - | Paul
-[] | TRA | Translations | Horizontal | - | Team 3
-[] | UTL | Utility | Horizontal | - | Team 3
-[] | ACC | Access Control | Horizontal | 15 Rollen en autorisaties | Team 3
-[] | POR | Sales Portal | Vertical | | Team
+![Finance logo](images\Finance.png) | FIN | Finance | Vertical | 09 Finance | -
+![InboundPlanning logo](images\InboundPlanning.png) | IBP | Inbound Planning | Vertical | 04 Inbound Planning | -
+![MDM Logo](images\MasterDataManagement.png) | MDM | Master Data Management | Vertical | 08 Master data management | Team 1
+![PRD Logo](images\Production.png) | PRD | Production | Vertical | 03 Production | -
+![OPB](images\OutBoundPlanning.png) | OBP | Outbound Planning | Vertical | 06 Outbound Planning | -
+![PUR](images\Purchasing.png) | PUR | Purchasing | Vertical | 01 Inkopen | Team 1
+![SLS](images\Sales.png) | SLS | Sales | Vertical | 02 Verkoop | Team 3
+![TSP](images\TransportPlanning.png) | TSP | Transport | Vertical | 07 Transport | -
+![WHS](images\Warehouse.png) | WHS | Warehouse | Vertical | 05 Warehouse | Team 2
+ | CDM | Canonical Data Model | Horizontal | - | All teams
+ | FOR | Forge Components | Horizontal | - | Paul
+ | THM | Theme Development | Horizontal | - | Paul
+ | TRA | Translations | Horizontal | - | Team 3
+ | UTL | Utility | Horizontal | - | Team 3
+ | ACC | Access Control | Horizontal | 15 Rollen en autorisaties | Team 3
+![SPO](images/SalesPortal.png) | POR | Sales Portal | Vertical | | Team
 
 The list of implemented Domains is registered in the Outsystems [Discovery](https://gssb-dev.outsystemsenterprise.com/discovery/Domains.aspx) tool.
 
@@ -96,7 +96,7 @@ resolves its dependencies and creates a piece of executable logic.
 Modules are assembled in Applications, which are the smallest deployable
 units on the Outsystems execution platform. As such, the assembly of
 modules into Applications is subject to the rules of the [Outsystems
-Layerd
+Layered
 Architecture](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/The_Architecture_Canvas).
 Therefore, Applications are not significant in this architectural
 breakdown, although Applications do play an important role in other

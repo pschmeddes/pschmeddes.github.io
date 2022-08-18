@@ -4,17 +4,15 @@ This page explains the guidelines for making integrations.
 
 Integrations exist on different levels:
 
-* [Intra-domain integrations](#Integrations-Intra-domainintegrations)
+* [Intra-domain integrations](#Intra-domain-integrations)
 
-* [Inter-domain integrations](#Integrations-Inter-domainintegrations)
+* [Inter-domain integrations](#Inter-domain-integrations)
 
-* [Integrations with external
-    systems](#Integrations-Integrationswithexternalsy)
+* [Integrations with external systems](#Integrationswithexternalsystems)
 
-* [Integrations with systems from external
-    parties](#Integrations-Integrationswithsystemsfro)
+* [Integrations with systems from external parties](#IntegrationswithsystemsfromExternalParties)
 
-## Intra-domain integrations {#Integrations-Intra-domainintegrations}
+## Intra-domain integrations {#Intra-domain-integrations}
 
 Public entities (types and aggregates) and server actions may be freely
 used within a domain (obviously in compliance with the architectural
@@ -23,7 +21,7 @@ Inside domains, entities may be shared across modules (again: in
 compliance with architectural layer rules to avoid invalid
 dependencies).
 
-## Inter-domain integrations {#Integrations-Inter-domainintegrations}
+## Inter-domain integrations {#Inter-domain-integrations}
 
 It is not allowed to consume public entities (types and aggregates) or
 call public server actions from modules in other domains.\
@@ -45,7 +43,7 @@ their components directly is considered to outweigh the disadvantages.
 The picturer below shows a high-level overview of inter-domain integrations in STIP1.
 ![Domain integrations](images/DomainIntegrations.png)
 
-## Integrations with external systems
+## Integrations with external systems {Integrationswithexternalsystems}
 
 Integrations with external systems (outside of the STIP1 Outsystems
 platform) must be implemented using SOAP or REST services.
@@ -88,7 +86,7 @@ Also be aware that integration services may not contain any business
 logic. They must be simple wrappers that expose server actions in a
 normalized format. I.e. canonical data structure.
 
-## Integrations with systems from external parties
+## Integrations with systems from external parties {#IntegrationswithsystemsfromExternalParties}
 
 The ESB is responsible for the data exchange with external parties.
 Given that external parties communicate with their own systems, the

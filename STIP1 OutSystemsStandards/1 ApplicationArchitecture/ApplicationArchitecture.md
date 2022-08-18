@@ -102,6 +102,6 @@ Therefore, Applications are not significant in this architectural
 breakdown, although Applications do play an important role in other
 areas, such as deployment and authorization.
 
-As Modules are also subject to the [Outsystems Layerd
+As Modules are also subject to the [Outsystems Layered
 Architecture](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/The_Architecture_Canvas),
 there may be many modules to realize a Concept or a Domain.

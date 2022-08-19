@@ -61,12 +61,10 @@ The list of implemented Domains is registered in the Outsystems [Discovery](http
 
 Each domain is also a [Lifetime team](https://gssb-lt.outsystemsenterprise.com/lifetime/Teams_List.aspx).
 
-[Naming conventions for Outsystems
-components](https://synobsys2013-my.sharepoint.com/wiki/spaces/STIP1/pages/58949799/Naming+conventions)
-can be found here.
+[Naming conventions for Outsystems components](/STIP1%20OutSystemsStandards/1%20ApplicationArchitecture/ApplicationArchitecture.md) can be found here.
 
 Refer to
-[Integrations](https://synobsys2013-my.sharepoint.com/wiki/spaces/STIP1/pages/62128410/Integrations)
+[Integrations](/STIP1%20OutSystemsStandards/2%20Integrations/Integrations.md)
 for guidelines regarding integrations between domains.
 
 ## Concepts

@@ -1,10 +1,3 @@
----
-title: OutSystems development standards
-author: Paul Schmeddes
-language: en-US
-date: 2022-08-21
-...
-
 # STIP1 Outsystems development standards
 
 Standards and guidelines for the Outsystems development platform as used within Global Shared Service for the STIP1 project.

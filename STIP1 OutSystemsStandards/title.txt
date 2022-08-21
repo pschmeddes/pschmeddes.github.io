@@ -1,0 +1,6 @@
+---
+title: OutSystems development standards
+author: Paul Schmeddes
+language: en-US
+date: 2022-08-21
+...

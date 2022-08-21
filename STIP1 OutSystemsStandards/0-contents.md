@@ -1,9 +1,9 @@
 ---
 title: OutSystems development standards
 author: Paul Schmeddes
-version: 0.9
+language: en-US
 date: 2022-08-21
----
+...
 
 # STIP1 Outsystems development standards
 

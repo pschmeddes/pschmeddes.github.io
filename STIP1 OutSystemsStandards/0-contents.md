@@ -11,7 +11,7 @@ Standards and guidelines for the Outsystems development platform as used within 
 
 ## Table of Contents
 
-- [ ]Todo - create toc
+- [ ] Todo - create toc
 
 Application Architecture
 
@@ -23,7 +23,7 @@ Integrations
 
 Naming conventions
 
-: Naming conventions for Outsystems components
+: Naming conventions for OutSystems components
 
 Programming standards
 

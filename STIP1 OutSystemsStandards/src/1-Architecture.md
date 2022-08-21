@@ -10,7 +10,7 @@ business domain model, which was recognized and approved by the business
 takeholders. This is the starting point for partitioning the STIP1
 solution.
 
-![Blauwdruk business domains](images\Blauwdruk-business-domains.png)
+![Blauwdruk business domains](..\img\Blauwdruk-business-domains.png)
 
 This model has been validated on its technical viability and after
 approval by the Architecture Board been transferred to the Outsystems
@@ -25,19 +25,41 @@ set of 'enabler' (or horizontal) domains that take care of the \'
 plumbing\' of the solution. In Discovery, the implementation domain
 model looks like this:
 
-![OutSystems Domains](images\OutSystemsDomains.png)
+![OutSystems Domains](..\img\OutSystemsDomains.png)
 
 The existence and maintenance of Implementation Domains is the
 responsibility of the **OutSystems Architect**.
 
 Implementation Domains are identified by a Domain Identifier and a name.
 
+### Domains overview
 
-[Naming conventions for Outsystems components](/STIP1%20OutSystemsStandards/1%20ApplicationArchitecture/ApplicationArchitecture.md) can be found here.
+Per April 1st, 2020, as a result of project realignment, the business domains have been reconsidered and functionalities are reassigned accordingly.
+Approved domains
+This is the list of approved domains:
 
-Refer to
-[Integrations](/STIP1%20OutSystemsStandards/2%20Integrations/Integrations.md)
-for guidelines regarding integrations between domains.
+Icon | Identifier (DOM) | Name (Domain) | Type | Business name | Technical ownership
+-----|------------------|---------------|------|-----|---
+![Finance logo](..\img\Finance.png) | FIN | Finance | Vertical | 09 Finance | -
+![InboundPlanning logo](..\img\InboundPlanning.png) | IBP | Inbound Planning | Vertical | 04 Inbound Planning | -
+![MDM Logo](..\img\MasterDataManagement.png) | MDM | Master Data Management | Vertical | 08 Master data management | Team 1
+![PRD Logo](..\img\Production.png) | PRD | Production | Vertical | 03 Production | -
+![OPB](..\img\OutBoundPlanning.png) | OBP | Outbound Planning | Vertical | 06 Outbound Planning | -
+![PUR](..\img\Purchasing.png) | PUR | Purchasing | Vertical | 01 Inkopen | Team 1
+![SLS](..\img\Sales.png) | SLS | Sales | Vertical | 02 Verkoop | Team 3
+![TSP](..\img\TransportPlanning.png) | TSP | Transport | Vertical | 07 Transport | -
+![WHS](..\img\Warehouse.png) | WHS | Warehouse | Vertical | 05 Warehouse | Team 2
+ | CDM | Canonical Data Model | Horizontal | - | All teams
+ | FOR | Forge Components | Horizontal | - | Paul
+ | THM | Theme Development | Horizontal | - | Paul
+ | TRA | Translations | Horizontal | - | Team 3
+ | UTL | Utility | Horizontal | - | Team 3
+ | ACC | Access Control | Horizontal | 15 Rollen en autorisaties | Team 3
+![SPO](..\img\SalesPortal.png) | POR | Sales Portal | Vertical | | Team
+
+The list of implemented Domains is registered in the Outsystems [Discovery](https://gssb-dev.outsystemsenterprise.com/discovery/Domains.aspx) tool.
+
+Each domain is also a [Lifetime team](https://gssb-lt.outsystemsenterprise.com/lifetime/Teams_List.aspx).
 
 ## Concepts
 
@@ -54,8 +76,7 @@ point enough to get by without this additional layer of granularity.
 Whether or not a Domain is broken down into Concepts is the
 responsibility of the Application Architect.
 
-This is the current approved [list of
-Concepts](https://synobsys2013-my.sharepoint.com/wiki/spaces/STIP1/pages/59015465/List+of+Concepts)
+This is the current approved [list of Concepts](todo/List+of+Concepts)
 
 ## Modules
 

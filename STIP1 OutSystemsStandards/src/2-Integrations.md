@@ -21,7 +21,7 @@ Inside domains, entities may be shared across modules (again: in
 compliance with architectural layer rules to avoid invalid
 dependencies).
 
-## Inter-domain integrations {#Inter-domain-integrations}
+## Inter-domain integrations (#Inter-domain-integrations)
 
 It is not allowed to consume public entities (types and aggregates) or
 call public server actions from modules in other domains.\
@@ -34,14 +34,15 @@ which the inter-domain communication is based.
 Effectively, this means that no modules may have dependencies on any
 modules from other domains, except other module\'s OAPI modules.
 
-**Exception**\
+**Exception**
+
 This rule does not apply to references to modules from enabler (or
 horizontal) domains. Many of these domains provide common data and
 services to vertical domains, and the advantages of being able to use
 their components directly is considered to outweigh the disadvantages.
 
-The picturer below shows a high-level overview of inter-domain integrations in STIP1.
-![Domain integrations](images/DomainIntegrations.png)
+The picture below shows a high-level overview of inter-domain integrations in STIP1.
+![Domain integrations](../img/DomainIntegrations.png)
 
 ## Integrations with external systems {Integrationswithexternalsystems}
 
@@ -60,7 +61,7 @@ while the ESB will translate this to the required format for the
 external application.
 
 The picture below systems shows a high-level overview of integrations STIP1 has with external systems.
-![Integration with external systems](images/IntegrationsWithExternalSystems.png)
+![Integration with external systems](../img/IntegrationsWithExternalSystems.png)
 
 Domains expose a defined interface to external systems using an API
 module that only exposes REST services with parameters typed with
@@ -73,7 +74,7 @@ You may refer to the Outsystems article [Service-Oriented Architectures for OutS
 for an explanation of the architectural structuring of integration
 modules and functions. The following diagram is taken from that article.
 
-![Service-Oriented-Architectures-for-OutSystems-applications](images/Service-Oriented-Architectures-for-OutSystems-applications.png)
+![Service-Oriented-Architectures-for-OutSystems-applications](../img/Service-Oriented-Architectures-for-OutSystems-applications.png)
 
 Please note that from the OutSystems perspective, the external systems
 (the grey blocks) are 'hidden' behind the ESB. This means that the

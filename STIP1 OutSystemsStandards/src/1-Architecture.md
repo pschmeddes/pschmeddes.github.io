@@ -1,3 +1,4 @@
+
 # Application Architecture
 
 Information on how the STIP1 solution on the Outsystems platform is

@@ -1,3 +1,4 @@
+
 # Naming conventions
 
 How to name a new Outsystems component?

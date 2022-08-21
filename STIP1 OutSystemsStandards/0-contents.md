@@ -17,9 +17,9 @@ Application Architecture
 
 : Information on way the STIP1 solution on the Outsystems platform is structured in Domains, Concepts and Modules.
 
-Integrations
+Integration's
 
-: Types of integrations and how to implement them/
+: Types of integration's and how to implement them.
 
 Naming conventions
 

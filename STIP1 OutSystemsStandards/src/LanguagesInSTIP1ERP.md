@@ -2,9 +2,9 @@
 
 In STIP1 ERP, we have two lists of available languages:
 
--   UI language
+* UI language
 
--   Translation language
+* Translation language
 
 There is no global list of all languages in the world. Read on to
 discover why this is.

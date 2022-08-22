@@ -331,8 +331,7 @@ concepts](https://synobsys2013-my.sharepoint.com/wiki/spaces/STIP1/pages/2046034
 
 ### Code Style Guide
 
-Adopted from
-<https://leonardo-monteiro-fernandes.medium.com/a-code-style-guide-for-outsystems-97a923084159>
+Adopted from [A code style guide for OutSystems](https://leonardo-monteiro-fernandes.medium.com/a-code-style-guide-for-outsystems-97a923084159)
 we use the following coding style guidelines:
 
 1. Down is progress

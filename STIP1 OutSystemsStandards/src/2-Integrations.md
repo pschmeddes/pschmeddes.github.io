@@ -1,4 +1,3 @@
- 
 # Integrations
 
 This page explains the guidelines for making integrations.
@@ -35,10 +34,7 @@ which the inter-domain communication is based.
 Effectively, this means that no modules may have dependencies on any
 modules from other domains, except other module\'s OAPI modules.
 
-**Exception**
-
-This rule does not apply to references to modules from enabler (or
-horizontal) domains. Many of these domains provide common data and
+**Exception** This rule does not apply to references to modules from enabler (or horizontal) domains. Many of these domains provide common data and
 services to vertical domains, and the advantages of being able to use
 their components directly is considered to outweigh the disadvantages.
 

@@ -1,33 +1,16 @@
 # STIP1 OutSystems development standards
 
-Standards and guidelines for the OutSystems development platform as used within Global Shared Services for the STIP1 project.
+## Purpose of this document
 
-## Summary
+This document describes the OutSystems development standards and guidelines that must be followed in the STIP1 project. This document is managed by the OutSystems Architect.
 
-1. Architecture
+## Topics
 
-    Information on way the STIP1 solution on the Outsystems platform is structured in Domains, Concepts and Modules.
-
-1. Integration's
-
-    Types of integration's and how to implement them.
-
-1. Naming conventions
-
-    Naming conventions for OutSystems components
-
-1. Programming standards
-
-    Very compact, only the absolutely required standards for programming
-Outsystems.
-
-1. How-to directory
-    
-    A list of all how-to articles for tasks specifically tailored to the
-STIP1 project.
-
-1.  Standard resolutions for Architecture Dashboard findings
-    
-    Sometimes, we disagree with the good folks who developed the
-Architecture Dashboard. In those cases, we allow a response to the
-finding other than: resolved.
+* [x] Architecture
+* [x] Integrations
+* [x] Naming Conventions
+* [x] Programming standards
+* [ ] Languages in STIP1 ERP
+* [ ] Curation of forge components 
+* [ ] UX standards and Life Style guide
+* [x] Standard resolutions for architecture dashboard findings

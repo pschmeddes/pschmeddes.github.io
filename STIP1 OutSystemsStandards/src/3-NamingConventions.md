@@ -106,9 +106,13 @@ CDM | Canonical data model | Library
 
 Examples:
 
-MDM_DomainNotifications_FS 
-: Foundation Services module providing Notifications services for the Master Data Management domain : MDM_ProductNotifications_FS | Foundation Services module providing Notifications services for the Product concept in the Master Data Management domain
-MDM_Organization_CS 
+MDM_DomainNotifications_FS
+
+: Foundation Services module providing Notifications services for the Master Data Management domain
+
+: MDM_ProductNotifications_FS | Foundation Services module providing Notifications services for the Product concept in the Master Data Management domain
+MDM_Organization_CS
+
 : Core services module for the Organization concept in the Master Data Management domain
 
 ## User Interface

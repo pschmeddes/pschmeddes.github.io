@@ -6,12 +6,12 @@ structured in Domains, Concepts and Modules.
 
 ## Domains
 
-During the \' Blauwdruk\' phase of STIP1, the analysts came up with a
+During the "Blueprint" phase of STIP1, the analysts came up with a
 business domain model, which was recognized and approved by the business
-takeholders. This is the starting point for partitioning the STIP1
+stakeholders. This is the starting point for partitioning the STIP1
 solution.
 
-![Blauwdruk business domains](..\img\Blauwdruk-business-domains.png)
+![Blueprint business domains](..\img\Blauwdruk-business-domains.png)
 
 This model has been validated on its technical viability and after
 approval by the Architecture Board been transferred to the Outsystems
@@ -50,12 +50,12 @@ Icon | Identifier (DOM) | Name (Domain) | Type | Business name | Technical owner
 ![SLS](..\img\Sales.png) | SLS | Sales | Vertical | 02 Verkoop | Team 3
 ![TSP](..\img\TransportPlanning.png) | TSP | Transport | Vertical | 07 Transport | -
 ![WHS](..\img\Warehouse.png) | WHS | Warehouse | Vertical | 05 Warehouse | Team 2
- | CDM | Canonical Data Model | Horizontal | - | All teams
- | FOR | Forge Components | Horizontal | - | Paul
- | THM | Theme Development | Horizontal | - | Paul
- | TRA | Translations | Horizontal | - | Team 3
- | UTL | Utility | Horizontal | - | Team 3
- | ACC | Access Control | Horizontal | 15 Rollen en autorisaties | Team 3
+\- | CDM | Canonical Data Model | Horizontal | - | All teams
+\- | FOR | Forge Components | Horizontal | - | Paul
+\- | THM | Theme Development | Horizontal | - | Paul
+\- | TRA | Translations | Horizontal | - | Team 3
+\- | UTL | Utility | Horizontal | - | Team 3
+\- | ACC | Access Control | Horizontal | 15 Rollen en autorisaties | Team 3
 ![SPO](..\img\SalesPortal.png) | POR | Sales Portal | Vertical | | Team
 
 The list of implemented Domains is registered in the Outsystems [Discovery](https://gssb-dev.outsystemsenterprise.com/discovery/Domains.aspx) tool.

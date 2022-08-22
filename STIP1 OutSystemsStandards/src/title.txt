@@ -1,9 +1,6 @@
 ---
-title: 
-- type: main
-  text: STIP 1 OutSystems development standards
-- type: subtitle
-  text: Global Shared Services
+title: STIP 1 OutSystems development standards
+subtitle: Global Shared Services
 author: Paul Schmeddes
-cover-image: ..\img\gsslogo.jpg
+date: 2022-08-22
 ---

@@ -3,9 +3,10 @@
 
 How to name a new Outsystems component?
 
-If not stated otherwise on this page, we comply with the [[Synobsys
-naming conventions for
-Outsystems]{.underline}](https://synobsys.github.io/standards/OutSystemsNamingConventions.html),
+* [ ] TODO Merge Synobsys standards into this document.
+
+If not stated otherwise on this page, we comply with the [Synobsys
+naming conventions for Outsystems](https://synobsys.github.io/standards/OutSystemsNamingConventions.html),
 
 Components for which we have different naming conventions are:
 

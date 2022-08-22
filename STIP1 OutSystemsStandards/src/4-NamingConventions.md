@@ -10,18 +10,18 @@ naming conventions for Outsystems](https://synobsys.github.io/standards/OutSyste
 
 Components for which we have different naming conventions are:
 
-* [Domain](#Namingconventions-Domain)
-* [Application](#Namingconventions-Application)
-* [Module](#Namingconventions-Module)
-* [User Interface](#Namingconventions-UserInterface)
-* [Screens](#Namingconventions-Screens)
-* [General rules](#Namingconventions-Generalrules)
-* [Standard screen names](#Namingconventions-Standardscreennames)
-* [Blocks](#Namingconventions-Blocks)
-* [Database](#Namingconventions-Database)
-* [Translations](#Namingconventions-Translations)
-* [UI translations](#Namingconventions-UItranslations)
-* [Guidelines](#Namingconventions-Guidelines)
+1. [Domain](#Namingconventions-Domain)
+1. [Application](#Namingconventions-Application)
+1. [Module](#Namingconventions-Module)
+1. [User Interface](#Namingconventions-UserInterface)
+    1. [Screens](#Namingconventions-Screens)
+        1. [General rules](#Namingconventions-Generalrules)
+        1. [Standard screen names](#Namingconventions-Standardscreennames)
+    1. [Blocks](#Namingconventions-Blocks)
+1. [Database](#Namingconventions-Database)
+1. [Translations](#Namingconventions-Translations)
+1. [UI translations](#Namingconventions-UItranslations)
+1. [Guidelines](#Namingconventions-Guidelines)
 
 ## Domain
 

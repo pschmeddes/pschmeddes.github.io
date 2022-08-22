@@ -1,6 +1,11 @@
 ---
-title: STIP 1 OutSystems development standards
-subtitle: Global Shared Services
+title: OutSystems development standards
 author: Paul Schmeddes
-date: 2022-08-22
+header-includes: |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead[CO,CE]{This is fancy}
+    \fancyfoot[CO,CE]{So is this}
+    \fancyfoot[LE,RO]{\thepage}
+abstract: This is a pandoc test . . . 
 ---

@@ -12,7 +12,7 @@ Integrations exist on different levels:
 
 * [Integrations with systems from external parties](#IntegrationswithsystemsfromExternalParties)
 
-## Intra-domain integrations {#Intra-domain-integrations}
+## Intra-domain integrations (#Intra-domain-integrations)
 
 Public entities (types and aggregates) and server actions may be freely
 used within a domain (obviously in compliance with the architectural
@@ -41,7 +41,7 @@ their components directly is considered to outweigh the disadvantages.
 The picture below shows a high-level overview of inter-domain integrations in STIP1.
 ![Domain integrations](../img/DomainIntegrations.png)
 
-## Integrations with external systems {Integrationswithexternalsystems}
+## Integrations with external systems (#Integrationswithexternalsystems)
 
 Integrations with external systems (outside of the STIP1 Outsystems
 platform) must be implemented using SOAP or REST services.

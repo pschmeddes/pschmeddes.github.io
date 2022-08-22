@@ -77,7 +77,7 @@ point enough to get by without this additional layer of granularity.
 Whether or not a Domain is broken down into Concepts is the
 responsibility of the Application Architect.
 
-This is the current approved [list of Concepts](todo/List+of+Concepts)
+This is the current approved [list of Concepts](https://globalsharedservices.atlassian.net/wiki/spaces/STIP1/pages/59015465/List+of+Concepts)
 
 ## Modules
 
@@ -87,9 +87,7 @@ resolves its dependencies and creates a piece of executable logic.
 
 Modules are assembled in Applications, which are the smallest deployable
 units on the Outsystems execution platform. As such, the assembly of
-modules into Applications is subject to the rules of the [Outsystems
-Layered
-Architecture](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/The_Architecture_Canvas).
+modules into Applications is subject to the rules of the [Outsystems Layered Architecture](https://success.outsystems.com/Support/Enterprise_Customers/Maintenance_and_Operations/Designing_the_Architecture_of_Your_OutSystems_Applications/The_Architecture_Canvas).
 Therefore, Applications are not significant in this architectural
 breakdown, although Applications do play an important role in other
 areas, such as deployment and authorization.

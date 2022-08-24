@@ -8,13 +8,13 @@ Basissysteem: ???
 
 | Openingen | Antwoorden |
 |----|------|
-| 1&#9827;: 12-19 pt, 1+krt | 1&#9830;: geen 5+krt hoog 6+pt, 1&#9829;/&#9824;: 5+kaart, 6+pt, 1SA: geen 5+ kaart, 2&#9827;: 6+krt 6-9 pt |
-|1&#9830;: 12-19 pt, 5+krt | 1 SA: 6-9 pt, 2&#9830;: 6-9pt, 3&#9830;: 10-11pt|
-|1&#9829;: 12-19 pt, 5+krt| 1SA: 6-9pt, 2&#9829;: 6-9 pt|
-|1&#9824;: 12-19 pt, 5+krt| 1SA: 6-9pt, 2&#9829;: 6-9 pt|
-|1SA: 15-17pt | 2&#9827;: Stayman, 2&#9830;/&#9829;: Jacoby
-|2&#9827;: mancheforing in kleur of 23+pt SA|2&#9830;: 0-9pt afwachtbod zonder goede eigen kleur,<br>2&#9829;/2&#9824;/3&#9827;/3&#9830;: goede kleur 5+krt, 8+pt<br>2SA: Evenwichtige verdeling 10+pt |
-|2&#9830; 2&#9829; 2&#9824;: sterk 8-9 speelslagen| 2SA: afwachtbod zonder goede eigen kleur,<br> bod in eigen kleur: goede kleur 5+ krt 8+pt,<br> verhoging openingskleur: positief, sleminteresse 8+pt,<br>Manche in openingskleur: vrij zwak, geen manche interesse 8+pt |
+| 1&#9827;: 12-19 pt, 1+krt | 1&#9830;: geen 5+krt hoog 6+ pt,<br> 1&#9829;/&#9824;: 5+kaart, 6+pt,<br>1SA: geen 5+ kaart,<br>2&#9827;: 6+krt 6-9 pt |
+|1&#9830;: 12-19 pt, 5+krt | 1 SA: 6-9 pt,<br> 2&#9830;: 6-9 pt,<br> 3&#9830;: 10-11pt|
+|1&#9829;: 12-19 pt, 5+krt| 1SA: 6-9 pt,<br> 2&#9829;: 6-9 pt|
+|1&#9824;: 12-19 pt, 5+krt| 1SA: 6-9 pt,<br> 2&#9829;: 6-9 pt|
+|1SA: 15-17pt | 2&#9827;: Stayman,<br> 2&#9830;/&#9829;: Jacoby
+|2&#9827;: mancheforing in kleur of 23+ pt SA|2&#9830;: 0-9 pt afwachtbod zonder goede eigen kleur,<br>2&#9829;/2&#9824;/3&#9827;/3&#9830;: goede kleur 5+krt, 8+pt<br>2SA: Evenwichtige verdeling 10+ pt |
+|2&#9830; 2&#9829; 2&#9824;: sterk 8-9 speelslagen| 2SA: afwachtbod zonder goede eigen kleur,<br> bod in eigen kleur: goede kleur 5+ krt 8+ pt,<br> verhoging openingskleur: positief, sleminteresse 8+ pt,<br>Manche in openingskleur: vrij zwak, geen manche interesse 8+ pt |
 |2SA| 20-22pt 3&#9827;: Stayman, 3&#9830;/&#9829;: Jacoby|
 |3&#9827;/&#9830;&#9829;&#9824; 6-10 pt, 7-krt||
 4&#9827;/&#9830;&#9829;&#9824; 6-10 pt, 8-krt||

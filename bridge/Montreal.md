@@ -1,7 +1,7 @@
 ---
-title: Montreal conventie
+title: Biedsysteem
 ---
-# Montreal conventie en relays
+# Biedsysteem
 
 <style>
             .red{
@@ -9,24 +9,28 @@ title: Montreal conventie
             }
 </style>
 
-De "Montreal Relay" is populair geworden door Eric Kokish. Een opening in een hoge kleur belooft een 5+ kaart hoog; een 1<span class="red">&#9830;</span> opening belooft tenminste een 4+ kaart <span class="red">&#9830;</span>; en dus, wanneer je een 4-4-3-2 opening hebt dan open je conventioneel met 1<span class="red">&#9827;</span>.
+Een opening van 1 ruiten, harten of schoppen een 5+ kaart in alle andere gevallen open je conventioneel met 1&#9827;. Zelfs met een singleton
 
-Het komt statistisch ongeveer in 10% van de gevallen voor dat de 1<font style="font-size:13px; color: #000001">&#9827;</font> opening "kort" is.
-Het 1<span class="red">&#9830;</span> antwoord op de 1<font style="font-size:13px; color: #000001">&#9827;</font> is conventioneel en ontkent een 5-kaart <font style="font-size:13px; color:#fF0003">&#9829;</font> of <font style="font-size:13px; color: #000004">&#9824;</font> terwijl een antwoord van 1<font style="font-size:13px; color: #fF0003">&#9829;</font>/<font style="font-size:13px; color: #000004">&#9824;</font> een 5-kaart belooft.
+Het 1<span class="red">&#9830;</span> antwoord op de 1&#9827; is conventioneel en ontkent een 5-kaart <span class=red>&#9829;</span> of &#9824; terwijl een antwoord van 1<span class=red>&#9829;</span>/&#9824; een 5-kaart belooft.
 
-## Montreal relay biedingen
+Klaveren = &#9827;
+Ruiten = &#9830;
+Harten = &#9829;
+Schopen = &#9824;
 
-De 1<font style="font-size:13px; color: #000001">&#9827;</font> opening en de daarbij behorende antwoorden:
+## Biedingen
+
+De 1&#9827; opening en de daarbij behorende antwoorden:
 
 | Punten aantal | Antwoorden |||
 |---------------|------------|-|--|
-| 0-5 punten | pas |  |1<span class="red">&#9830;</font> met 0-5 punten en een 4-4-4-1 verdeling? |
-| 6-9 punten | 1<span class="red">&#9830;</font> | geen 5+kaart <span class="red">&#9829;</span>/&#9824; | _Openaars 2&#9827; rebid is forcing_ |
+| 0-5 punten | pas |  |1<span class="red">&#9830;</span> met 0-5 punten en een 4-4-4-1 verdeling? |
+| 6-9 punten | 1<span class="red">&#9830;</span> | geen 5+kaart <span class="red">&#9829;</span>/&#9824; | Openaars 2&#9827; rebid is forcing |
 ||1<span class=red>&#9829;</span> | 5+kaart <span class=red>&#9829;</span> | **Hierna:** |
 | | 1&#9824; | 5+kaart &#9824; | belooft een rebid een 6+kaart in die kleur |
 | | 1SA | geen 5+kaart | belooft een nieuwe kleur tenminste een 4+kaart of steun je met een 3+kaart met daarin een Aas of Heer |
 |||||
-| 10-12 punten | 2&#9827; | 5+kaart <span class=red>&#9829;<span> |_Openaars 3&#9827; is ronde forcing_ |
+| 10-12 punten | 2&#9827; | 5+kaart <span class=red>&#9829;<span> | Openaars 3&#9827; is ronde forcing |
 || 2<span class="red">&#9830;</span> | 5+kaart &#9824; | **Hierna is:** |
 | | 2<span class="red">&#9829;</span>| 6+kaart <span class=red>&#9829;</span> |het antwoord 1 niveau hoger: 10 punten |
 | |2&#9824;| 6+kaart &#9824; |het antwoord 2 niveau's hoger: 11 punten|
@@ -40,15 +44,14 @@ De 1<font style="font-size:13px; color: #000001">&#9827;</font> opening en de da
 
 💡 Met een of twee 4-kaarten hoog en 13 punten wordt 2SA geboden zodat partner  zijn/haar 4-kaart hoog kan bieden indien hij/zij er een heeft. Zonder 4-kaart hoog en 13 punten bied je 3SA.
 
-<b>Antwoorden na 1&#9827;</font>-1<span class="red">&#9830;</span>:</b>
-<br>
-<br>
+**Antwoorden na 1&#9827;-1<span class="red">&#9830;</span>:**
+
 | Noord | Zuid | Noord | Betekenis|
 |-------|------|-------|----------|
-|1&#9827;|||Noord ontkent een 5-kaart hoog en/of een SA hand.|
-|1&#9827;|1<span class="red">&#9830;</span>||Zuid ontkent een 5-kaart hoog.|
+|1&#9827;|-|-|Noord ontkent een 5-kaart hoog en/of een SA hand.|
+|1&#9827;|1<span class="red">&#9830;</span>|-|Zuid ontkent een 5-kaart hoog.|
 |1&#9827;|1<span class="red">&#9830;</span>|1<span class=red>&#9829;</span>|Noord belooft een 4-kaart <span class=red>&#9829;</span>. (Met een 5-kaart harten was met 1<span class=red|>&#9829;</span> geopend)|
-| | | 1&#9824; | Noord belooft een 4-kaart &#9824;. (Met een 5-kaart schoppen was met 1&#9824; geopend) |
+||| 1&#9824; | Noord belooft een 4-kaart &#9824;. (Met een 5-kaart schoppen was met 1&#9824; geopend) |
 | | |1SA | Noord ontkent een 4-kaart <span class=red>&#9829;</span>/&#9824; en ook een 6-kaart &#9827;. (Mogelijke verdelingen: 3-3-4-3, 3-2-4-4, 3-2-3-5, etc.)|
 | | |2&#9827;|Noord belooft een 6+kaart &#9827; |
 | | |2<span class="red">&#9830;</span> | Noord biedt reverse met 15-16 punten en een 5+kaart &#9827; en een 4+kaart <span class="red">&#9830;</span>.|
@@ -64,10 +67,7 @@ De 1<font style="font-size:13px; color: #000001">&#9827;</font> opening en de da
 
 |Noord | Zuid |
 |------|------|
-| &#9824;</font>ABxx||
-|<span class=red>&#9829;</span>HVxx||
-|<span class="red">&#9830;</span>Hxx||
-|&#9827;xx ||
+ &#9824;ABxx<br><span class=red>&#9829;</span>HVxx<br><span class="red">&#9830;</span>Hxx<br>&#9827;xx ||
 
 | **Biedingen:**| _Betekenis_|
 |--|--|
@@ -77,10 +77,7 @@ De 1<font style="font-size:13px; color: #000001">&#9827;</font> opening en de da
 
 |Noord | Zuid |
 |------|------|
-|&#9824;ABxx|&#9824;HVx|
-|<span class=red>&#9829;</span>HVxx|<span class=red>&#9829;</span>Txx|
-|<span class="red">&#9830;</span>Hx|<span class=red>&#9829;</span>VBxx|
-|&#9827;xxx|&#9827;Bxx|
+|&#9824;ABxx<br><span class=red>&#9829;</span>HVxx <br><span class="red">&#9830;</span>Hx<br>&#9827;xxx|&#9824;HVx<br><span class=red>&#9829;</span>Txx<br><span class="red">&#9830;</span>VBxx<br>&#9827;Bxx|
 
 | **Biedingen** || Betekenis |
 |--|---|---|

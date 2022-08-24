@@ -2,6 +2,11 @@
 
 Mieke de Callafon & Paul Schmeddes
 
+* Klaveren: ♣
+* Ruiten: ♣
+* Harten: ♥
+* Spades: ♠
+
 | Openingen | Antwoorden |
 |----|------|
 | 1&#9827;: 12-19 pt, 1+krt | 1&#9830;: geen 5+krt hoog 6+ pt,|

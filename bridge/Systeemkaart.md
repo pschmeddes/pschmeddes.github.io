@@ -9,10 +9,9 @@ Mieke de Callafon & Paul Schmeddes
 
 | Openingen | Antwoorden |
 |----|------|
-| 1&#9827;: 12-19 pt, 1+krt | 1&#9830;: geen 5+krt hoog 6+ pt,|
-||1&#9829;/&#9824;: 5+kaart, 6+pt,|
-||1SA: geen 5+ kaart,|
-||2&#9827;: 6+krt 6-9 pt |
+| 1&#9827;: 12-19 pt, 1+krt | 1&#9830;/1&#9829;/&#9824;: 4+kaart, 6+ pt,|
+||1SA: geen 4+ kaart,|
+||2&#9827;: 6+krt 10+ pt |
 |1&#9830;: 12-19 pt, 5+krt | 1 SA: 6-9 pt,|
 ||2&#9830;: 6-9 pt,|
 ||3&#9830;: 10-11pt|

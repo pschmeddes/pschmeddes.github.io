@@ -2,6 +2,8 @@
 
 ## Description
 
+Stencils to create entities with CRUD wrappers.
+
 ## Preparing a new core services module
 
 1. In Service Studio open module `Stencil_DBActions_Pat`
@@ -16,7 +18,7 @@
 
 ## Adding entities to the module
 
-> :warning: **Warning** Do NOT publish your module until you completed all the steps below!
+> ⚠️ **Warning** Do NOT publish your module until you completed all the steps below!
 
 1. If not already open in service studio open your core service module and module `Stencil_DBActions_Pat`
 1. Copy TemplateEntity and paste it in your module and rename it to the desired name. E.g. `Town`

@@ -1,7 +1,7 @@
 # Pragmatic programmer tips
 
-| Tip | Description |
-| --- | ----------- |
+| Tip | Description | OutSystems example |
+| --- | ----------- | -------------------|
 | Care About Your Craft | Why spend your life developing software unless you care about doing it well? |
 | Think! About Your Work | Turn off the autopilot and take control. Constantly critique and appraise your work. |
 | You Have Agency | It’s your life. Grab hold of it and make it what you want. |
@@ -14,7 +14,7 @@
 | Critically Analyze What You Read and Hear | Don’t be swayed by vendors, media hype, or dogma. Analyze information in terms of you and your project. |
 | English is Just Another Programming Language | Treat English as Just Another Programming Language. Write documents as you would write code: honor the DRY principle, ETC, automation, and so on. |
 | It’s Both What You Say and the Way You Say It | There’s no point in having great ideas if you don’t communicate them effectively. |
-| Build Documentation In, Don’t Bolt It On | Documentation created separately from code is less likely to be correct and up to date. |
+| Build Documentation In, Don’t Bolt It On | Documentation created separately from code is less likely to be correct and up to date. | Yes |
 | Good Design Is Easier to Change Than Bad Design | A thing is well designed if it adapts to the people who use it. For code, that means it must adapt by changing. |
 | DRY—Don't Repeat Yourself | Every piece of knowledge must have a single, unambiguous, authoritative representation within a system. |
 | Make It Easy to Reuse | If it’s easy to reuse, people will. Create an environment that supports reuse. |
@@ -33,14 +33,14 @@
 | Fix the Problem, Not the Blame | It doesn’t really matter whether the bug is your fault or someone else’s—it is still your problem, and it still needs to be fixed. |
 | Don’t Panic | This is true for galactic hitchhikers and for developers. |
 | Failing Test Before Fixing Code | Create a focussed test that reveals the bug before you try fixing it. |
-| Read the Damn Error Message | Most exceptions tell both what failed and where it failed. If you’re lucky you might even get parameter values.|
+| Read the Damn Error Message | Most exceptions tell both what failed and where it failed. If you’re lucky you might even get parameter values.| Yes |
 | “select” Isn't Broken | It is rare to find a bug in the OS or the compiler, or even a third-party product or library. The bug is most likely in the application. |
 | Don’t Assume It—Prove It | Prove your assumptions in the actual environment—with real data and boundary conditions.|
 | Learn a Text Manipulation Language | You spend a large part of each day working with text. Why not have the computer do some of it for you? |
 | You Can’t Write Perfect Software | Software can’t be perfect. Protect your code and users from the inevitable errors. |
-| Design with Contracts | Use contracts to document and verify that code does no more and no less than it claims to do. |
-| Crash Early | A dead program normally does a lot less damage than a crippled one. |
-| Use Assertions to Prevent the Impossible | If it can’t happen, use assertions to ensure that it won’t. Assertions validate your assumptions. Use them to protect your code from an uncertain world. |
+| Design with Contracts | Use contracts to document and verify that code does no more and no less than it claims to do. | Yes |
+| Crash Early | A dead program normally does a lot less damage than a crippled one. | Yes |
+| Use Assertions to Prevent the Impossible | If it can’t happen, use assertions to ensure that it won’t. Assertions validate your assumptions. Use them to protect your code from an uncertain world. | Yes |
 | Finish What You Start | Where possible, the function or object that allocates a resource should be responsible for deallocating it.|
 | Act Locally | Keep the scope of mutable variables and open resources short and easily visible. |
 | Take Small Steps—Always | Small steps always; check the feedback; and adjust before proceeding. |

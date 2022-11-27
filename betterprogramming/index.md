@@ -2,7 +2,7 @@
 
 A collection of best practices and patterns
 
-* Clean Code
+* [Clean Code](cleancode.md)
 * Defensive programming
 
 * Fight software rot

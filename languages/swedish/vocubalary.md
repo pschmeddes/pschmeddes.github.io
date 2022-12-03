@@ -17,7 +17,7 @@
 | vi | we | we |
 | de | they | zij | 
 
-## prepositions
+## Prepositions
 
 | Svenska | English | Nederlands |
 | ------- | ------- | ----- |

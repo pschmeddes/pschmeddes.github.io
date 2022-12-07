@@ -15,7 +15,7 @@
 | hon | she | zii  |
 | han | he | hij |
 | vi | we | we |
-| de | they | zij | 
+| de | they | zij |
 
 ## Prepositions
 
@@ -44,7 +44,23 @@
 | brev | letter | brief |
 | tidning | newspaper | krant |
 | bröd | bread | brood |
-| smorg
+| smorgås | sandwich | sandwich|
+| håst | horse | paard |
+| katt | cat | kat |
+| hund | dog | hond |
+| fågel | bird | vogel |
+| anka | duck | eend |
+| björn | beer | beer |
+| ålg | moose | rendier |
+| djur | animal | dier |
+| elefant | elephant | oliefant |
+| krabba | crab | krab |
+| sköldpadda | turtle | schildpad |
+| spindel | spider | spin |
+| mus | mouse | muis |
+| myra | ant | mier |
+| varg | wolf | wolf |
+
 
 ## Verbs
 

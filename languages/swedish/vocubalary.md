@@ -60,7 +60,11 @@
 | mus | mouse | muis |
 | myra | ant | mier |
 | varg | wolf | wolf |
-
+| salt | salt | zout |
+| vegetarian | vegatarian | vegetarieer |
+| middag | dinner | diner |
+| lunch | lunch | lunch |
+| snella | please | alstublieft |
 
 ## Verbs
 

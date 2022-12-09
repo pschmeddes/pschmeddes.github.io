@@ -1,6 +1,6 @@
 ---
 title: Better Programming in OutSystems
-subtitle: Be awesome
+subtitle: A collection of best practices and patterns
 author: Paul Schmeddes
 ...
 ---

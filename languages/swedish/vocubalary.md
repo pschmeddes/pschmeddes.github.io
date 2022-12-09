@@ -29,14 +29,14 @@
 
 | Svenska | English | Nederlands |
 | ------- | ------- | ----- |
-| barnet | the child | het kind |
-| flicka | girl | meisje |
+| [barn](https://sv.wiktionary.org/wiki/barn) | child | kind |
+| [flicka](https://sv.wiktionary.org/wiki/flicka) | girl | meisje |
 | flickan | the girl | het meisje |
 | pojke | boy | jongen |
 | pojken | the boy | de jongen |
 | kvinna | woman | vrouw |
 | kvinnan | the woman | de vrouw |
-| kvonnor | women | vrouwen |
+| kvinnor | women | vrouwen |
 | man | man | man |
 | män | men | mannen |
 | mannen | the man | de man |
@@ -53,7 +53,7 @@
 | björn | beer | beer |
 | ålg | moose | rendier |
 | djur | animal | dier |
-| elefant | elephant | oliefant |
+| elefant | elephant | olifant |
 | krabba | crab | krab |
 | sköldpadda | turtle | schildpad |
 | spindel | spider | spin |
@@ -65,6 +65,13 @@
 | middag | dinner | diner |
 | lunch | lunch | lunch |
 | snella | please | alstublieft |
+| pasta | pasta | pasta |
+| välkommen | welcome | welkom |
+| kyckling |chicken | kip |
+| ursäkta | excuse me | pardon |
+| Älganrna | the moose | het rendier |
+| nötkött | beef | rundvlees |
+| kött | meat | vlees |
 
 ## Verbs
 

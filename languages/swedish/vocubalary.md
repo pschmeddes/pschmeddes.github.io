@@ -34,7 +34,7 @@
 | flickan | the girl | het meisje |
 | pojke | boy | jongen |
 | pojken | the boy | de jongen |
-| kvinna | woman | vrouw | 
+| kvinna | woman | vrouw |
 | kvinnan | the woman | de vrouw |
 | kvonnor | women | vrouwen |
 | man | man | man |
@@ -77,3 +77,5 @@
 | dricker | drinking | drinken |
 
 ### Verb tenses
+
+Todo

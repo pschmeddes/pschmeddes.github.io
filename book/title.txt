@@ -1,0 +1,6 @@
+---
+title: Some Markdown Book
+subtitle: Everything is awesome
+author: Ryan Frazier
+...
+---

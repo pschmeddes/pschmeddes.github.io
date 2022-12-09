@@ -2,9 +2,7 @@
 
 Explore grammar tips and key phrases for this unit
 
-## Key phrases
-
-### Describe animals
+## Describe animals
 
 | Svenska | English |
 |---|---|

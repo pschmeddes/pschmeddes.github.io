@@ -1,5 +1,4 @@
-copy swedish\*.md SwedishCombined.md
+mkdir build
+copy swedish\*.md build\SwedishCombined.md /b
 
-mkdir build 
-
-pandoc --pdf-engine=xelatex --template=../templates/eisvogel.latex --highlight-style tango --toc -N -o build/swedish.pdf swedish/title.txt SwedishCombined.md
+pandoc --pdf-engine=xelatex --template=../templates/eisvogel.latex --highlight-style tango --toc -N -o build/SwedishReference.pdf swedish/title.txt build/SwedishCombined.md

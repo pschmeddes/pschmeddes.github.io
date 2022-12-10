@@ -22,3 +22,4 @@ Explore grammar tips and key phrases for this unit.
 | Barnet äter frukt. | The child is eating fruit. |
 | Jag älskar glass. | I love ice cream. |
 | Kvinnan äter inte fläskkött. | The woman does not eat pork. |
+

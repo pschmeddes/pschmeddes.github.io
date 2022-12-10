@@ -64,14 +64,23 @@
 | vegetarian | vegatarian | vegetarieer |
 | middag | dinner | diner |
 | lunch | lunch | lunch |
-| snella | please | alstublieft |
+| snälla | please | alstublieft |
 | pasta | pasta | pasta |
 | välkommen | welcome | welkom |
 | kyckling |chicken | kip |
 | ursäkta | excuse me | pardon |
 | Älganrna | the moose | het rendier |
 | nötkött | beef | rundvlees |
-| kött | meat | vlees |
+| [fläsköt](https://sv.wiktionary.org/wiki/fl%C3%A4skk%C3%B6tt) | pork | varkensvlees
+| [kött](https://sv.wiktionary.org/wiki/k%C3%B6tt) | meat | vlees |
+| [te](https://sv.wiktionary.org/wiki/te) | thea | thee |
+|[vegatarian](https://sv.wiktionary.org/wiki/vegetarian)|
+|[måltid](https://sv.wiktionary.org/wiki/m%C3%A5ltid)| meal | maaltijd |
+| [glas](https://sv.wiktionary.org/wiki/Glas) | glass | glas |
+| sked | spoon | lepel |
+| gaffel | fork | vork |
+| kniv | knife | mes |
+| tallrik | plate | bord |
 
 ## Verbs
 

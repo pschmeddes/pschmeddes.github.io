@@ -21,3 +21,4 @@ Explore grammar tips and key phrases for this unit
 | Soppan är god. | The soup is good |
 | Han älskar kycklingen. | He loves the chicken. |
 | Barnet äter glassen. | The child is eating the ice cream. |
+

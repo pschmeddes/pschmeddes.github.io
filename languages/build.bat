@@ -1,1 +1,1 @@
-copy /b swedish\*.md SwedishCombined.md
+copy swedish\*.md SwedishCombined.md

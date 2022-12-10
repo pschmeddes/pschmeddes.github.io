@@ -1,5 +1,7 @@
 ---
-title: Swedish vocubailary and grammar
+title: Swedish Guidebook
+subtitle: Vocubalary, grammar and sentences
 author: Paul Schmeddes
+date: 2022-12-10
 ...
 ---

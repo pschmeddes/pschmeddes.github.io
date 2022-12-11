@@ -1,6 +1,0 @@
----
-title: French Guidebook
-subtitle: Vocubalary, grammar and sentences
-author: Paul Schmeddes
-...
----

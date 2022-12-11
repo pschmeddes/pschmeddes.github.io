@@ -81,6 +81,8 @@
 | gaffel | fork | vork |
 | kniv | knife | mes |
 | tallrik | plate | bord |
+| [djur](https://sv.wiktionary.org/wiki/djur) | animal | dier |
+| [ren](https://sv.wiktionary.org/wiki/ren) | reindeer | rendier |
 
 ## Verbs
 

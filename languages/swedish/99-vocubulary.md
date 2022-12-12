@@ -84,6 +84,8 @@
 | [djur](https://sv.wiktionary.org/wiki/djur)                   | animal     | dier         |
 | [ren](https://sv.wiktionary.org/wiki/ren)                     | reindeer   | rendier      |
 | [öl](https://sv.wiktionary.org/wiki/öl)                       | beer       | bier         |
+| [flera](https://sv.wiktionary.org/wiki/flera) | several | diverse |
+| [olia](https://sv.wiktionary.org/wiki/olia)| oil | olie |
 
 ## Verbs
 

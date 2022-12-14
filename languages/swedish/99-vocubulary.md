@@ -57,7 +57,7 @@
 | krabba                                                        | crab       | krab         |
 | sköldpadda                                                    | turtle     | schildpad    |
 | spindel                                                       | spider     | spin         |
-| mus                                                           | mouse      | muis         |
+| [mus](https://sv.wiktionary.org/wiki/mus)                     | mouse      | muis         |
 | myra                                                          | ant        | mier         |
 | varg                                                          | wolf       | wolf         |
 | salt                                                          | salt       | zout         |
@@ -100,4 +100,3 @@
 ### Verb tenses
 
 Todo
-

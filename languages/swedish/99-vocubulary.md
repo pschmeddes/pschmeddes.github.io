@@ -17,6 +17,23 @@
 | vi      | we      | we         |
 | de      | they    | zij        |
 
+Voornaamworden
+
+Tabel över pronomen
+
+TODO
+
+### Possessive pronouns
+
+Bezittelijk voornaamwoorden
+
+| Svenska | English  | Nederlands |
+| ------- | -------- | ---------- |
+| [vår](https://sv.wiktionary.org/wiki/vår) | our, spring, ours| onze |
+| [mitt](https://sv.wiktionary.org/wiki/mitt) | my | mijn |
+| [deras](https://sv.wiktionary.org/wiki/deras) | their, theirs | hun |
+| [hans](https://sv.wiktionary.org/wiki/hans) | his | zijn |
+
 ## Prepositions
 
 | Svenska | English | Nederlands |

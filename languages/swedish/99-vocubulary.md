@@ -20,7 +20,7 @@
 | vi      | we      | we         |
 | ni, I   | | |
 | de, dom | they    | zij        |
-| man, en | 
+| man, en | |
 
 Voornaamworden
 

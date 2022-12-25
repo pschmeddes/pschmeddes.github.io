@@ -1,1 +1,1 @@
-copy swedish\*.md SwedishCombined.md /b
+copy french\*.md FrenchCombined.md /b

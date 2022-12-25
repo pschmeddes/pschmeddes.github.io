@@ -1,6 +1,5 @@
 ---
-title: Taalgids Frans
+title: Language guide French
 subtitle: Vocubalary, grammar and sentences
-author: Paul Schmeddes
 ...
 ---

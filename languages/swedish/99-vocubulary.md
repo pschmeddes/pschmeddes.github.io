@@ -12,10 +12,15 @@
 | ------- | ------- | ---------- |
 | jag     | I       | ik         |
 | du      | you     | jij        |
-| hon     | she     | zii        |
-| han     | he      | hij        |
+| han     | he      | hii        |
+| hon     | she     | hij        |
+| hen | | |
+| den | | |
+| det | | |
 | vi      | we      | we         |
-| de      | they    | zij        |
+| ni, I   | | |
+| de, dom | they    | zij        |
+| man, en | |
 
 Voornaamworden
 

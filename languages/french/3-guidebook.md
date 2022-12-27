@@ -73,3 +73,4 @@ If a verb begins with a vowel, be sure to change **je** to **j'**!
 | il / elle | a | he / she | has |
 
 J'**ai** un passeport. - I have a passport.
+

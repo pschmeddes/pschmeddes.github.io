@@ -42,7 +42,7 @@ French has two words for in. You'll use **à** with cities but **en** with many 
 
 **le** garçon - the boy
 
-**La** goes with feminine ones. 
+**La** goes with feminine ones.
 
 **la** femme - the woman
 
@@ -54,7 +54,7 @@ But if the word starts with a vowel or silent _h_, use  **l'** instead!
 
 Most French verbs  change really predictably. But some verbs just do their own thing and don't follow typical patterns.
 
-**aller**
+### aller
 
 | subject | verb | subject | verb |
 | ------- | ----- | ------- | ---- |
@@ -64,9 +64,9 @@ Most French verbs  change really predictably. But some verbs just do their own t
 
 If a verb begins with a vowel, be sure to change **je** to **j'**!
 
-**avoir**
+### avoir
 
-| subject | verb | subject | verb | 
+| subject | verb | subject | verb |
 | ------- | ----- | ------- | ---- |
 | j' | ai | I | have |
 | tu | as | you | have |

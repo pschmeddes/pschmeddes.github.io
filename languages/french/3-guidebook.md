@@ -1,8 +1,12 @@
 # Unit 3 Guidebook
 
+Use the present tense, get around town.
+
 Explore grammar tips and key phrases for this unit
 
 ## Use the present tense
+
+### Key phrases
 
 | Français                 | English                 |
 | ------------------------ | ----------------------- |
@@ -14,6 +18,8 @@ Explore grammar tips and key phrases for this unit
 | J'habite avec Marie. | I live with Marie. |
 
 ## J'habite à Paris !
+
+### Grammar tip
 
 French has two words for in. You'll use **à** with cities but **en** with many countries.
 
@@ -27,6 +33,8 @@ French has two words for in. You'll use **à** with cities but **en** with many 
 
 ## Get around town
 
+### Key sentences
+
 | Français                 | English                 |
 | ------------------------ | ----------------------- |
 | Où est le restaurant, s'il vous plaît ? | Where is the restaurant, please? |
@@ -35,6 +43,8 @@ French has two words for in. You'll use **à** with cities but **en** with many 
 | Je vais à Paris en voiture. | I am going to Paris by car. |
 | Je prends le train et l'avion. | I am taking the train and the plane. |
 | C'est un restaurant mexicain. |It is a Mexican restaurant. |
+
+### Grammar tip
 
 ## The, the, or the?
 
@@ -51,6 +61,8 @@ But if the word starts with a vowel or silent _h_, use  **l'** instead!
 **l'**homme - the man
 
 ## Tu as un passeport ?
+
+### Irregular verbs
 
 Most French verbs  change really predictably. But some verbs just do their own thing and don't follow typical patterns.
 

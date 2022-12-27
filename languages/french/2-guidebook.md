@@ -4,6 +4,8 @@ Explore grammar tips and key phrases for this unit
 
 ## Introduce yourself
 
+### Key phrases
+
 | Français                 | English                 |
 | ------------------------ | ----------------------- |
 | Excuse-moi, tu parles français ? | Excuse me, do you speak French? |
@@ -13,7 +15,7 @@ Explore grammar tips and key phrases for this unit
 | Je parle espagnol. | I speak Spanish. |
 | Je suis américaine. | I am American. |
 
-## Verbs
+### Verbs
 
 English verbs  don't change that much. For example, we say **I run, you run, he runs**, and so on. But French verbs change a lot!
 
@@ -25,7 +27,7 @@ English verbs  don't change that much. For example, we say **I run, you run, he 
 
 But don't be fooled! The **s** in parle**s** is actually silent, so all these forms are pronounced the same!
 
-## Gender
+### Gender
 
 In French, adjectives can look different depending on the gender of what they describe. Normally, feminine adjectives end in **e**.
 

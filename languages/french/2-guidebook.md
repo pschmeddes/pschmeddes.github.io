@@ -37,3 +37,4 @@ In French, adjectives can look different depending on the gender of what they de
 | Elle est américain**e**. | She is American. |
 
 Sometimes the extra **e** changes the sound a little, so listen carefully!
+

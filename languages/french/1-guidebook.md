@@ -1,5 +1,7 @@
 # Unit 1 Guidebook
 
+Use basic phrases, greet people
+
 Explore grammar tips and key phrases for this unit
 
 ## Use basic phrases
@@ -31,7 +33,7 @@ In French, all nouns are either masculine or feminine . Masculine nouns use **un
 In English, we say I am but you are. In French, you do the same thing!
 
 | subject | être | subject | verb |
-| ------- | ---- | ------- | ---- | 
+| ------- | ---- | ------- | ---- |
 | je | suis | I | am |
 | tu | es | you | are |
 | il / elle | est | he / she | is |

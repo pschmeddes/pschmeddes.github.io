@@ -1,41 +1,6 @@
-# Vocabulary
+# Verbs
 
-## prepositions
-
-| Masculine | Femine | English |
-| ---- | ----- | ----------- |
-| Um | Uma | a, one , an |
-
-## conjunctions
-
-| Portugese                | English                  |
-| ------------------------ | ------------------------ |
-| e | and, and then, what |
-
-## pronouns
-
-| Portugese                | English                  |
-| ------------------------ | ------------------------ |
-| eu | I |
-
-## Nouns
-
-| Portugese                | English                  |
-| ------------------------ | ------------------------ |
-| o homem | the man |
-| a mulher | the woman |
-| o menino | the boy |
-| a casa | the house |
-| o caro | the car |
-| a menina | the girl |
-} a maçã | the apple |
-| a água | the water |
-| o leite | the milk |
-| o pão | the bread |
-
-## Verbs
-
-### infinitive
+## infinitive
 
 | Portugese   | English |
 | ----------- | ------- |
@@ -43,6 +8,8 @@
 | ter | have |
 | comer | eat |
 | beber | drink |
+| lé | reading |
+| escrevo | write |
 
 ### ser - to be
 

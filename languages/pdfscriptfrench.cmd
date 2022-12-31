@@ -21,15 +21,29 @@ copy french\*.md /a build\French.md /b /y
 :: Pandoc conversion
 echo converting %~1 to %~2 please wait...
 pandoc -s -N ^
- --variable "geometry=margin=1.2in" ^
- --variable mainfont="Times New Roman" ^
- --variable sansfont="Bahnschrift" ^
- --variable monofont="Menlo" ^
- --variable fontsize=12pt ^
- --variable version=2.0 ^
- --include-in-header ../templates/fancyheaders.tex ^
- --toc ^
- -o build/French.pdf french/title.txt build/French.md
+   -V geometry=margin=2cm ^
+   -V mainfont="Times New Roman" ^
+   -V sansfont="Bahnschrift" ^
+   -V monofont="Menlo" ^
+   -V fontsize=14pt ^
+   -V version=2.0 ^
+   --include-in-header ../templates/fancyheaders.tex ^
+   --toc ^
+   -o build/French.pdf french/title.txt build/French.md
+echo conversion completed
+goto:EOF
+::pandoc build/French.md ^
+    -f gfm ^
+    --include-in-header chapter_break.tex ^
+    --include-in-header inline_code.tex ^
+    --highlight-style pygments.theme ^
+    -V linkcolor:blue ^
+    -V geometry:a4paper ^
+    -V geometry:margin=2cm ^
+    -V mainfont="DejaVu Serif" ^
+    -V monofont="DejaVu Sans Mono" ^
+    --pdf-engine=xelatex ^
+    -o build/French.pdf french/title.txt 
 echo conversion completed
 goto:EOF
 :Syntax 

@@ -22,8 +22,8 @@ copy french\*.md /a build\French.md /b /y
 echo converting %~1 to %~2 please wait...
 pandoc -s -N ^
  --variable "geometry=margin=1.2in" ^
- --variable mainfont="Rubik" ^
- --variable sansfont="Arial" ^
+ --variable mainfont="Times New Roman" ^
+ --variable sansfont="Bahnschrift" ^
  --variable monofont="Menlo" ^
  --variable fontsize=12pt ^
  --variable version=2.0 ^

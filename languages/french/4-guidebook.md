@@ -4,7 +4,7 @@ Use the present tense, get around town.
 
 Explore grammar tips and key phrases for this unit
 
-## refer to family members
+## Refer to family members
 
 ### Key phrases
 
@@ -27,15 +27,15 @@ In English we say **my mother** and **my father**. In French you'd say **mon pè
 | ton frère | your brother | ta sœur | your sister |
 | son fils | his / her son | sa fille | his / her daughter |
 
-mon père - my father
+> mon père - my father
 
 ### Whose kid is this?
 
 In English, we say **Marie_'s_ cat**. But in French, you'd switch the word order and say **le chat _de_ Marie**.
 
-le chat de Marie - Marie's cat
+> le chat de Marie - Marie's cat
 
 Before vowels **de** becomes **d'**.
 
-le chien d'Anna - Anna's dog
+> le chien d'Anna - Anna's dog
 

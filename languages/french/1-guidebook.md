@@ -38,9 +38,7 @@ In English, we say I am but you are. In French, you do the same thing!
 | tu | es | you | are |
 | il / elle | est | he / she | is |
 
-| Français           | English     |
-| ------------------ | ----------- |
-| Je suis un garçon. | I am a boy. |
+> Je suis un garçon. - I am a boy.
 
 ## greet people
 
@@ -57,12 +55,12 @@ In English, we say I am but you are. In French, you do the same thing!
 
 In French, an accent mark over a letter can make a new sound.
 
-* j**e** (as in "p**e**tition")
-* journ**é**e (similar to "b**ay**")
-* tr**è**s (as in "b**e**t")
+> j**e** (as in "p**e**tition")
+> journ**é**e (similar to "b**ay**")
+> tr**è**s (as in "b**e**t")
 
 If the last letter of a word is an e (without an accent!), it's usually silent.
 
-* femm**e**  - woman
-* bonn**e** nuit - good night
+> femm**e**  - woman
+> bonn**e** nuit - good night
 

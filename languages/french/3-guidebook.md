@@ -49,16 +49,13 @@ French has two words for in. You'll use **à** with cities but **en** with many 
 ## The, the, or the?
 
 **Le** goes with masculine nouns.
-
-**le** garçon - the boy
-
+> **le** garçon - the boy
 **La** goes with feminine ones.
-
-**la** femme - the woman
+> **la** femme - the woman
 
 But if the word starts with a vowel or silent _h_, use  **l'** instead!
 
-**l'**homme - the man
+> **l'**homme - the man
 
 ## Tu as un passeport ?
 
@@ -66,9 +63,7 @@ But if the word starts with a vowel or silent _h_, use  **l'** instead!
 
 Most French verbs  change really predictably. But some verbs just do their own thing and don't follow typical patterns.
 
-### aller
-
-| subject | verb | subject | verb |
+| subject | verb (aller) | subject | verb |
 | ------- | ----- | ------- | ---- |
 | je | vais | I | go |
 | tu | vas | you | go |
@@ -84,5 +79,5 @@ If a verb begins with a vowel, be sure to change **je** to **j'**!
 | tu | as | you | have |
 | il / elle | a | he / she | has |
 
-J'**ai** un passeport. - I have a passport.
+> J'**ai** un passeport. - I have a passport.
 

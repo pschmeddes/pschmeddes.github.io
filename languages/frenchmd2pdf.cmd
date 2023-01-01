@@ -6,15 +6,20 @@ echo off
 :: make sure the build directory exist
 if not exist build mkdir build
 :: delete previous pdf
-if exist build/frenc.pdf del build/french.pdf
+if exist build\frenchlanguageguide.pdf del build\frenchlanguageguide.pdf
 :: combine to one document
-copy french\*.md /a build\French.md /b /y
+copy french\*.md /a build\french.md /b /y
 :: Pandoc convert to pdf
 echo converting please wait...
-pandoc -s -N ^
+pandoc build/french.md ^
+    -s -N ^
+    --toc ^
     --include-in-header chapter_break.tex ^
     --include-in-header inline_code.tex ^
+    --include-in-header bullet_style.tex ^
+    --include-in-header pdf_properties.tex ^
     --highlight-style pygments.theme ^
+    -V toc-title='Table of contents' ^
    -V geometry=margin=2cm ^
    -V mainfont="Source Serif Pro" ^
    -V sansfont="DejaVu Sans" ^
@@ -22,9 +27,8 @@ pandoc -s -N ^
    -V fontsize=14pt ^
    -V version=2.0 ^
    --include-in-header ../templates/fancyheaders.tex ^
-   --toc ^
    --pdf-engine=xelatex ^
-   -o build/French.pdf french/title.txt build/French.md
+   -o build/frenchlanguageguide.pdf french/title.txt
 echo conversion completed
 goto:EOF
 :Syntax 

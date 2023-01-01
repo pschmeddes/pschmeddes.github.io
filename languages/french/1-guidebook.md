@@ -32,7 +32,7 @@ In French, all nouns are either masculine or feminine . Masculine nouns use **un
 
 In English, we say I am but you are. In French, you do the same thing!
 
-| subject | être | subject | verb |
+| subject | verb (être) | subject | verb (to be) |
 | ------- | ---- | ------- | ---- |
 | je | suis | I | am |
 | tu | es | you | are |

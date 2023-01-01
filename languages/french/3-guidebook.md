@@ -23,13 +23,13 @@ Explore grammar tips and key phrases for this unit
 
 French has two words for in. You'll use **à** with cities but **en** with many countries.
 
-| Français                 | English                 |
-| ------------------------ | ----------------------- |
-| J'habite **à** Paris. | I live in Paris. |
-| J'habite **en** France. | I live in France. |
-| Je travaille **à** Madrid. | I work in Madrid. |
-| Je travaille **en** Espagne. | I work in Spain. |
-| Je travaille **en** France. | I work in France. |
+| Français                     | English           |
+| ---------------------------- | ----------------- |
+| J'habite **à** Paris.        | I live in Paris.  |
+| J'habite **en** France.      | I live in France. |
+| Je travaille **à** Madrid.   | I work in Madrid. |
+| Je travaille **en** Espagne. | I work in Spain.  |
+| Je travaille **en** France.  | I work in France. |
 
 ## Get around town
 

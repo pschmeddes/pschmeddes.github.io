@@ -1,4 +1,11 @@
-# French Language guide
-
-## Vocubalary, grammar and sentences
+---
+title: French language guide
+subtitle: Vocubalary, grammar and sentences
+keywords: french
+    language
+    learn
+    vocubulary
+    grammar
+...
+---
 

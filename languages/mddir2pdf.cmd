@@ -31,7 +31,6 @@ pandoc build\combinedsource.md ^
     --include-in-header chapter_break.tex ^
     --include-in-header inline_code.tex ^
     --include-in-header bullet_style.tex ^
-    --include-in-header pdf_properties.tex ^
     --include-in-header ../templates/fancyheaders.tex ^
     --highlight-style pygments.theme ^
     --lua-filter current-date.lua ^

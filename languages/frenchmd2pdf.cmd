@@ -15,6 +15,7 @@ pandoc build/french.md ^
     -s -N ^
     --toc ^
     --pdf-engine=xelatex ^
+    --include-in-header graphix.tex ^
     --include-in-header chapter_break.tex ^
     --include-in-header inline_code.tex ^
     --include-in-header bullet_style.tex ^
@@ -23,12 +24,12 @@ pandoc build/french.md ^
     --highlight-style pygments.theme ^
     -V toc-title="Table of contents" ^
     -V geometry=margin=2cm ^
-   -V mainfont="Source Serif Pro" ^
-   -V sansfont="DejaVu Sans" ^
-   -V monofont="DejaVu Sans Mono" ^
-   -V fontsize=14pt ^
-   -V version=2.0 ^
-   -o build/frenchlanguageguide.pdf french/title.txt
+    -V mainfont="DejaVu Serif" ^
+    -V sansfont="DejaVu Sans" ^
+    -V monofont="DejaVu Sans Mono" ^
+    -V fontsize=14pt ^
+    -V version=2.0 ^
+    -o build/frenchlanguageguide.pdf
 echo conversion completed
 goto:EOF
 
@@ -37,3 +38,4 @@ ECHO Convert markdown to pdf
 ECHO Usage: md2pdf [ markdownsourcefile ] [ pdfFileName]
 ::    --include-before-body cover.tex ^
 ::    --include-in-header graphix.tex ^
+::    -o build/frenchlanguageguide.pdf french/title.txt

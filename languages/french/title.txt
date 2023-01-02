@@ -1,5 +1,0 @@
----
-title: French Language guide
-subtitle: Vocubalary, grammar and sentences
-...
----

@@ -22,6 +22,7 @@ pandoc build/french.md ^
     --include-in-header pdf_properties.tex ^
     --include-in-header ../templates/fancyheaders.tex ^
     --highlight-style pygments.theme ^
+    --lua-filter current-date.lua ^
     -V toc-title="Table of contents" ^
     -V geometry=margin=2cm ^
     -V mainfont="DejaVu Serif" ^

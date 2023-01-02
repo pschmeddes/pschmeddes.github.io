@@ -1,1 +1,0 @@
-copy french\*.md FrenchCombined.md /b

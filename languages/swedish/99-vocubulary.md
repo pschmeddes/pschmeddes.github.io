@@ -49,16 +49,16 @@ Bezittelijk voornaamwoorden
 
 ## Nouns
 
-| Svenska                                                       | English    | Nederlands   |
-| ------------------------------------------------------------- | ---------- | ------------ |
-| [barn](https://sv.wiktionary.org/wiki/barn)                   | child      | kind         |
-| [flicka](https://sv.wiktionary.org/wiki/flicka)               | girl       | meisje       |
-| flickan                                                       | the girl   | het meisje   |
-| pojke                                                         | boy        | jongen       |
-| pojken                                                        | the boy    | de jongen    |
-| kvinna                                                        | woman      | vrouw        |
-| kvinnan                                                       | the woman  | de vrouw     |
-| kvinnor                                                       | women      | vrouwen      |
+| Svenska | English | Nederlands   |
+| ------- | ------- | ------------ |
+| [barn](https://sv.wiktionary.org/wiki/barn) | child | kind |
+| [flicka](https://sv.wiktionary.org/wiki/flicka) | girl | meisje |
+| flickan | the girl   | het meisje   |
+| pojke   | boy        | jongen       |
+| pojken  | the boy    | de jongen    |
+| kvinna  | woman      | vrouw        |
+| kvinnan | the woman  | de vrouw     |
+| kvinnor | women      | vrouwen      |
 | man                                                           | man        | man          |
 | män                                                           | men        | mannen       |
 | mannen                                                        | the man    | de man       |

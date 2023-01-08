@@ -9,75 +9,72 @@ autor: Paul Schmeddes
 abstract: todo
 ...
 ---
-# How to create an Enterprise Front End Architecture
+# How to create the Store Application Front End Architecture
 
-In this how to we use the fictional company _Sirius Cybernetics Corp._ or **SCC**  (fron the Hitchhikers guide)
+## Stare applcication Front-End Architecture
 
-## SCC Internal applications Front-End Architecture
+![Store App front end architecture](img/outsystems-ui-store-app-front-end-architecture.png)
 
 The Front-End architecure consist of the following applications and modules:
 
 |Application | Module | Desription |
 |------------|--------|------------|
-| Internal App | `AppModule` | App created with the `Template_Internal` |
-| Internal Style Guide | `Internal_StyleGuide` | - |
-|  | `Internal_Theme` | Based on the `Corporate_Theme` |
-|  | `Template_TnternalReactive` | Internal application reactive template |
-| Corporate Base | `Corporate_Theme` | Library module with the corporate style |
+| Store | `Store` | App created with the `Template_Internal` |
+| Store Style Guide | `Store_StyleGuide` | - |
+|  | `Store_Theme` | Based on the `Corporate_Theme` |
+|  | `Template_Store` | Internal application reactive template |
+| Corporate Style Guid | `Corporate_Theme` | Library module with the corporate style |
 |  | `Corporate_Patterns` | Corporate widgets |
 |  | `Corporate_Resources` | Library with reusable resources |
 
 ## Install Style Guide assets from the forge
 
-We will use the OutSystems UI Style Guide applications to jumpstart the creation of the frond-end architecture. 
+We will use the OutSystems UI Style Guide applications to jumpstart the creation of the frond-end architecture.
 
 Asset | Description
 ---------|----------
  [OutSystems UI Style Guide Theme](https://www.outsystems.com/forge/component-overview/8240/outsystems-ui-style-guide-theme) | This component enables you to create your own Style Guide theme for Reactive and Mobile apps.
  [OutSystems UI Reactive Style Guide Template](https://www.outsystems.com/forge/component-overview/7526/outsystems-ui-reactive-style-guide-template) | Create new Reactive applications based on the Style Guide |
- [OutSystems UI Mobile Style Guide Template](#) | Create new Mobile applications based on the Style Guide |
+ [OutSystems UI Mobile Style Guide Template](https://www.outsystems.com/forge/component-overview/8241/outsystems-ui-mobile-style-guide-template) | Create new Mobile applications based on the Style Guide |
  [Style Guide Preview](https://www.outsystems.com/forge/component-overview/7527/outsystems-ui-style-guide-preview)| Application to preview Styles, UI Patterns, Widgets and Screen Templates
 
 ## Create the Corporate Styles Application
 
 This application contains the rules to customize your Corporate Styles. These are based on the OutSystems UI and new Corporate Styles patterns.
 
-### Create the thene application
+### Create the theme application
 
 1. Open Service Studio and click on New Application
 1. Select from scratch
 1. Select Reactive Web App (This app will be based on OutSystemsUI)
-   1. Name: SCC Corpporate Style
-   1. Descrioption: SCC Corporate styles and patterns
-   1. Upload logo: your enterprise's logo
+   1. Name: Corporate Style Guide
+   1. Description: Corporate styles and patterns
+   1. Upload logo: the corporate logo
 1. Create the application
 
 ### Create the corporate style theme
 
-1. In service studio with the app open create a new module
-   1. Name: SCCCorporateStyle_Th
-   1. Module type: Library
-   1. Cick on create module
-   1. Publish the module
-1. Add a dependency to OutSystemsUI theme
-   1. Open Manage dependencies
-   1. Add a dependency to te OutSystemsUI theme from library OutSystemsUI
-1. Create a new theme
-   1. Go to the interface tab (Ctr+2)
-   1. Right click on the themes folder and create a new theme
-      1. Name: SCCCorporateStyle
-      1. Description SCC Corporate style rules
-      1. Public: Yes
-      1. Base theme : OutSystemsUI
-   1. Add the corporate style rules with the theme editor
-      1. Open the theme's style sheet
-      1. Open the theme editor
-      1. Select Image: Your logo (Sirius Cybernetics Corp. logo)
-      1. Font: Roboto
-      1 Publih the module
-1. Add addional style rules
-    * You can now edit the css to add any addional style rules to overide the OutSystemsUI classes or add your own.
+We clone the OutSystems UI Style Guide Theme modules so that ...
+
+1. Open module `StyleGuideTheme` (Ctrl+o)
+1. Clone the module (Module > Clone)
+1. Close module `StyleGuideTheme`
+1. Rename `CloneOfStyleGuideTheme` to `Corporate_Theme`
+1. Go to the interface tab (Ctrl+2)
+1. Rename theme `StyleGuideTheme` to `CorporateTheme` and change the description to *Corporate Theme*
+1. Convert the module to a library module: Module > Convert > Convert to library module
+1. Confirm the conversion and publish the module
 1. Close the module
+1. Open application Independent modules and move the `Corporate_Theme` to application 'Corporate Style Guide'
+
+### Add style rules to the them
+
+// TODO Use theme editor steps from Orders tutorial
+
+1. Open module `Corporate_Theme`
+1. Change the logo 
+You can now edit the css to add any addional style rules to overide the OutSystemsUI classes or add your own.
+
 
 ### Create a corporate assets library
 
@@ -178,7 +175,6 @@ We want to establish a shared layout and login experience therefore we must move
 1. Delete Client Variable Username
 1. Delete Server Actions folder Authentication
 1. Publish the module
-
 
 ## References
 

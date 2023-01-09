@@ -11,7 +11,7 @@ abstract: todo
 ---
 # How to create the Store Application Front End Architecture
 
-## Stare applcication Front-End Architecture
+## Store applcication Front-End Architecture
 
 ![Store App front end architecture](img/outsystems-ui-store-app-front-end-architecture.png)
 
@@ -23,7 +23,7 @@ The Front-End architecure consist of the following applications and modules:
 | Store Style Guide | `Store_StyleGuide` | - |
 |  | `Store_Theme` | Based on the `Corporate_Theme` |
 |  | `Template_Store` | Internal application reactive template |
-| Corporate Style Guid | `Corporate_Theme` | Library module with the corporate style |
+| Corporate Style Guide | `Corporate_Theme` | Library module with the corporate style |
 |  | `Corporate_Patterns` | Corporate widgets |
 |  | `Corporate_Resources` | Library with reusable resources |
 
@@ -38,7 +38,7 @@ Asset | Description
  [OutSystems UI Mobile Style Guide Template](https://www.outsystems.com/forge/component-overview/8241/outsystems-ui-mobile-style-guide-template) | Create new Mobile applications based on the Style Guide |
  [Style Guide Preview](https://www.outsystems.com/forge/component-overview/7527/outsystems-ui-style-guide-preview)| Application to preview Styles, UI Patterns, Widgets and Screen Templates
 
-## Create the Corporate Styles Application
+## Create the Corporate Style Guide Application
 
 This application contains the rules to customize your Corporate Styles. These are based on the OutSystems UI and new Corporate Styles patterns.
 
@@ -49,12 +49,12 @@ This application contains the rules to customize your Corporate Styles. These ar
 1. Select Reactive Web App (This app will be based on OutSystemsUI)
    1. Name: Corporate Style Guide
    1. Description: Corporate styles and patterns
-   1. Upload logo: the corporate logo
+   1. Upload logo: your corporate logo
 1. Create the application
 
 ### Create the corporate style theme
 
-We clone the OutSystems UI Style Guide Theme modules so that ...
+We clone the OutSystems UI Style Guide Theme modules
 
 1. Open module `StyleGuideTheme` (Ctrl+o)
 1. Clone the module (Module > Clone)
@@ -67,32 +67,166 @@ We clone the OutSystems UI Style Guide Theme modules so that ...
 1. Close the module
 1. Open application Independent modules and move the `Corporate_Theme` to application 'Corporate Style Guide'
 
-### Add style rules to the them
+### Add style rules to the theme using the Theme Editor
 
-// TODO Use theme editor steps from Orders tutorial
+The theme editor is used to customize the base look and feel of the application. It will affect pretty much every Screen of your application. Themes are a powerful tool that can be used in multiple applications to keep a cohesive appearance.
+
+So, let's use the Theme Editor to implement a dark mode look and feel on your
+application and add a custom background to the Login Screen.
 
 1. Open module `Corporate_Theme`
-1. Change the logo 
+1. Go to the interface tab (Ctrl+2)
+1. Open theme CorporateTheme
+1. Click on the **Open Theme Editor** icon in the on the Style Sheet editor window
+1. In the **Theme colors area**, expand the dropdown with the 18 available palettes and select the **Blue** one.
+1. Keep the **Primary** color as the first blue (the light one) and select the third color (darkest one) as the **Background**.
+1. In the **Typography** area, set the **Font** dropdown to **Open Sans**
+1. In the **Structure** area click on the **Apply shadow effect** checkbox.
+1. In the **Login and splash background**, select the second image in the
+**Background color gradient** property.
+1. Click on **Done** to save the changes and close the Theme Editor.
+
 You can now edit the css to add any addional style rules to overide the OutSystemsUI classes or add your own.
 
+### Theme's Style Sheet
 
-### Create a corporate assets library
+Another way of modifying the look and feel of the app is directly through the Style Sheets. You can edit the CSS code in the Style Sheet Editor and you can choose to add new CSS classes to a theme or Screen, or override existing ones.
+
+In this particular case, we want the Popup to have the same look and feel as the rest of the app. You will need to add extra CSS to achieve that.
+
+1. Open the CorporateTheme style sheet.
+1. Add the following CSS code to it:
+
+```css
+/* ===================================================================== */
+/*  Pop-up                                                        */
+/* ===================================================================== */
+[data-popup] { background-color: var(--color-background-body); }
+.popup-backdrop { background-color: rgba(0, 0, 0, 0.85); }
+
+/* ===================================================================== */
+/*  list-link                                                         */
+/* ===================================================================== */
+.list-link {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+```
+
+1. Close the style sheet editor
+1. Publish the module
+
+### Create a Corporate assets library
 
 Create a corporate asset library to be reusable in your applications.
 
-1. With the SCC Corporate Style application open create a new module
-   * Name: SCCCorporateAssets_Pat
-   * Module type: Library
-   * Click on Create module
-1. Set the description to: Add theme assets to be reusable in your applications.
-1. Add a dependency to the SCCCorporateStyleTheme
-1. In the module properties set the default theme to SCCCorporateStyleTheme
+1. Open module `StyleGuideThemeAssets`
+1. Clone the module (Module > Clone)
+1. Close module `StyleGuideThemeAssets`
+1. Rename the cloned module to `Corporate_Patterns`
+1. Open **Manage Dependencies** (Ctrl+Q)
+1. Add a dependency to theme `CorporateTheme` in module `CorporateTheme`
+1. Locate the `StyleGuideTheme` and Find Usages (F12)
+1. **Replace all usages** with `CorporateTheme`
+1. Remove the dependency to `StyleGuideTheme`
 1. Publish the module
 1. Close the module
+1. Open application `Independent Modules`
+1. Move module `Corporate_Patterns` to application `Corporate Style Guide`
 
-Your Corporate style application is now complete
+### Create Corporate Resources module
 
-## Create the Corporate Reactive Style Guide Template
+We now add a Corporate Resources module.
+
+1. Open application `Corporate Style Guide`
+1. Click **Add Module**
+   * Name: `Corporate_Resources`
+   * In the **Choose module type** dropdown select **Library**
+   * **Create Module**
+1. Set the module description to **Reusable corporate resources**
+1. Publish the module
+
+Your **Corporate style** application is now complete
+
+// TODO continue here
+
+## Create the Store Style Guide application
+
+Implementation steps
+
+1. Create Module `Store_Theme`
+1. Create module `Template_Store`
+1. Create the application `Store Style Guide` from the template
+1. Create the `Store_Styleguide` module
+1. Refactor the `Template_Store`
+
+### Create Module Store_Theme
+
+We clone the OutSystems UI Style Guide Theme modules and base it on the corporate style guide theme
+
+1. Open module `StyleGuideTheme` (Ctrl+o)
+1. Clone the module (Module > Clone)
+1. Close module `StyleGuideTheme`
+1. Rename `CloneOfStyleGuideTheme` to `Store_Theme`
+1. Go to the interface tab (Ctrl+2)
+1. Rename theme `StyleGuideTheme` to `StoreTheme` and change the description to *Store Theme*
+1. Convert the module to a library module: Module > Convert > Convert to library module
+1. Confirm the conversion and publish the module
+1. Open manage dependencies (Ctr+Q)
+1. Add a dependency to theme `CorporateTheme` from module `Corporate_Theme`
+1. In the themes folder select `StoreTheme`
+1. Set **Base Theme** to `CorporateTheme`
+1. For now we don't change the `StoreTheme` styles
+1. Publish the module
+1. Close the module
+1. For now leave it in `Independent modules` we will move it later.
+
+### Create module Template_Store
+
+1. Open module `Template_ReactiveStyleGuide`
+1. Clone the module (Module > Clone)
+1. Close module `Template_ReactiveStyleGuide`
+1. Rename the cloned module to `Template_Store`
+1. Publish the module
+1. Open manage dependencies (Ctrl+Q)
+1. Add a dependency to theme `CorporateTheme` from module `Corporate_Theme`
+1. In the themes folder select theme `StyleGuideTheme`
+1. Find usages (F12)
+1. **Replace all usages** with `Store_Theme`
+1. Remove the depency to `StyleGuideTheme`
+1. Change the module **Icon** to *store icon*
+1. Change the module default theme to `StoreTheme`
+1. Delete the module's theme `Template_ReactiveStyleGuide`. This prevents the creation of style sheets per application. In this case all styling is consolidated.
+1. Publish the module
+1. Close the module
+1. For now leave it in `Independent modules` we will move it later.
+
+### Create the application Store Style Guide from the template
+
+1. In service studio click on **New Application**
+1. Select from scratch and click **Next**
+1. Select **Store** and click **Next**
+1. Fill in your app's basic info"
+   * **Name** Store Style Guide
+   * **Description** Store applications style guide
+   * **Upload Icon**: select a store icon
+   * **Create App**
+
+### Create the Store_StyleGuide module
+
+1. In application `Store Style Guide` create a new module:
+   * **Name**: Store_StyleGuide
+   * **Module type**: `Store`
+   * **Create Module**
+1. Rename UI Flow Common to Store_Common
+1. Delete UI Flow Main (We won't be creating screens in this module)
+1. Publish the module
+1. xxx
+
+### Refactor the Template_Store
+
+// DEPRECATED
 
 Because we want to share common elements we need to customize the template and set the home screen destination.
 
@@ -123,7 +257,7 @@ Because we want to share common elements we need to customize the template and s
     1. Description: SCC Corporare templates to start creating Reactive Web applications and screens.
     1. Upload logo: A logo that represents the app.
     1. Create the application
-    1. Do **not** create a module 
+    1. Do **not** create a module
 1. Open application Independent modules
 1. Move module Template_SCCReactiveStyleGuide to application SCC Corporate Reactive Style Guide Template
 

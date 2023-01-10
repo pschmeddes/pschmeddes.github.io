@@ -9,7 +9,19 @@ autor: Paul Schmeddes
 abstract: todo
 ...
 ---
-# How to create the Store Application Front End Architecture
+# How to create the Enterprise Front End Architecture
+
+1. Backoffice
+1. Backoffice Mobile
+1. Store aka webshop
+1. Store mobile
+
+## Front End Architecture
+
+// Insert picture here
+
+// Deprecated.
+
 
 ## Store applcication Front-End Architecture
 

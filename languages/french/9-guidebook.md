@@ -20,3 +20,4 @@ D'oh! Remember, if a noun begins with a vowel, you use **d'** instead of **de**.
 * une bouteille d'eau - *a bottle of water*
 * un fromage d'Italie - *a cheese from Italy*
 * quatre verres d'eau - *four glasses of water*
+

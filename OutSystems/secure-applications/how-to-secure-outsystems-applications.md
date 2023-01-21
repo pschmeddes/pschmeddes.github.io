@@ -35,9 +35,7 @@ Example:
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 ```
 
-This [\[Documentation\] Enforce HTTPS Security](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Enforce_HTTPS_Security) page describes how to set the strict transport security settings.
-
-TODO Show server steps
+Follow the steps in this [\[Documentation\] Enforce HTTPS Security](https://success.outsystems.com/Documentation/11/Managing_the_Applications_Lifecycle/Secure_the_Applications/Enforce_HTTPS_Security) page to set the strict transport security settings.
 
 ### [X-Frame-Options](https://owasp.org/www-project-secure-headers/#x-frame-options)
 
@@ -66,20 +64,41 @@ TODO
 
 ### [Content-Security-Policy](https://owasp.org/www-project-secure-headers/#content-security-policy)
 
-[/[Documentation/] Apply Content Security Policy](https://success.outsystems.com/Documentation/10/Managing_the_Applications_Lifecycle/Secure_the_Applications/Apply_Content_Security_Policy)
+**Content Security Policy** ([CSP](https://developer.mozilla.org/en-US/docs/Glossary/CSP)) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross-Site Scripting ([XSS](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting)) and data injection attacks. These attacks are used for everything from data theft, to site defacement, to malware distribution. <[mdn csp]>
 
-When you import a font from an external website e.g.:
+It is advisable that you configure the CSP in every environment. Start with the allowed sources in an environment, for all its applications. Then, specify the sources per application, as needed, to override the general configuration.
 
-```css
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700'); 
-```
+Follow this [\[Documentation\] Apply Content Security Policy](https://success.outsystems.com/Documentation/10/Managing_the_Applications_Lifecycle/Secure_the_Applications/Apply_Content_Security_Policy) guide to apply csp to your environments and applications.
 
-Then add to the following csp directives:
+#### Allow google fonts imports
+
+When you import a google font e.g.: `@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');` then we must add two directives. One fore the import and one for the actual fonts as these are loaded from a different location.
 
 | directive | value |
 | --------- | ----- |
 | **Style-src** | `https://fonts.googleapis.com`|
 | **Font-src** | `https://fonts.gstatic.com` |
+
+#### Other directives
+
+Consider requiring Trusted Types for scripts to lock down DOM XSS injection sinks. You can do this by adding "require-trusted-types-for 'script'" to your policy.
+In the Other directives input add the following:
+
+`require-trusted-types-for 'script'`
+
+#### High Security Findings
+
+At runtime the following values are added to the 'script' directive:
+
+* 'unsafe-inline' : 'unsafe-inline' allows the execution of unsafe in-page scripts and event handlers.
+* 'unsafe-eval' : 'unsafe-eval' allows the execution of code injected into DOM APIs such as eval().
+
+These are reported as a 'High Severity Finding'
+TODO explain why they are inserted and how the risk is mitigated.
+
+#### CSP Evaluator
+
+You can validate your csp with this [csp evaluator](<https://csp-evaluator.withgoogle.com/>)
 
 ### [X-Permitted-Cross-Domain-Policies](https://owasp.org/www-project-secure-headers/#x-permitted-cross-domain-policies)
 
@@ -259,3 +278,5 @@ Example security headers
   ]
 }
 ```
+
+[mdn csp]: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP

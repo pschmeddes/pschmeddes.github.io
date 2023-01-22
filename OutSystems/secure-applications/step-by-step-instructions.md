@@ -31,16 +31,16 @@ Do the following in the infrastructure management console (LifeTime):
 
 1. Save the settings (We now have to republishe the apps to apply the changes.)
 1. Go to the enviroments service center
-1. There will be a message "Environment settings are pending. [Apply Settings to the Factory](x)"
+1. There will be a message "Environment settings are pending. **Apply Settings to the Factory**"
 1. Click on "Apply settings to the factory.
 1. Go to Factory > Solutions
-1. Create and publish a new solution "All"
+1. Create a new solution
     1. Name: `All'
-    1. Go to tab components and click on "Associate All Modules/Extensions"
-    1. Click on Save to save the solution
+    1. Go to tab components and click on **Associate All Modules/Extensions**
+    1. Click on **Save** to save the solution
     1. Go the versions tab
-    1. Select the current running version and click on "Publish"
-    1. Click on Ok to confirm the action.
+    1. Select the current running version and click on **Publish**
+    1. Click on **Ok** to confirm the action.
 1. Check the headers of your application at [securityheaders.com](https://securityheaders.com). ![security report summary](img/HeadersApplied1.png)
 1. Validate the CSP at [csp evaluator](<https://csp-evaluator.withgoogle.com/>) ![csp scan result](img/CSP%20Scanresults.png)  (We ignore the 'unsafe-inline' error as it is inserted by the platform)
 
@@ -48,7 +48,7 @@ Do the following in the infrastructure management console (LifeTime):
 
 :warning: **Warning:** Do use this in Personal Environments.
 
-We now have to add the reported **Referrer-Policy** and **Permissions-Policy**. For this we will use the Factory Configuration forge component.
+We now have to add the missing **Referrer-Policy** and **Permissions-Policy** headers. For this we will use the **Factory Configuration** forge app.
 
 1. Install the [Factory Configuration](https://www.outsystems.com/forge/component-overview/25/factory-configuration) app from the forge.
 1. Navigate to Factory Configuration > Shared Configurations > Create New Shared Configuration;
@@ -94,6 +94,8 @@ We now have to add the reported **Referrer-Policy** and **Permissions-Policy**. 
     ```xml
     <add name="Permissions-Policy" value="accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=(), speaker-selection=(), conversion-measurement=(), focus-without-user-activation=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), sync-script=(), trust-token-redemption=(), window-placement=(), vertical-scroll=()"/>
     ```
+
+    You can retrieve the complete file here [SecurityHeaders.xml](SecurityHeaders.xml)
 
 1. After creating the template, we need to associate it to the module(s). To do this, one has to:
 

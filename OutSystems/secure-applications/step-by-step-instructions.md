@@ -22,16 +22,16 @@ Do the following in the infrastructure management console (LifeTime):
 1. Save, this will create the default csp directives
 1. Edit the CSP Directives to add values below:
 
-| Directive | Value(s) |
-| --------- | -------- |
-| Font-src | self<br>data:<br>`https://fonts.gstatic.com` |
-| Object-src | `none` |
-| Style-src | self<br>`https://fonts.googleapis.com` |
-| Other Directives | `require-trusted-types-for 'script';` |
+    | Directive | Value(s) |
+    | --------- | -------- |
+    | Font-src | self<br>data:<br>`https://fonts.gstatic.com` |
+    | Object-src | `none` |
+    | Style-src | self<br>`https://fonts.googleapis.com` |
+    | Other Directives | `require-trusted-types-for 'script';` |
 
-11. Save the settings (We now have to republishe the apps to apply the changes.)
+1. Save the settings (We now have to republishe the apps to apply the changes.)
 1. Go to the enviroments service center
-1. There will be a message "Environment settings are pending. [Apply Settings to the Factory]()"
+1. There will be a message "Environment settings are pending. [Apply Settings to the Factory](x)"
 1. Click on "Apply settings to the factory.
 1. Go to Factory > Solutions
 1. Create and publish a new solution "All"
@@ -41,18 +41,69 @@ Do the following in the infrastructure management console (LifeTime):
     1. Go the versions tab
     1. Select the current running version and click on "Publish"
     1. Click on Ok to confirm the action.
-1. Check the headers of your application at [securityheaders.com](https://securityheaders.com). ![security report summary](img/HeadersApplied1.png) 
+1. Check the headers of your application at [securityheaders.com](https://securityheaders.com). ![security report summary](img/HeadersApplied1.png)
 1. Validate the CSP at [csp evaluator](<https://csp-evaluator.withgoogle.com/>) ![csp scan result](img/CSP%20Scanresults.png)  (We ignore the 'unsafe-inline' error as it is inserted by the platform)
 
-## Adding headers with the Factory Configuration
+## Adding headers with the Factory Configuration App
 
 :warning: **Warning:** Do use this in Personal Environments.
 
 We now have to add the reported **Referrer-Policy** and **Permissions-Policy**. For this we will use the Factory Configuration forge component.
 
-1. Install the [Factory Configuration](https://www.outsystems.com/forge/component-overview/25/factory-configuration) component from the forge.
-1. Create a shared configuration.
-1. todo
+1. Install the [Factory Configuration](https://www.outsystems.com/forge/component-overview/25/factory-configuration) app from the forge.
+1. Navigate to Factory Configuration > Shared Configurations > Create New Shared Configuration;
+1. Insert the following content in the form of the Shared Configuration:
+
+    **Name:** A name that you find appropriate and indicates what the setting does, e.g., *'Security Headers'*
+
+    **Kind:** Select *'web.config_XSL'* from the dropdown.
+
+    **Value**: The XSL template that finds the element `/configuration/system.webServer/httpProtocol/customHeaders` and adds to it a new add element.
+
+    ```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+        <xsl:output method="xml" indent="yes" encoding="UTF-8"/> 
+
+        <xsl:template match="@*|node()">
+            <xsl:copy>
+                <xsl:apply-templates select="@*|node()"/>
+            </xsl:copy>
+        </xsl:template>
+     
+        <xsl:template match="/configuration/system.webServer/httpProtocol/customHeaders">
+            <xsl:copy>
+                <xsl:apply-templates select="@*|node()"/>
+                <add name="X-Frame-Options" value="SAMEORIGIN" />
+                <add name="X-XSS-Protection" value="1; mode=block" />
+            </xsl:copy>
+        </xsl:template>
+
+    </xsl:stylesheet>
+    ```
+
+    To set the Referer-Policy header insert this add statment:
+
+    ```xml
+    <add name="Referrer-Policy" value="no-referrer" />
+    ```
+
+    To set the Permissions-Policy header insert this add statment:
+
+    ```xml
+    <add name="Permissions-Policy" value="accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=(), speaker-selection=(), conversion-measurement=(), focus-without-user-activation=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), sync-script=(), trust-token-redemption=(), window-placement=(), vertical-scroll=()"/>
+    ```
+
+1. After creating the template, we need to associate it to the module(s). To do this, one has to:
+
+    Navigate to Factory Configurations > eSpaces;
+
+    Select the eSpace(s) that that requires having this setting;
+
+    In the eSpace page, select the Shared Configuration created in step 3 from the dropdown and click the Associate button.
+
+    Apply settings to the mentioned eSpace(s) for the configuration to be effective. You can do this by adding the necessary eSpace(s) to a Solution and publishing it.
 
 ## Additional CSP settings on application level
 

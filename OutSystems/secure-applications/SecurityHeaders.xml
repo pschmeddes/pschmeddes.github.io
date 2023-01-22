@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <xsl:output method="xml" indent="yes" encoding="UTF-8"/> 
+    <xsl:output method="xml" indent="yes" encoding="UTF-8" />
 
     <xsl:template match="@*|node()">
         <xsl:copy>
-            <xsl:apply-templates select="@*|node()"/>
+            <xsl:apply-templates select="@*|node()" />
         </xsl:copy>
     </xsl:template>
- 
+
     <xsl:template match="/configuration/system.webServer/httpProtocol/customHeaders">
         <xsl:copy>
-            <xsl:apply-templates select="@*|node()"/>
+            <xsl:apply-templates select="@*|node()" />
             <add name="X-Frame-Options" value="SAMEORIGIN" />
             <add name="X-XSS-Protection" value="1; mode=block" />
             <add name="Referrer-Policy" value="no-referrer" />
-            <add name="Permissions-Policy" value="accelerometer=(),
+            <add name="Permissions-Policy"
+                value="accelerometer=(),
             ambient-light-sensor=(),
             autoplay=(),
             battery=(),camera=(),
@@ -42,8 +43,8 @@
             usb=(),
             screen-wake-lock=(),
             web-share=(),
-            xr-spatial-tracking=()"/>
-                                                  
+            xr-spatial-tracking=()" />
+
         </xsl:copy>
     </xsl:template>
 

@@ -19,8 +19,8 @@ Do the following in the infrastructure management console (LifeTime):
 1. Switch **Force HTTPS for exposed integrations in Web Applications** On
 1. In the Cookies section switch **Secure** On
 1. Switch **Enable Content Security Policy** On
-1. Save, this will create the default csp directives
-1. Edit the CSP Directives to add values below:
+1. Click on **Save**, this will create the default csp directives
+1. Edit the CSP Directives to add the values below:
 
     | Directive | Value(s) |
     | --------- | -------- |
@@ -29,10 +29,10 @@ Do the following in the infrastructure management console (LifeTime):
     | Style-src | self<br>`https://fonts.googleapis.com` |
     | Other Directives | `require-trusted-types-for 'script';` |
 
-1. Save the settings (We now have to republishe the apps to apply the changes.)
+1. Save the settings (We now have to republish the apps to apply the changes.)
 1. Go to the enviroments service center
-1. There will be a message "Environment settings are pending. **Apply Settings to the Factory**"
-1. Click on "Apply settings to the factory.
+1. There will be a message "*Environment settings are pending. Apply Settings to the Factory*"
+1. Click on **Apply settings to the factory** and wait until the settings have been applied.
 1. Go to Factory > Solutions
 1. Create a new solution
     1. Name: `All'
@@ -41,12 +41,12 @@ Do the following in the infrastructure management console (LifeTime):
     1. Go the versions tab
     1. Select the current running version and click on **Publish**
     1. Click on **Ok** to confirm the action.
-1. Check the headers of your application at [securityheaders.com](https://securityheaders.com). ![security report summary](img/HeadersApplied1.png)
+1. Check the headers of your application at [securityheaders.com](https://securityheaders.com). The result now look like this: ![security report summary](img/HeadersApplied1.png)
 1. Validate the CSP at [csp evaluator](<https://csp-evaluator.withgoogle.com/>) ![csp scan result](img/CSP%20Scanresults.png)  (We ignore the 'unsafe-inline' error as it is inserted by the platform)
 
 ## Adding headers with the Factory Configuration App
 
-:warning: **Warning:** Do use this in Personal Environments.
+⚠️ **Warning:** This component is not supported in Personal or Trial environments. Personal and Trial are offered on shared infrastructure where advanced configurations may affect other users and are therefore not supported.
 
 We now have to add the missing **Referrer-Policy** and **Permissions-Policy** headers. For this we will use the **Factory Configuration** forge app.
 

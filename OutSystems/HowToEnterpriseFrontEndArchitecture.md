@@ -11,21 +11,19 @@ abstract: todo
 ---
 # How to create the Enterprise Front End Architecture
 
-1. Backoffice
-1. Backoffice Mobile
-1. Store aka webshop
-1. Store mobile
+This how to is based on [How to Build a Front-End Architecture in OutSystems][os-1]
 
-## Front End Architecture
+![Patterns in Front-End Architecture](img\patterns-in-front-end-architecture.png)
 
-// Insert picture here
+1. External Apps
+1. Internal Apps
+1. Partner Apps
 
 // Deprecated.
 
+## Internal applcications Front-End Architecture
 
-## Store applcication Front-End Architecture
-
-![Store App front end architecture](img/outsystems-ui-store-app-front-end-architecture.png)
+![Store App front end architecture](img\outsystems-ui-store-app-front-end-architecture.png)
 
 The Front-End architecure consist of the following applications and modules:
 
@@ -324,5 +322,8 @@ We want to establish a shared layout and login experience therefore we must move
 
 ## References
 
-* [Course - Style Guide Architectures](https://www.outsystems.com/training/courses/71/style-guide-architectures/)
-* [How to Build a Front-End Architecture in OutSystems](https://success.outsystems.com/Documentation/How-to_Guides/Front-End/How_to_Build_a_Front-End_Architecture_in_OutSystems)
+* [Course - Style Guide Architectures][os-2]
+* [How to Build a Front-End Architecture in OutSystems][os-1]
+
+[os-1]: https://success.outsystems.com/Documentation/How-to_Guides/Front-End/How_to_Build_a_Front-End_Architecture_in_OutSystems
+[os-2]: https://www.outsystems.com/training/courses/71/style-guide-architectures/

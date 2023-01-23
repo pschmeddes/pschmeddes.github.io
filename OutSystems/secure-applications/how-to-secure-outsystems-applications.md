@@ -56,7 +56,7 @@ Example
 X-Frame-Options: deny
 ```
 
-TODO how to OS
+We use CPS therefore there is no need to set the X-Frame-Options header
 
 ### [X-Content-Type-Options](https://owasp.org/www-project-secure-headers/#x-content-type-options)
 

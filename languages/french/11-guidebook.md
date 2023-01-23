@@ -29,7 +29,7 @@ Le Mexique est mon pays. - *Mexico is my country.*
 
 ## Aux my goodness!
 
-We've already seen that **au** is a combination of **à** and **le**. Now, if the **noun** is **plural**, use **aux**, instead of **à** **les**. 
+We've already seen that **au** is a combination of **à** and **le**. Now, if the **noun** is **plural**, use **aux**, instead of **à** **les**.
 
 **à** + **le** = **au**
 
@@ -49,7 +49,7 @@ Here are some examples that use these contractions
 * Tes voisins sont gentils. - *Your neighbors are kind.*
 * Il y a un cheval dans ton appartement ! - *There is a horse in your apartment!*
 
-##That's some word!
+## That's some word!
 
 **Un** and **une** become **des** when you are talking about more than one thing. In English, we can just say **cats**, but in French you have to say **des chats**.
 

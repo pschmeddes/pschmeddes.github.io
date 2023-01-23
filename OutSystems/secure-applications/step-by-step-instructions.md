@@ -27,7 +27,6 @@ Do the following in the infrastructure management console (LifeTime):
     | Font-src | self<br>data:<br>`https://fonts.gstatic.com` |
     | Object-src | `none` |
     | Style-src | self<br>`https://fonts.googleapis.com` |
-    | Other Directives | `require-trusted-types-for 'script';` |
 
 1. Save the settings (We now have to republish the apps to apply the changes.)
 1. Go to the enviroments service center

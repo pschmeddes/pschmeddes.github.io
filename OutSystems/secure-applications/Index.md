@@ -1,7 +1,7 @@
 # OutSystems Application Security
 
 * [How to secure outsystems applications](how-to-secure-outsystems-applications.md)
-* [Step by steo instructions](step-by-step-instructions.md)
+* [Step by step instructions](step-by-step-instructions.md)
 * [SecurityHeaders.xml](SecurityHeaders.xml)
 
 ## References

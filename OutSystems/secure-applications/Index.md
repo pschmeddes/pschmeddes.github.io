@@ -18,3 +18,6 @@
 * [Protecting OutSystems apps from access control / permissions vulnerabilities](https://success.outsystems.com/Support/Security/How_the_OutSystems_Platform_Helps_You_Develop_Secure_Applications/Protecting_OutSystems_apps_from_access_control_/_permissions_vulnerabilities)
 * [Protecting OutSystems apps using encryption and SSL/TLS](https://success.outsystems.com/Support/Security/How_the_OutSystems_Platform_Helps_You_Develop_Secure_Applications/Protecting_OutSystems_apps_using_encryption_and_SSL/TLS)
 * [Protecting OutSystems apps from Cross Site Request Forgery attacks](https://success.outsystems.com/Support/Security/How_the_OutSystems_Platform_Helps_You_Develop_Secure_Applications/Protecting_OutSystems_apps_from_Cross_Site_Request_Forgery_attacks)
+* [How to fully encrypt your sensitive data](https://success.outsystems.com/Documentation/Best_Practices/Security/Securing_data_at_rest_with_encryption#how-to-fully-encrypt-your-sensitive-data)
+* [Handle Exceptios](https://success.outsystems.com/Documentation/11/Developing_an_Application/Implement_Application_Logic/Handle_Exceptions)
+* [Static application security testing](https://success.outsystems.com/Support/Security/Static_Application_Security_Testing)

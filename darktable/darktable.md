@@ -21,9 +21,17 @@ It is not a multi-layer or compositing program so don't think of it like Photosh
 
 ## importing images into darktable
 
-## add to library
+### add to library
 
-## copy and import
+### copy and import
+
+Naming rules
+
+* overide today's date:
+* base directery naming pattern : `C:\\Users\\pschm\\Pictures\\RawImages`
+* sub directory naming pattern: `$(EXIF_YEAR)\\$(EXIF_YEAR)-$(EXIF_MONTH)-$(EXIF_DAY)\\`
+* keep original filename: no
+* file naming pattern: `PSC_$(EXIF_YEAR)$(EXIF_MONTH)$(EXIF_DAY)_$(FILE_NAME).$(FILE_EXTENSION)`
 
 ## what are all these xmp files?
 

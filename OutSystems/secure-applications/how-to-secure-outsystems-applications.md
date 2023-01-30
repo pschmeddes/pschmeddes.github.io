@@ -1,10 +1,7 @@
 # How to secure your OutSystems applications
 
-1. general
-1. web app settings
-1. Mobile app settings
-
-## Environment security settings
+* TOC
+{:toc}
 
 ## [Security headers](https://owasp.org/www-project-secure-headers/#tab=Headers)
 

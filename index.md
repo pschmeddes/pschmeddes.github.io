@@ -6,6 +6,9 @@ layout: default
 
 You can find the Synobsys Standards and guidelines at <https://synobsys.github.io/>
 
+* TOC
+{:toc}
+
 ## Specification Suite
 
 ```gherkin

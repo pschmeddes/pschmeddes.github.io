@@ -1,11 +1,11 @@
 # Systeemkaart
 
-Mieke de Callafon & Paul Schmeddes
-
+<!--
 * Klaveren: ♣
 * Ruiten: ♣
 * Harten: ♥
-* Spades: ♠
+* Schoppen: ♠
+-->
 
 | Openingen | Antwoorden |
 |----|------|

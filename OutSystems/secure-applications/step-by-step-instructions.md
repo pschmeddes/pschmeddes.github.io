@@ -72,6 +72,9 @@ As explained in [\[Documentation\] Applying Configurations in Service Center](ht
     1. Go the versions tab
     1. Select the current running version and click on **Publish**
     1. Click on **Ok** to confirm the action.
+
+### Recheck the security headers
+
 1. Check the headers of your application at [securityheaders.com](https://securityheaders.com). The result now look like this: ![security report summary](img/HeadersApplied1.png)
 1. Validate the CSP at [csp evaluator](<https://csp-evaluator.withgoogle.com/>) ![csp scan result](img/CSP%20Scanresults.png)  (We ignore the 'unsafe-inline' error as it is inserted by the platform)
 

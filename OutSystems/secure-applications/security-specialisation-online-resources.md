@@ -4,7 +4,7 @@
 * [\[Online Course\] Authentication](https://www.outsystems.com/training/courses/120/authentication/)
 * [\[Documentation\] Reactive web security best practices](https://success.outsystems.com/Documentation/Best_Practices/Security/Reactive_web_security_best_practices)
 * [\[Documentation\] Develop Secure OutSystems Apps](https://success.outsystems.com/Support/Security/Develop_secure_OutSystems_apps)
-  * [\[Documentation\] Securing data at rest with encryption](https://success.outsystems.com/Documentation/Best_Practices/Security/Securing_data_at_rest_with_encryption#Securing_data_at_rest_on_cloud_database_servers)
+    * [\[Documentation\] Securing data at rest with encryption](https://success.outsystems.com/Documentation/Best_Practices/Security/Securing_data_at_rest_with_encryption#Securing_data_at_rest_on_cloud_database_servers)
 * [\[Video\] Implementing Password Recovery in OutSystems](https://www.youtube.com/watch?v=QKqXKJdqBuY)
 * [\[Documentation\] Secure Cookies](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/Enable_secure_session_cookies_and_set_application_cookies_as_secure)
 * [\[Documentation\] End-Users and related articles in the section](https://success.outsystems.com/Documentation/11/Developing_an_Application/Secure_the_Application/End_Users)

@@ -1,36 +1,68 @@
 # Step by step instructions to secure your Applications.
 
+* TOC
+{:toc}
+
 Before applying the settings we check the headers of your application at [securityheaders.com](https://securityheaders.com).
-This are the initial results:
+These are the initial results:
 
 ![Initial security report](img/Initial%20Security%20Report.png)
 
-Ample room for improvement here!
+Plenty of room for improvement!
 
-## Configure secure connections for an Environment
+Missing Headers
+
+| Header | Description | Status |
+| :---: | --- | --- |
+| **Strict-Transport-Security** | [**HTTP Strict Transport Security (HSTS)**](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) is a policy mechanism that helps to protect websites against man-in-the-middle attacks such as protocol downgrade attacks[1] and cookie hijacking. It allows web servers to declare that web browsers (or other complying user agents) should automatically interact with it using only HTTPS connections, which provide Transport Layer Security (TLS/SSL), unlike the insecure HTTP used alone. HSTS is an IETF standards track protocol and is specified in [RFC 6797](https://datatracker.ietf.org/doc/html/rfc6797).<br>Recommended value "Strict-Transport-Security: max-age=31536000; includeSubDomains". | Permanent: standard |
+| **Content-Security-Policy** |[Content Security Policy CSP](https://en.wikipedia.org/wiki/Content_Security_Policy) is a computer security standard introduced to prevent cross-site scripting (XSS), clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context. | Working Draft |
+| **X-Frame-Options** | ~~X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking. Recommended value "X-Frame-Options: SAMEORIGIN".~~ | Obsolete |
+| **Referrer-Policy** | Referrer Policy is a new header that allows a site to control how much information the browser includes with navigations away from a document and should be set by all sites. | Working Draft |
+| **Permissions-Policy** | Permissions Policy is a new header that allows a site to control which features and APIs can be used in the browser. | Working Draft |
+
+## Apply Security settings to your environment
+
+### Enforce HTTPS Security
+
+We will add the following headers using LifeTime;
+
+* Strict Transport Security
+* Secure Cookies
 
 Do the following in the infrastructure management console (LifeTime):
 
 1. Select the "Environments" section to see all environments.
 1. Select the environment that you want to configure by clicking on it.
 1. Click the "More Security Settings" link on the bottom section of the page.
-1. Configure the security settings.
-1. Switch **Enable HTTP Strict Transport Security (HSTS)** On
-1. Switch **Force HTTPS for exposed integrations in Web Applications** On
-1. In the Cookies section switch **Secure** On
-1. Switch **Enable Content Security Policy** On
-1. Click on **Save**, this will create the default csp directives
-1. Edit the CSP Directives to add the values below:
+1. Configure the security settings:
+    1. Switch **Enable HTTP Strict Transport Security (HSTS)** On
+    1. Switch **Force HTTPS for exposed integrations in Web Applications** On
+    1. In the Cookies section switch **Secure** On
+    1. Save the settings
+    1. You will now see a warning message "Changes saved. Apply them using a solution containing all modules. We will republish the apps to apply the changes when all options are set.
+
+### Enable Content Security Policy
+
+1. Select the "Environments" section to see all environments.
+1. Select the environment that you want to configure by clicking on it.
+1. Click the "More Security Settings" link on the bottom section of the page.
+1. Configure the security settings:
+    1. Switch **Enable Content Security Policy** On
+    1. Click on **Save**, this will create the default csp directives
+    1. To enable the use of google fonts edit the CSP Directives to add the values below:
 
     | Directive | Value(s) |
     | --------- | -------- |
     | Font-src | self<br>data:<br>`https://fonts.gstatic.com` |
     | Object-src | `none` |
     | Style-src | self<br>`https://fonts.googleapis.com` |
+    1. Save the settings (We will republish the apps to apply the changes when all options are set.)
 
-1. Save the settings (We now have to republish the apps to apply the changes.)
+### Apply Setting to the factory
+
+As explained in [\[Documentation\] Applying Configurations in Service Center](https://success.outsystems.com/documentation/11/managing_the_applications_lifecycle/deploy_applications/configure_application_settings_after_deployment/applying_configurations_in_service_center/). We must now recompile all applications to apply the configuration settings.
+
 1. Go to the enviroments service center
-1. There will be a message "*Environment settings are pending. Apply Settings to the Factory*"
 1. Click on **Apply settings to the factory** and wait until the settings have been applied.
 1. Go to Factory > Solutions
 1. Create a new solution
@@ -40,6 +72,9 @@ Do the following in the infrastructure management console (LifeTime):
     1. Go the versions tab
     1. Select the current running version and click on **Publish**
     1. Click on **Ok** to confirm the action.
+
+### Recheck the security headers
+
 1. Check the headers of your application at [securityheaders.com](https://securityheaders.com). The result now look like this: ![security report summary](img/HeadersApplied1.png)
 1. Validate the CSP at [csp evaluator](<https://csp-evaluator.withgoogle.com/>) ![csp scan result](img/CSP%20Scanresults.png)  (We ignore the 'unsafe-inline' error as it is inserted by the platform)
 
@@ -134,3 +169,8 @@ We will now add `https://i.ibb.co` to the applications CSP directives:
 1. Click on \<your application\>
 1. Click on [Publish] to republish the application and apply the new settings.
 1. Open the application to verify that there are no more errors
+
+## References
+
+* [\[Documentation\] Enforce HTTPS Security](https://success.outsystems.com/documentation/11/managing_the_applications_lifecycle/secure_the_applications/enforce_https_security/)
+* [\[Documentation\] Apply Content Security Policy](https://success.outsystems.com/documentation/11/managing_the_applications_lifecycle/secure_the_applications/apply_content_security_policy/)

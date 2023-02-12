@@ -8,14 +8,12 @@ Explore grammar tips and key phrases for this unit
 
 ### Key phrases
 
-| Français                 | English                 |
-| ------------------------ | ----------------------- |
-| Marie habite en Italie. | Marie lives in Italy. |
-| Marie est journaliste. | Marie is a journalist. |
-| J'étudie à New York, et toi ? | I am studying in New York, and you? |
-| Je travaille à Paris. | I work in Paris. |
-| Je suis en Europe. | I am in Europe. |
-| J'habite avec Marie. | I live with Marie. |
+* Marie habite en Italie. - Marie lives in Italy.
+* Marie est journaliste. - Marie is a journalist.
+* J'étudie à New York, et toi ? - I am studying in New York, and you?
+* Je travaille à Paris. - I work in Paris.
+* Je suis en Europe. - I am in Europe.
+* J'habite avec Marie. - I live with Marie.
 
 ## J'habite à Paris !
 
@@ -35,14 +33,12 @@ French has two words for in. You'll use **à** with cities but **en** with many 
 
 ### Key sentences
 
-| Français                 | English                 |
-| ------------------------ | ----------------------- |
-| Où est le restaurant, s'il vous plaît ? | Where is the restaurant, please? |
-| Je vais à la gare. | I am going to the train station. |
-| Tu as une valise ? | Do you have a suitcase? |
-| Je vais à Paris en voiture. | I am going to Paris by car. |
-| Je prends le train et l'avion. | I am taking the train and the plane. |
-| C'est un restaurant mexicain. |It is a Mexican restaurant. |
+* Où est le restaurant, s'il vous plaît ? - Where is the restaurant, please?
+* Je vais à la gare. - I am going to the train station.
+* Tu as une valise ? - Do you have a suitcase?
+* Je vais à Paris en voiture. - I am going to Paris by car.
+* Je prends le train et l'avion. - I am taking the train and the plane.
+* C'est un restaurant mexicain. - It is a Mexican restaurant.
 
 ### Grammar tip
 

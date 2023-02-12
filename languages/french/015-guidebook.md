@@ -27,3 +27,4 @@ If the verb begins with a vowel, **ne** becomes **n'**.
 In informal conversations with French speakers, you might notice that they don't always use **ne**. For example, you'll often hear **Il est pas jeune** instead of **Il n'est pas jeune**.
 
 * Il **ne** parle **pas** japonais. - *He does **not** speak Japanese*.
+

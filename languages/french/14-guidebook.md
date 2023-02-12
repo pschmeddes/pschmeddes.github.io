@@ -31,6 +31,7 @@ In French, make sure you include the **le**, **la**, or **l'** when talking abou
 * Je veux un pantalon blanc. - *I want white pants.*
 
 ## Gender
+
 Remember, remember, the noun and its gender! Some adjectives take a special form with feminine nouns.
 
 | masculine | feminine |

@@ -18,3 +18,4 @@ French adjectives usually come after the noun they're describing. So, **a *green
 * une université française - a French university
 * le thé vert - the green tea
 * le restaurant mexicain - the Mexican restaurant
+

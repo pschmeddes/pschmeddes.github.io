@@ -6,14 +6,12 @@ Explore grammar tips and key phrases for this unit
 
 ### Key phrases
 
-| Français                 | English                 |
-| ------------------------ | ----------------------- |
-| Excuse-moi, tu parles français ? | Excuse me, do you speak French? |
-| Oui, je suis français. | Yes, I am French. |
-| Comment tu t'appelles ? | What is your name? |
-| Je m'appelle Julia. | My name is Julia. |
-| Je parle espagnol. | I speak Spanish. |
-| Je suis américaine. | I am American. |
+* Excuse-moi, tu parles français ? | Excuse me, do you speak French? |
+* Oui, je suis français. | Yes, I am French. |
+* Comment tu t'appelles ? | What is your name? |
+* Je m'appelle Julia. | My name is Julia. |
+* Je parle espagnol. | I speak Spanish. |
+* Je suis américaine. | I am American. |
 
 ### Verbs
 

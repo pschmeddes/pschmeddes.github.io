@@ -1,13 +1,42 @@
 # Global Shared Services OutSystems traiining
 
-* TOC
-{:toc}
-
 ## Requirements
 
-todo
+> Een training te organiseren voor iedereen die bij STIP1 betrokken is en wat met OS te maken krijgt maar dan ‘high level’ dus niet teveel details maar wel de basics denk aan
 
-## General
+* Vanuit de blik van iemand die er voldoende vanaf moet weten om te weten 
+    * (a) wat ermee kan
+    * (b) wat er niet mee kan
+    * (c) wat het betekent voor een bouwer die ermee werkt
+
+* Templates, style sheets
+* Hoe snel maak je iets
+
+> Ik sprak gisteren met Purse mannen en die zouden ook heel graag deze overview training krijgen, net als Patrick en ik en Arthur etc.
+
+> Ha Paul, je hoorde gisteren het belang van de training weer door: de STIP1 mensen die niet bouwen, dus de BA’s maar ook architecten en ruben en ik moeten echt snel een basis OS training krijgen…
+
+* Key onderliggende architectuur
+* Hoe bouw je
+* Relatie applicatie en database
+* Hoe deploy je
+* H en V domeinen en effecten ervan
+* Rechten, waarom mogen mensen dingen niet
+* Standaards
+* QA dashboards
+* Schermen maken
+* Hoe ontwikkel je maximaal snel met OS?
+* Wat moet je niet doen, kan ook niet en waarom?
+* …
+
+Onderstaand een overzicht van de te volgen trainingen per doelgroep:
+
+* Everyone involved in Stip1 except C-level management
+* Business Analyst
+* Tester
+* Developer
+
+## Everyone
 
 ### [OutSystems Overview](https://www.outsystems.com/training/courses/173/outsystems-overview)
 
@@ -22,6 +51,14 @@ This course will help you get started with the main OutSystems development envir
 ### [Domains and Services Architecture](https://www.outsystems.com/training/courses/150/domains-and-services-architecture/)
 
 Learn how to use a domain-driven design approach to your application architecture. Understand the difference between horizontal and vertical domains, and how can you use microservices in the best way possible to support your domains.
+
+### GSS Specific Architecture
+
+* Loosely Coupled Domain Architecture
+* Live Style Guide
+* Screen templates
+
+TODO adapt presentations to developers from project start
 
 ## Businsess Ananlist
 
@@ -86,3 +123,28 @@ After a few initial considerations on load testing - why they're important, best
 * Understand how to create and address a few simple test scenarios.
 * Analyze the results and understand the resulting metrics.
 * Get an Expert load testing live demo that you can follow step by step.
+
+## Developer
+
+### Certifications
+
+* [Required] Associate Reactive Developer (OutSystems 11)
+* Mobile Developer Specialist (OutSystems 11)
+* Architecture Specialist (OutSystems 11)
+* Security Specialist (OutSystems 11)
+* Front-end Developer Specialist (OutSystems 11)
+* Associate Tech Lead (OutSystems 11)
+
+### Standards and guidelines
+
+TODO
+
+## Operations Engineer
+
+### Certifications
+
+* Professional Platform Ops Engineer (OutSystems 11)
+
+### Monitoring
+
+TODO

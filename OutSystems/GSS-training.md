@@ -7,7 +7,6 @@
 
 todo
 
-
 ## General
 
 ### [OutSystems Overview](https://www.outsystems.com/training/courses/173/outsystems-overview)
@@ -19,6 +18,10 @@ It provides an overview of the OutSystems Platform, including the key components
 ### [Service Studio Overview](https://www.outsystems.com/training/courses/174/service-studio-overview)
 
 This course will help you get started with the main OutSystems development environment - Service Studio. It provides a comprehensive overview of Service Studio and all the elements that can be created in it.
+
+### [Domains and Services Architecture](https://www.outsystems.com/training/courses/150/domains-and-services-architecture/)
+
+Learn how to use a domain-driven design approach to your application architecture. Understand the difference between horizontal and vertical domains, and how can you use microservices in the best way possible to support your domains.
 
 ## Businsess Ananlist
 

@@ -1,6 +1,12 @@
 # Global Shared Services OutSystems traiining
 
+* TOC
+{:toc}
+
 ## Requirements
+
+todo
+
 
 ## General
 
@@ -61,4 +67,19 @@ In this course, you will learn about the following topics:
 
 In this course learn about what is API testing, best practices, and why you should focus on valuable feedback.
 
-### []
+### [Testing OutSystems applications](https://www.outsystems.com/training/courses/156/testing-outsystems-applications)
+
+In this talk, learn the best practices on how to test OutSystems applications.
+
+### [Webinar: How to Set Up a Load Test in 5 Minutes](https://www.outsystems.com/training/courses/36/webinar-how-to-set-up-a-load-test-in-5-minutes)
+
+This is a quick hands-on course that will teach you how to create a load test in just 5 minutes.
+
+After a few initial considerations on load testing - why they're important, best practices and pitfalls to avoid — you will understand how to streamline the execution of load tests during project development cycles.
+
+**What you will learn:**
+
+* Learn how to use JMeter, an extremely powerful and extensible free and open-source tool.
+* Understand how to create and address a few simple test scenarios.
+* Analyze the results and understand the resulting metrics.
+* Get an Expert load testing live demo that you can follow step by step.

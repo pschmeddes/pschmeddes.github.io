@@ -57,9 +57,12 @@ Do the following in the infrastructure management console (LifeTime):
 
     | Directive | Value(s) |
     | --------- | -------- |
-    | Font-src | self<br>data:<br>`https://fonts.gstatic.com` |
+    | Font-src | self|
+    | |data:|
+    | | `https://fonts.gstatic.com` |
     | Object-src | `none` |
-    | Style-src | self<br>`https://fonts.googleapis.com` |
+    | Style-src | self |
+    | | `https://fonts.googleapis.com` |
     1. Save the settings (We will republish the apps to apply the changes when all options are set.)
 
 ### Apply Setting to the factory

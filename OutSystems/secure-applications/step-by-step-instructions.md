@@ -51,19 +51,17 @@ Do the following in the infrastructure management console (LifeTime):
 1. Select the environment that you want to configure by clicking on it.
 1. Click the "More Security Settings" link on the bottom section of the page.
 1. Configure the security settings:
-    1. Switch **Enable Content Security Policy** On
-    1. Click on **Save**, this will create the default csp directives
-    1. To enable the use of google fonts edit the CSP Directives to add the values below:
+    * Switch **Enable Content Security Policy** On
+    * Click on **Save**, this will create the default csp directives
+    * To enable the use of google fonts edit the CSP Directives to add the values below:
 
-    | Directive | Value(s) |
-    | --------- | -------- |
-    | Font-src | self|
-    | |data:|
-    | | `https://fonts.gstatic.com` |
-    | Object-src | `none` |
-    | Style-src | self |
-    | | `https://fonts.googleapis.com` |
-    1. Save the settings (We will republish the apps to apply the changes when all options are set.)
+| Directive | Value(s) |
+| --------- | -------- |
+| Font-src | self<br>data:<br>`https://fonts.gstatic.com` |
+| Object-src | `none` |
+| Style-src | self<br>`https://fonts.googleapis.com` |
+
+5. Save the settings (We will republish the apps to apply the changes when all options are set.)
 
 ### Apply Setting to the factory
 

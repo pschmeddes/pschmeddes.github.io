@@ -3,7 +3,7 @@
 * TOC
 {:toc}
 
-In this guide I'll provide step by step instructions how to secure your OutSystems Environment and Applications. If you apply this guide and follow these recomendations [\[documenttation\] Develop secure OutSystems apps](https://success.outsystems.com/support/security/develop_secure_outsystems_apps/) your application should be protected. This is also a good preparation for a [Penetration Test](https://en.wikipedia.org/wiki/Penetration_test).
+In this guide I'll provide step by step instructions how to secure your OutSystems Environment and Applications. If you apply this guide and follow these recomendations [\[documentation\] Develop secure OutSystems apps](https://success.outsystems.com/support/security/develop_secure_outsystems_apps/) your application should be protected. This is also a good preparation for a [Penetration Test](https://en.wikipedia.org/wiki/Penetration_test).
 
 ## Security headers initial check
 

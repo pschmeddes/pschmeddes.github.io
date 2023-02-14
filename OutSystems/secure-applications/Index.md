@@ -1,5 +1,8 @@
 # OutSystems Application Security
 
+* TOC
+{:toc}
+
 * [How to secure outsystems applications](how-to-secure-outsystems-applications.md)
 * [Step by step instructions](step-by-step-instructions.md)
 * [SecurityHeaders.xml](SecurityHeaders.xml)

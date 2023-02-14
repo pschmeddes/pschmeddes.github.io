@@ -1,18 +1,19 @@
-# Global Shared Services OutSystems traiining
+# Global Shared Services OutSystems training
+
+* TOC
+{:toc}
 
 ## Requirements
 
 > Een training te organiseren voor iedereen die bij STIP1 betrokken is en wat met OS te maken krijgt maar dan ‘high level’ dus niet teveel details maar wel de basics denk aan
 
-* Vanuit de blik van iemand die er voldoende vanaf moet weten om te weten 
+* Vanuit de blik van iemand die er voldoende vanaf moet weten om te weten
     * (a) wat ermee kan
     * (b) wat er niet mee kan
     * (c) wat het betekent voor een bouwer die ermee werkt
 
 * Templates, style sheets
 * Hoe snel maak je iets
-
-> Ik sprak gisteren met Purse mannen en die zouden ook heel graag deze overview training krijgen, net als Patrick en ik en Arthur etc.
 
 > Ha Paul, je hoorde gisteren het belang van de training weer door: de STIP1 mensen die niet bouwen, dus de BA’s maar ook architecten en ruben en ik moeten echt snel een basis OS training krijgen…
 
@@ -182,4 +183,3 @@ Great applications don't end with development. In this path you'll learn all abo
 ### Monitoring
 
 TODO
-

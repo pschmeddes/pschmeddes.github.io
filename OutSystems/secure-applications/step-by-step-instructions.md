@@ -1,7 +1,9 @@
-# Step by step instructions to secure your Applications.
+# Step by step instructions to secure your Environment and Applications.
 
 * TOC
 {:toc}
+
+In this guide I'll provide step by step instructions how to secure your OutSystems Environment and Applications. If you apply this guide and follow these recomendations [\[documenttation\] Develop secure OutSystems apps](https://success.outsystems.com/support/security/develop_secure_outsystems_apps/) your application should be protected. This is also a good preparation for a [Penetration Test](https://en.wikipedia.org/wiki/Penetration_test).
 
 Before applying the settings we check the headers of your application at [securityheaders.com](https://securityheaders.com).
 These are the initial results:
@@ -13,7 +15,7 @@ Plenty of room for improvement!
 Missing Headers
 
 | Header | Description | Status |
-| :---: | --- | --- |
+| --- | --- | --- |
 | **Strict-Transport-Security** | [**HTTP Strict Transport Security (HSTS)**](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) is a policy mechanism that helps to protect websites against man-in-the-middle attacks such as protocol downgrade attacks[1] and cookie hijacking. It allows web servers to declare that web browsers (or other complying user agents) should automatically interact with it using only HTTPS connections, which provide Transport Layer Security (TLS/SSL), unlike the insecure HTTP used alone. HSTS is an IETF standards track protocol and is specified in [RFC 6797](https://datatracker.ietf.org/doc/html/rfc6797).<br>Recommended value "Strict-Transport-Security: max-age=31536000; includeSubDomains". | Permanent: standard |
 | **Content-Security-Policy** |[Content Security Policy CSP](https://en.wikipedia.org/wiki/Content_Security_Policy) is a computer security standard introduced to prevent cross-site scripting (XSS), clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context. | Working Draft |
 | **X-Frame-Options** | ~~X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking. Recommended value "X-Frame-Options: SAMEORIGIN".~~ | Obsolete |

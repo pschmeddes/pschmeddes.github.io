@@ -29,12 +29,15 @@
 * Wat moet je niet doen, kan ook niet en waarom?
 * …
 
-Onderstaand een overzicht van de te volgen trainingen per doelgroep:
+**Onderstaand een overzicht van de te volgen trainingen per doelgroep:**
 
 * Everyone involved in Stip1 except C-level management
+* Kernteam STIP1
 * Business Analyst
 * Tester
 * Developer
+* Purse team
+* Operations Engineer
 
 ## Everyone
 
@@ -62,6 +65,17 @@ TODO adapt presentations to developers from project start
 
 ## Businsess Ananlist
 
+Selection from guided path [Becoming an OutSystems Business Analyst](https://www.outsystems.com/training/paths/19/becoming-an-outsystems-business-analyst/)
+
+Learn all about what is necessary to be a Business Analyst in the context of an OutSystems project.
+
+**Follow the Business Analyst path to:**
+
+* Understand OutSystems and the Agile methodology
+* Create a business vision and gather requirements
+* Participate in the project initiation and in iterations
+* Manage the roll-out of releases
+
 ### [Storytelling](https://www.outsystems.com/training/courses/191/storytelling)
 
 Getting ready to start your project? Learn all about defining the personas, and drill down on user stories.
@@ -77,6 +91,16 @@ Learn, with this expert talk, how to build and maintain a healthy backlog.
 ## Tester
 
 Selection from guided path [Becoming a Tester in OutSystems](https://www.outsystems.com/training/paths/10/becoming-a-tester-in-outsystems/)
+
+Learn how to do testing and ensure the quality of your OutSystems applications.
+See how you can establish a testing strategy and execute the tests during development iterations and in releases.
+Explore in detail the implementation and execution of some tests in OutSystems.
+
+**Follow the Tester path to:**
+
+* Plan the test strategy for the project
+* Manage and execute tests during iterations
+* Manage and execute release tests
 
 ### [Tester Role in OutSystems](https://www.outsystems.com/training/courses/75/tester-role-in-outsystems)
 
@@ -141,6 +165,16 @@ TODO
 
 ## Operations Engineer
 
+Guided path [Mastering Platform and Factory Operations](https://www.outsystems.com/training/paths/4/mastering-platform-and-factory-operations/)
+
+Great applications don't end with development. In this path you'll learn all about tuning your infrastructure and OutSystems factory governance to provide the best possible lifecycle experience to your users and developers!
+
+**Follow the Platform Operations path to:**
+
+* Learn how to detect and troubleshoot performance problems
+* Understand how OutSystems works under the hood
+* Learn ALM in OutSystems, and how to stage your applications
+
 ### Certifications
 
 * Professional Platform Ops Engineer (OutSystems 11)
@@ -148,3 +182,4 @@ TODO
 ### Monitoring
 
 TODO
+

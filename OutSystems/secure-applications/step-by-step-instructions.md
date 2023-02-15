@@ -9,6 +9,8 @@
 > 🚩 TODO Contents, Usage, Goal
 >
 >.. app ready for deployment, enable a secure runtime environment
+>
+> Check [\[MicroSoft\] Writing step-by-step instructions](https://learn.microsoft.com/en-us/style-guide/procedures-instructions/writing-step-by-step-instructions)
 
 ---
 

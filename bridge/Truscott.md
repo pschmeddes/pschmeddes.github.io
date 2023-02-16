@@ -59,3 +59,65 @@ voorbeeld (zwakke hand):
 
 Met samen weinig punten maar veel troeven kunt u door uw sprongbod het bieden van de tegenpartij verstoren.
 Ze zijn gedwongen op een hoog biedniveau naar aansluiting te zoeken waardoor het moeilijker wordt in het juiste contract te komen.
+
+## Berry's Truscott
+
+Na een informatiedoublet op 1<span style="color:red">:♥️</span>/1♠️ spelen we de Truscott conventie. Dit houdt in dat een verhoging naar 3<span style="color:red">:♥️</span>/♠️ een vierkaart steun met een zwakke hand toont. Het is bedoeld om de tegenpartij uit de bieding te houden.
+
+| West | Noord | Oost | Zuid |
+| ---- | ----- | ---- | ---- |
+|  | 1♠️ | dbl | 3♠️ <sup>1</sup>
+
+<sup>1</sup> Preemptief
+
+Zuid
+
+* ♠️ B843
+* <span style="color:red">♥️</span> 6
+* <span style="color:red">♦️</span> HB72
+* ♣️ B654
+
+---
+
+| West | Noord | Oost | Zuid |
+| ---- | ----- | ---- | ---- |
+|      | 1<span style="color:red">♥️</span> | dbl | 3<span style="color:red">♥️</span> <sup>1</sup> |
+
+<sup>1</sup> Preemptief
+
+Zuid
+
+* ♠️ 92
+* <span style="color:red">:♥️</span> B965
+* <span style="color:red">♦️</span> A7642
+* ♣️ 65
+
+Met een fit voor partners hoge kleur en limietkracht wordt 2SA geboden
+
+| West | Noord | Oost | Zuid |
+| ---- | ----- | ---- | ---- |
+| | 1♠️ | dbl | 2SA<sup>* 1</sup> |
+
+<sup>1</sup> Truscott constructieve verhoging met fit
+
+Zuid
+
+* ♠️ HV76
+* <span style="color:red">♥️</span> 84
+* <span style="color:red">♦️</span> AB2
+* ♣️ 9853
+
+---
+
+| West | Noord | Oost | Zuid |
+| ---- | ----- | ---- | ---- |
+|      | 1<span style="color:red">♥️</span> | dbl | 2SA<sup>* 1</sup> |
+
+<sup>1</sup> Truscott constructieve verhoging met fit
+
+Zuid
+
+* ♠️ A632
+* <span style="color:red">♥️</span> 9863
+* <span style="color:red">♦️</span> AB3
+* ♣️ AB3

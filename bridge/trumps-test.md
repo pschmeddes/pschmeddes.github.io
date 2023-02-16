@@ -8,3 +8,8 @@ layout: default
 * <span style="color:red">:hearts:</span>
 * <span style="color:red">:diamonds:</span>
 * :clubs:
+
+* ♣️
+* <span style="color:red">♦️</span>
+* <span style="color:red">:♥️</span>
+* ♠️

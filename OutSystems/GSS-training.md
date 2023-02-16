@@ -35,6 +35,7 @@
 * Everyone involved in Stip1 except C-level management
 * Kernteam STIP1
 * Business Analyst
+* UI Designer
 * Tester
 * Developer
 * Purse team
@@ -62,7 +63,7 @@ Learn how to use a domain-driven design approach to your application architectur
 * Live Style Guide
 * Screen templates
 
-TODO adapt presentations to developers from project start
+> 🚩TODO adapt presentations to developers from project start
 
 ## Businsess Ananlist
 
@@ -88,6 +89,12 @@ Learn how to capture requirements and roles into user stories, and how to start 
 ### [Build and Manage your Backlog](https://www.outsystems.com/training/courses/151/build-and-manage-your-backlog/)
 
 Learn, with this expert talk, how to build and maintain a healthy backlog.
+
+## UX/UI Designer
+
+> 🚩 TODO
+
+[\[Documentation\] Design UI](https://success.outsystems.com/documentation/11/developing_an_application/design_ui/)
 
 ## Tester
 

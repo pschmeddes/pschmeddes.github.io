@@ -94,7 +94,9 @@ Learn, with this expert talk, how to build and maintain a healthy backlog.
 
 > 🚩 TODO
 
-[\[Documentation\] Design UI](https://success.outsystems.com/documentation/11/developing_an_application/design_ui/)
+* [OutSystems UI](https://outsystemsui.outsystems.com/OutSystemsUIWebsite/HomeScreen)
+* [\[Documentation\] Design UI](https://success.outsystems.com/documentation/11/developing_an_application/design_ui/)
+* [STIP1 Style Guide preview](https://gssb-dev.outsystemsenterprise.com/GlobalStyleGuidePreview/)
 
 ## Tester
 

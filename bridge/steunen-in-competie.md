@@ -11,7 +11,6 @@ Wanneer de tegenpartij tusssenbiedt wil je die kleur geen troef meer maken. Het 
 
 Wanneer de tegenpartij tusssenbiedt wil je die kleur geen troef meer maken. Het bieden van de kleur van de tegenpartij wordt gebruikt om een sterk spel te tonen. In de eerste biedronde belooft het tevens een fit voor partners kleur.
 
-
 | West | Noord | Oost | Zuid |
 | ---- | ----- | ---- | ---- |
 | | 1<span style="color:red">♦️</span> | 1♠️ | 2♠️ <sup>1</sup>|
@@ -23,7 +22,8 @@ Na een 1 <span style="color:red">:♥️</span> of 1 ♠️ opening en een tusse
 | West | Noord | Oost | Zuid |
 | ---- | ----- | ---- | ---- |
 | | 1<span style="color:red">:♥️</span>| 2<span style="color:red">♦️</span>| 3<span style="color:red">♦️</span><sup>* 1</sup> |
-<suo>1</sup> Goede hand met hartenfit
+
+<sup>1</sup> Goede hand met hartenfit
 
 | West | Noord | Oost | Zuid |
 | ---- | ----- | ---- | ---- |
@@ -36,5 +36,5 @@ In een later stadium van het bieden vraagt een bod in de kleur van de tegenparti
 | | 1<span style="color:red">♦️</span>| 1<span style="color:red">:♥️</span> |1♠️ <sup>* 1</sup> |
 | pas | 3<span style="color:red">♦️</span> | pas | 3<span style="color:red">:♥️</span><sup>* 2</sup> |
 
-<sup>1</sup> Vanaf vijfkaart
+<sup>1</sup> Vanaf vijfkaart<br>
 <sup>2</sup> Algemeen cuebod

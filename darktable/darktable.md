@@ -32,9 +32,11 @@ The following additional options are available to control the file and directory
 * import job
 
     The name of the import job (populated into the $(JOBCODE) variable).
+
 * override todays’s date
 
-    Enter a valid date/time (in `YYYY-MM-DD[Thh:mm:ss`] format) if you want to override the current date/time used when expanding the variables $(YEAR), $(MONTH), $(DAY), $(HOUR), $(MINUTE) and $(SECONDS). Leave the field empty otherwise.
+    Enter a valid date/time (in `YYYY-MM-DD[Thh:mm:ss`] format) if you want to override the current date/time used when expanding the variables `$(YEAR)`, `$(MONTH)`, `$(DAY)`, `$(HOUR)`, `$(MINUTE)` and `$(SECONDS)`. Leave the field empty otherwise.
+
 * **base directory naming pattern**
 
     The base directory part of the naming pattern `$(PICTURES_FOLDER)/RawImages`
@@ -55,15 +57,27 @@ Most of these options can also be set in preferences > import. See this section 
 
 ## what are all these xmp files?
 
+> 🚩 TODO
+
 ## preferences
+
+> 🚩 TODO
 
 ## map view
 
+> 🚩 TODO
+
 ## printing from darktable
+
+> 🚩 TODO
 
 ## slideshow
 
+> 🚩 TODO
+
 ## tethered shooting
+
+> 🚩 TODO
 
 ## Darktable workflow
 
@@ -74,3 +88,7 @@ Most of these options can also be set in preferences > import. See this section 
 * 2022
     * 2022_01
     * 2022_02
+* 2023
+    * 2023_01
+    * 2023_02
+    * ...

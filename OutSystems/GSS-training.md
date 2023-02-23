@@ -1,4 +1,4 @@
-# Global Shared Services OutSystems training
+# OutSystems training
 
 * TOC
 {:toc}

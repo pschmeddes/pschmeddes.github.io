@@ -9,8 +9,7 @@
     <xsl:template match="/configuration/system.web/httpRuntime">
        <xsl:copy>
           <xsl:apply-templates select="@*|node()" />
-          <xsl:attribute name="maxRequestLength">51200</xsl:attribute>
-          <!-- 50 MB = 51200 KB-->
+          <xsl:attribute name="maxRequestLength">55000</xsl:attribute>
        </xsl:copy>
     </xsl:template>
     <!-- If the element "system.webServer/security" does not exist, add it.-->
@@ -20,7 +19,6 @@
           <security>
              <requestFiltering>
                 <requestLimits maxAllowedContentLength="52428800" />
-                <!-- 50 MB = 52428800 B-->
              </requestFiltering>
           </security>
        </system.webServer>

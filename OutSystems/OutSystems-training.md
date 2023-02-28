@@ -6,29 +6,27 @@
 ## Requirements
 
 > Een training te organiseren voor iedereen die bij STIP1 betrokken is en wat met OS te maken krijgt maar dan ‘high level’ dus niet teveel details maar wel de basics denk aan
-
-* Vanuit de blik van iemand die er voldoende vanaf moet weten om te weten
-    * (a) wat ermee kan
-    * (b) wat er niet mee kan
-    * (c) wat het betekent voor een bouwer die ermee werkt
-
-* Templates, style sheets
-* Hoe snel maak je iets
-
+>
+>* Vanuit de blik van iemand die er voldoende vanaf moet weten om te weten
+>     * (a) wat ermee kan
+>     * (b) wat er niet mee kan
+>     * (c) wat het betekent voor een bouwer die ermee werkt
+>* Templates, style sheets
+>* Hoe snel maak je iets
 > Ha Paul, je hoorde gisteren het belang van de training weer door: de STIP1 mensen die niet bouwen, dus de BA’s maar ook architecten en ruben en ik moeten echt snel een basis OS training krijgen…
-
-* Key onderliggende architectuur
-* Hoe bouw je
-* Relatie applicatie en database
-* Hoe deploy je
-* H en V domeinen en effecten ervan
-* Rechten, waarom mogen mensen dingen niet
-* Standaards
-* QA dashboards
-* Schermen maken
-* Hoe ontwikkel je maximaal snel met OS?
-* Wat moet je niet doen, kan ook niet en waarom?
-* …
+>
+>* Key onderliggende architectuur
+>* Hoe bouw je
+>* Relatie applicatie en database
+>* Hoe deploy je
+>* H en V domeinen en effecten ervan
+>* Rechten, waarom mogen mensen dingen niet
+>* Standaards
+>* QA dashboards
+>* Schermen maken
+>* Hoe ontwikkel je maximaal snel met OS?
+>* Wat moet je niet doen, kan ook niet en waarom?
+>* …
 
 **Onderstaand een overzicht van de te volgen trainingen per doelgroep:**
 
@@ -78,8 +76,12 @@ Learn all about what is necessary to be a Business Analyst in the context of an 
 * Create a business vision and gather requirements
 * Participate in the project initiation and in iterations
 * Manage the roll-out of releases
+
 * [Gherking for Business Analists](https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/3810/Gherkin-for-Business-Analysts.aspx)
-* []
+* [Automation Panda - BDD](https://automationpanda.com/bdd/)
+* [writing-good-gherkin](https://automationpanda.com/2017/01/30/bdd-101-writing-good-gherkin/)
+* [BDD 101: Test data](https://automationpanda.com/2017/08/05/handling-test-data-in-bdd/)
+* [Writing Great Specifcations Using Specification by Example and Gherkin](https://www.manning.com/books/writing-great-specifications)
 
 ### [Storytelling](https://www.outsystems.com/training/courses/191/storytelling)
 

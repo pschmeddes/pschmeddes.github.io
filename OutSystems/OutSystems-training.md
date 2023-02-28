@@ -78,6 +78,8 @@ Learn all about what is necessary to be a Business Analyst in the context of an 
 * Create a business vision and gather requirements
 * Participate in the project initiation and in iterations
 * Manage the roll-out of releases
+* [Gherking for Business Analists](https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/3810/Gherkin-for-Business-Analysts.aspx)
+* []
 
 ### [Storytelling](https://www.outsystems.com/training/courses/191/storytelling)
 

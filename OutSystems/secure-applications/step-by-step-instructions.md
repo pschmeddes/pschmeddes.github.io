@@ -55,7 +55,8 @@ Do the following in the infrastructure management console (LifeTime):
     1. Switch **Force HTTPS for exposed integrations in Web Applications** On
     1. In the Cookies section switch **Secure** On
     1. Save the settings
-    1. You will now see a warning message "Changes saved. Apply them using a solution containing all modules. We will republish the apps to apply the changes when all options are set.
+    1. You will now see a warning message: *Changes saved. Apply them using a solution containing all modules.*
+    For now we ignore this message, we will republish the apps to apply the changes when all options are set.
 
 ### Enable Content Security Policy
 
@@ -64,7 +65,7 @@ Do the following in the infrastructure management console (LifeTime):
 1. Click the "More Security Settings" link on the bottom section of the page.
 1. Configure the security settings:
     * Switch **Enable Content Security Policy** On
-    * Click on **Save**, this will create the default csp directives
+    * Click on **Save**, this will create the default CSP Directives
     * To enable the use of google fonts edit the CSP Directives to add the values below:
 
 | Directive | Value(s) |
@@ -88,7 +89,7 @@ As explained in [\[Documentation\] Applying Configurations in Service Center](ht
     1. Click on **Save** to save the solution
     1. Go the versions tab
     1. Select the current running version and click on **Publish**
-    1. Click on **Ok** to confirm the action.
+    1. Click on **OK** to confirm the action.
 
 ### Recheck the security headers
 
@@ -102,7 +103,7 @@ As explained in [\[Documentation\] Applying Configurations in Service Center](ht
 We now have to add the missing **Referrer-Policy** and **Permissions-Policy** headers. For this we will use the **Factory Configuration** forge app.
 
 1. Install the [Factory Configuration](https://www.outsystems.com/forge/component-overview/25/factory-configuration) app from the forge.
-1. Navigate to Factory Configuration > Shared Configurations > Create New Shared Configuration;
+1. Navigate to Factory Configuration > Shared Configurations > Create New Shared Configuration.
 1. Insert the following content in the form of the Shared Configuration:
 
     **Name:** A name that you find appropriate and indicates what the setting does, e.g., *'Security Headers'*
@@ -150,13 +151,10 @@ We now have to add the missing **Referrer-Policy** and **Permissions-Policy** he
 
 1. After creating the template, we need to associate it to the module(s). To do this, one has to:
 
-    Navigate to Factory Configurations > eSpaces;
-
-    Select the eSpace(s) that that requires having this setting;
-
-    In the eSpace page, select the Shared Configuration created in step 3 from the dropdown and click the Associate button.
-
-    Apply settings to the mentioned eSpace(s) for the configuration to be effective. You can do this by adding the necessary eSpace(s) to a Solution and publishing it.
+    1. Navigate to Factory Configurations > eSpaces;
+    1. Select the eSpace(s) that that requires having this setting;
+    1. In the eSpace page, select the Shared Configuration created in step 3 from the dropdown and click the Associate button.
+    1. Apply settings to the mentioned eSpace(s) for the configuration to be effective. You can do this by adding the necessary eSpace(s) to a Solution and publishing it.
 
 ## Additional CSP settings on application level
 
@@ -167,7 +165,7 @@ First we check the Error logs to see what's blocked:
 1. Open Service Center
 1. Go to monitoring
 1. Select Errors
-1. Enter "CSPReport" in the source filter field and click on filter
+1. Enter `CSPReport` in the source filter field and click on filter
 1. You will now see the CSP errors e.g,: `Content Security Policy blocked 'https://i.ibb.co/xDXpRt6/Automaticant.jpg'.`
 
 We will now add `https://i.ibb.co` to the applications CSP directives:

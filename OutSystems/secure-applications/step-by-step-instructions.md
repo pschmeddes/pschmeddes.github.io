@@ -11,7 +11,9 @@ subtitle: A step by step guide
 
 ## Introduction
 
-In this guide I'll provide step by step instructions how to secure your OutSystems Environment and Applications. If you apply this guide and follow the recomendations as described in [\[documentation\] Develop secure OutSystems apps](https://success.outsystems.com/support/security/develop_secure_outsystems_apps/), your application should be protected.
+In this guide I'll provide step by step instructions how to secure your OutSystems runtime environment and Applications. If you apply this guide and follow the recommendations as described in [\[documentation\] Develop secure OutSystems apps](https://success.outsystems.com/support/security/develop_secure_outsystems_apps/), your application should be protected.
+
+⚠️ Please note that if you require maximum security you should consider using [Outsystems Sentry](https://www.outsystems.com/sentry/).
 
 Applying these security settings is also a good preparation for a [Penetration Test](https://en.wikipedia.org/wiki/Penetration_test).
 
@@ -45,22 +47,21 @@ We will add the following headers using LifeTime;
 
 Do the following in the infrastructure management console (LifeTime):
 
-1. Select the "Environments" section to see all environments.
-1. Select the environment that you want to configure by clicking on it.
-1. Click the "More Security Settings" link on the bottom section of the page.
+1. Select the "Environments" section to see all environments
+1. Select the environment that you want to configure by clicking on it
+1. Click the "More Security Settings" link on the bottom section of the page
 1. Configure the security settings:
     1. Switch **Enable HTTP Strict Transport Security (HSTS)** On
     1. Switch **Force HTTPS for exposed integrations in Web Applications** On
     1. In the Cookies section switch **Secure** On
     1. Save the settings
-    1. You will now see a warning message: *Changes saved. Apply them using a solution containing all modules.*
-    For now we ignore this message, we will republish the apps to apply the changes when all options are set.
+    1. You will now see a warning message: *"Changes saved. Apply them using a solution containing all modules."* For now we ignore this message, we will republish the apps to apply the changes when all options are set
 
 ### Enable Content Security Policy
 
-1. Select the "Environments" section to see all environments.
-1. Select the environment that you want to configure by clicking on it.
-1. Click the "More Security Settings" link on the bottom section of the page.
+1. Select the "Environments" section to see all environments
+1. Select the environment that you want to configure by clicking on it
+1. Click the "More Security Settings" link on the bottom section of the page
 1. Configure the security settings:
     * Switch **Enable Content Security Policy** On
     * Click on **Save**, this will create the default CSP Directives
@@ -72,14 +73,14 @@ Do the following in the infrastructure management console (LifeTime):
 | Object-src | `none` |
 | Style-src | self<br>`https://fonts.googleapis.com` |
 
-5. Save the settings (We will republish the apps to apply the changes when all options are set.)
+5. Save the settings. (We will republish the apps to apply the changes when all options are set.)
 
 ### Apply Setting to the factory
 
 As explained in [\[Documentation\] Applying Configurations in Service Center](https://success.outsystems.com/documentation/11/managing_the_applications_lifecycle/deploy_applications/configure_application_settings_after_deployment/applying_configurations_in_service_center/). We must now recompile all applications to apply the configuration settings.
 
 1. Go to the enviroments service center
-1. Click on **Apply settings to the factory** and wait until the settings have been applied.
+1. Click on **Apply settings to the factory** and wait until the settings have been applied
 1. Go to Factory > Solutions
 1. Create a new solution
     1. Name: `All'
@@ -100,11 +101,11 @@ As explained in [\[Documentation\] Applying Configurations in Service Center](ht
 
 We now have to add the missing **Referrer-Policy** and **Permissions-Policy** headers. For this we will use the **Factory Configuration** forge app.
 
-1. Install the [Factory Configuration](https://www.outsystems.com/forge/component-overview/25/factory-configuration) app from the forge.
-1. Navigate to Factory Configuration > Shared Configurations > Create New Shared Configuration.
+1. Install the [Factory Configuration](https://www.outsystems.com/forge/component-overview/25/factory-configuration) app from the forge
+1. Navigate to Factory Configuration > Shared Configurations > Create New Shared Configuration
 1. Insert the following content in the form of the Shared Configuration:
 
-    **Name:** A name that you find appropriate and indicates what the setting does, e.g., *'Security Headers'*
+    **Name:** A name that you find appropriate and indicates what the setting does, e.g., *'Security Headers'*.
 
     **Kind:** Select *'web.config_XSL'* from the dropdown.
 
@@ -149,10 +150,10 @@ We now have to add the missing **Referrer-Policy** and **Permissions-Policy** he
 
 1. After creating the template, we need to associate it to the module(s). To do this, one has to:
 
-    1. Navigate to Factory Configurations > eSpaces;
-    1. Select the eSpace(s) that that requires having this setting;
-    1. In the eSpace page, select the Shared Configuration created in step 3 from the dropdown and click the Associate button.
-    1. Apply settings to the mentioned eSpace(s) for the configuration to be effective. You can do this by adding the necessary eSpace(s) to a Solution and publishing it.
+    1. Navigate to Factory Configurations > eSpaces
+    1. Select the eSpace(s) that that requires having this setting
+    1. In the eSpace page, select the Shared Configuration created in step 3 from the dropdown and click the Associate button
+    1. Apply settings to the mentioned eSpace(s) for the configuration to be effective. You can do this by adding the necessary eSpace(s) to a Solution and publishing it
 
 ## Additional CSP settings on application level
 

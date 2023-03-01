@@ -6,9 +6,6 @@ subtitle: A step by step guide
 
 {{page.subtitle}}
 
-* TOC
-{:toc}
-
 ## Introduction
 
 In this guide I'll provide step by step instructions how to secure your OutSystems runtime environment and Applications. If you apply this guide and follow the recommendations as described in [\[documentation\] Develop secure OutSystems apps](https://success.outsystems.com/support/security/develop_secure_outsystems_apps/), your application should be protected.

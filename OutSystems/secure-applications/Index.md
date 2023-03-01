@@ -4,7 +4,7 @@
 {:toc}
 
 * [How to secure outsystems applications](how-to-secure-outsystems-applications.md)
-* [Step by step instructions](step-by-step-instructions.md)
+* [Securing your OutSystems runtime environment](Securing-your-OutSystems-runtime-environment.md)
 * [SecurityHeaders.xml](SecurityHeaders.xml)
 
 ## References

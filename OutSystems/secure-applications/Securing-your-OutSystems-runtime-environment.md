@@ -25,13 +25,30 @@ Plenty of room for improvement!
 
 Missing Headers
 
-| Header | Description | Status |
-| --- | --- | --- |
-| **Strict-Transport-Security** | [**HTTP Strict Transport Security (HSTS)**](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) is a policy mechanism that helps to protect websites against man-in-the-middle attacks such as protocol downgrade attacks[1] and cookie hijacking. It allows web servers to declare that web browsers (or other complying user agents) should automatically interact with it using only HTTPS connections, which provide Transport Layer Security (TLS/SSL), unlike the insecure HTTP used alone. HSTS is an IETF standards track protocol and is specified in [RFC 6797](https://datatracker.ietf.org/doc/html/rfc6797).<br>Recommended value "Strict-Transport-Security: max-age=31536000; includeSubDomains". | Permanent: standard |
-| **Content-Security-Policy** |[Content Security Policy CSP](https://en.wikipedia.org/wiki/Content_Security_Policy) is a computer security standard introduced to prevent cross-site scripting (XSS), clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context. | Working Draft |
-| **X-Frame-Options** |*X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking. Recommended value "X-Frame-Options: SAMEORIGIN".* </p>| Obsolete |
-| **Referrer-Policy** | Referrer Policy is a new header that allows a site to control how much information the browser includes with navigations away from a document and should be set by all sites. | Working Draft |
-| **Permissions-Policy** | Permissions Policy is a new header that allows a site to control which features and APIs can be used in the browser. | Working Draft |
+### Strict-Transport-Security
+
+[**HTTP Strict Transport Security (HSTS)**](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) is a policy mechanism that helps to protect websites against man-in-the-middle attacks such as protocol downgrade attacks[1] and cookie hijacking. It allows web servers to declare that web browsers (or other complying user agents) should automatically interact with it using only HTTPS connections, which provide Transport Layer Security (TLS/SSL), unlike the insecure HTTP used alone. HSTS is an IETF standards track protocol and is specified in [RFC 6797](https://datatracker.ietf.org/doc/html/rfc6797).<br>Recommended value "Strict-Transport-Security: max-age=31536000; includeSubDomains".
+Status: **Permanent: standard**
+
+### **Content-Security-Policy**
+
+[Content Security Policy CSP](https://en.wikipedia.org/wiki/Content_Security_Policy) is a computer security standard introduced to prevent cross-site scripting (XSS), clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context.
+Status: **Working Draft**
+
+### **X-Frame-Options**
+
+*X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking. Recommended value "X-Frame-Options: SAMEORIGIN".* 
+Status: **Obsolete**
+
+### **Referrer-Policy**
+
+Referrer Policy is a new header that allows a site to control how much information the browser includes with navigations away from a document and should be set by all sites.
+Status: **Working Draft**
+
+### **Permissions-Policy**
+
+Permissions Policy is a new header that allows a site to control which features and APIs can be used in the browser.
+Status : **Working Draft**
 
 ## Apply Security settings to your environment
 
@@ -63,14 +80,10 @@ Do the following in the infrastructure management console (LifeTime):
     * Switch **Enable Content Security Policy** On
     * Click on **Save**, this will create the default CSP Directives
     * To enable the use of google fonts edit the CSP Directives to add the values below:
-
-| Directive | Value(s) |
-| --------- | -------- |
-| Font-src | self<br>data:<br>`https://fonts.gstatic.com` |
-| Object-src | `none` |
-| Style-src | self<br>`https://fonts.googleapis.com` |
-
-5. Save the settings. (We will republish the apps to apply the changes when all options are set.)
+        * Font-src: self<br>data:<br>`https://fonts.gstatic.com`
+        * Object-src: `none`
+        * Style-src: self<br>`https://fonts.googleapis.com`
+1. Save the settings. (We will republish the apps to apply the changes when all options are set.)
 
 ### Apply Setting to the factory
 

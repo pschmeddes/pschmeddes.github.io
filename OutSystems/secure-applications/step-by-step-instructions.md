@@ -1,4 +1,4 @@
-# Step by step instructions to secure your Environment and Applications.
+# Securing your OutSystems environment and applications - a step by step guide
 
 * TOC
 {:toc}

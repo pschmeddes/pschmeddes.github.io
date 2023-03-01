@@ -1,21 +1,19 @@
-# Securing your OutSystems environment and applications - a step by step guide
+---
+title: Securing your OutSystems runtime environment
+subtitle: A step by step guide
+---
+# {{page.title}}
+
+{{page.subtitle}}
 
 * TOC
 {:toc}
 
 ## Introduction
 
-> 🚩 TODO Contents, Usage, Goal
->
->.. app ready for deployment, enable a secure runtime environment
->
-> Check [\[MicroSoft\] Writing step-by-step instructions](https://learn.microsoft.com/en-us/style-guide/procedures-instructions/writing-step-by-step-instructions)
+In this guide I'll provide step by step instructions how to secure your OutSystems Environment and Applications. If you apply this guide and follow the recomendations as described in [\[documentation\] Develop secure OutSystems apps](https://success.outsystems.com/support/security/develop_secure_outsystems_apps/), your application should be protected.
 
----
-
-### Contents
-
-In this guide I'll provide step by step instructions how to secure your OutSystems Environment and Applications. If you apply this guide and follow these recomendations [\[documentation\] Develop secure OutSystems apps](https://success.outsystems.com/support/security/develop_secure_outsystems_apps/) your application should be protected. This is also a good preparation for a [Penetration Test](https://en.wikipedia.org/wiki/Penetration_test).
+Applying these security settings is also a good preparation for a [Penetration Test](https://en.wikipedia.org/wiki/Penetration_test).
 
 ## Security headers initial check
 

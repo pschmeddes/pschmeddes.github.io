@@ -1,0 +1,12 @@
+---
+title: French language guide
+author: Paul Schmeddes
+date: March 2023
+header-includes:
+  - \usepackage{fontspec}
+  - \setmainfont{Georgia}
+  - \newfontfamily\sectionfont{Helvetica Neue}
+  - \titleformat{\section}{\sectionfont\Large\bfseries}{\thesection}{1em}{}
+  - \titleformat{\subsection}{\sectionfont\large\bfseries}{\thesubsection}{1em}{}
+  - \titleformat{\subsubsection}{\sectionfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+---

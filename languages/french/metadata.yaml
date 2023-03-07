@@ -2,11 +2,10 @@
 title: French language guide
 author: Paul Schmeddes
 date: March 2023
-header-includes:
-  - \usepackage{fontspec}
-  - \setmainfont{Georgia}
-  - \newfontfamily\sectionfont{Helvetica Neue}
-  - \titleformat{\section}{\sectionfont\Large\bfseries}{\thesection}{1em}{}
-  - \titleformat{\subsection}{\sectionfont\large\bfseries}{\thesubsection}{1em}{}
-  - \titleformat{\subsubsection}{\sectionfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+documentclass: book
+bookname: french_guide
+classoption: oneside
+fontsize: 12pt
+geometry: "top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm"
+papersize: a4paper
 ---

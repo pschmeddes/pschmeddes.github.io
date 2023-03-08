@@ -2,19 +2,12 @@
 title : Main page
 layout: default
 ---
-# Welcome to my homepage
+# Welcome
 
-* TOC
-{:toc}
+Overview
 
 ## OutSystems
 
 ### Secure Applications
 
 [Secure Applications](/OutSystems/secure-applications/Index.md)
-
-## Photography
-
-### Darktable
-
-[darktable](/darktable/darktable.md)

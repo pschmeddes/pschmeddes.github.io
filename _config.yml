@@ -1,7 +1,8 @@
-title: Paul's Personal pages
+title: Paul's pages
 author: Paul Schmeddes
 email: pschmeddes@gmail.com
-# description: > # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until "baseurl:"
+   OutSystems and related stories
 # social links
 github_username:  pschmeddes # DO NOT include the @ character, or else the build will fail!
 

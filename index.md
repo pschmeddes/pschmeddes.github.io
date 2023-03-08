@@ -4,8 +4,6 @@ layout: default
 ---
 # Welcome to my homepage
 
-You can find the Synobsys Standards and guidelines at <https://synobsys.github.io/>
-
 * TOC
 {:toc}
 
@@ -20,18 +18,3 @@ You can find the Synobsys Standards and guidelines at <https://synobsys.github.i
 ### Darktable
 
 [darktable](/darktable/darktable.md)
-
-## Bridge
-
-* [Systeeemkaart](/bridge/Systeemkaart.md)
-* [Uitkomen](/bridge/Uitkomen.md)
-
-## Specification Suite
-
-```gherkin
-feature: do something
-
-given x
-when y
-then z
-```

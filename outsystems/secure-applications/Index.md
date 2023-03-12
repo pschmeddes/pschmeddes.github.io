@@ -8,7 +8,7 @@ layout: default
 {:toc}
 
 * [How to secure outsystems applications](how-to-secure-outsystems-applications.md)
-* [Securing your OutSystems runtime environment](Securing-your-OutSystems-runtime-environment.md)
+* [Securing your OutSystems runtime environment](Securing-your-outsystems-runtime-environment.md)
 * [SecurityHeaders.xml](SecurityHeaders.xml)
 
 ## Plugins

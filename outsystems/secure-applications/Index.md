@@ -9,7 +9,7 @@
 
 ## Plugins
 
-The following plugins are available in the forge for securing your application
+The following plugins are available in the forge for securing your application:
 
 * [SSL Pinning Plugin](https://success.outsystems.com/Documentation/11/Extensibility_and_Integration/Mobile_Plugins/SSL_Pinning_Plugin)
 * [Root and Jailbreak Detection Plugin](https://www.outsystems.com/forge/component-overview/9432/root-jailbreak-detection-plugin)

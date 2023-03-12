@@ -10,4 +10,4 @@ Overview
 
 ### Secure Applications
 
-[Secure Applications](/OutSystems/secure-applications/Index.md)
+[Secure Applications](/OutSystems/secure-applications/Index.html)

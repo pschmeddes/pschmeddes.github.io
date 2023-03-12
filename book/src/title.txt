@@ -1,6 +1,0 @@
----
-title: Some Markdown Book
-subtitle: Everything is awesome
-author: Paul Schmeddes
-...
----

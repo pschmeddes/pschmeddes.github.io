@@ -1,6 +1,0 @@
----
-title: Better Programming in OutSystems
-subtitle: A collection of best practices and patterns
-author: Paul Schmeddes
-...
----

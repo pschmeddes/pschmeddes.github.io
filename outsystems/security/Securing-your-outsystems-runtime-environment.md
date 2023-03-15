@@ -10,6 +10,10 @@ subtitle: A step by step guide
 
 In this guide I'll provide step by step instructions how to secure your OutSystems runtime environment and Applications. If you apply this guide and follow the recommendations as described in [Develop secure OutSystems apps](https://success.outsystems.com/support/security/develop_secure_outsystems_apps/), your application should be protected.
 
+> ⚠️ **LIMITATION OF LIABILITY**
+>
+>TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT WILL SYNOBSYS, ITS AFFILIATES, OFFICERS, EMPLOYEES, AGENTS, SUPPLIERS OR LICENSORS BE LIABLE FOR (A): ANY INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, COVER OR CONSEQUENTIAL DAMAGES (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOST PROFITS, REVENUE, GOODWILL, USE OR CONTENT) HOWEVER CAUSED, EVEN IF SYNOBSYS HAS BEEN ADVISED AS TO THE POSSIBILITY OF SUCH DAMAGES, WHERE APPLICABLE.
+
 ⚠️ Please note that if you require maximum security you should consider using [Outsystems Sentry](https://www.outsystems.com/sentry/).
 
 Applying these security settings is also a good preparation for a [Penetration Test](https://en.wikipedia.org/wiki/Penetration_test).

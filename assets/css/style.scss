@@ -1,7 +1,7 @@
---- 
---- 
+---
+---
 
-@import {{ site.theme }};
+@import "{{ site.theme }}";
 /* adding an icon to external links     */
 a[href^="http"]::after,
 a[href^="https://"]::after
